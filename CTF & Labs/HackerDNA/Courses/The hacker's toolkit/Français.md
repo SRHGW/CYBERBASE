@@ -360,56 +360,55 @@ Presque tous les outils de cette boîte à outils peuvent être utilisés depuis
 | Kubernetes | Orchestration | `kubectl` | `get`, `describe`, `logs`, `exec`, `apply` |
 | Terraform | Infrastructure as Code | `terraform` | `init`, `plan`, `apply`, `destroy` |
 | Ansible | Automatisation | `ansible` | `-i`, `-m`, `-a`, `ansible-playbook` |
+| GitHub / GitLab | Recherche de code et dépôts | Interface Web | Code, Issues, Commits, Releases |
+| GitHub CLI | Gestion GitHub en terminal | `gh repo list` | `repo`, `issue`, `pr`, `auth` |
+| Google Dorking | Recherche avancée OSINT | Requête Google | `site:`, `filetype:`, `intitle:`, `inurl:` |
+| Wayback Machine | Historique de sites web | Interface Web | URL, dates, snapshots |
+| urlscan.io | Analyse d'URL | Interface Web | URL, domaines, IP, requêtes |
+| VirusTotal | Analyse fichiers et URL | Interface Web / API | `file`, `url`, `domain`, `ip` |
+| Pwned Passwords | Vérification de compromission | Interface Web / API | Hash SHA-1, vérification de mot de passe |
+| Recon-ng | Reconnaissance OSINT | `recon-ng` | Modules, Workspaces, Marketplace |
+| Wappalyzer | Identification technologies web | Extension / Interface Web | CMS, Frameworks, Serveurs |
+| Aquatone | Visualisation domaines web | `aquatone` | `scan`, `gather`, `report` |
+| httpx | Vérification services HTTP | `httpx -l <FILE>` | `-title`, `-status-code`, `-tech-detect`, `-o` |
+| Katana | Crawling web | `katana -u <URL>` | `-d`, `-jc`, `-kf`, `-o` |
+| Arjun | Découverte paramètres HTTP | `arjun -u <URL>` | `-m`, `-o`, `-t` |
+| ParamSpider | Recherche paramètres URL | `paramspider -d <DOMAIN>` | `-d`, `-o`, `--exclude` |
+| WPScan | Audit WordPress | `wpscan --url <URL>` | `--api-token`, `--enumerate` |
+| Chisel | Tunnel réseau | `chisel server` | `server`, `client`, `--reverse` |
+| Ligolo-ng | Tunneling / pivot réseau | `ligolo-ng` | Agent, Proxy, Tunnels |
+| Proxychains | Routage via proxy | `proxychains <COMMAND>` | `-q`, `-f` |
+| GetNPUsers | Audit Kerberos AD | `GetNPUsers.py <DOMAIN>/` | `-dc-ip`, `-usersfile`, `-request` |
+| GetUserSPNs | Audit SPN Kerberos AD | `GetUserSPNs.py <DOMAIN>/` | `-dc-ip`, `-request`, `-outputfile` |
+| SMBClient (Impacket) | Interaction SMB | `smbclient.py <TARGET>` | `-target-ip`, `-hashes`, `-no-pass` |
+| Evil-WinRM | Administration WinRM | `evil-winrm -i <IP>` | `-u`, `-p`, `-H`, `-s` |
+| Rubeus | Audit Kerberos Windows | `Rubeus.exe` | `kerberoast`, `asreproast`, `triage` |
+| Mimikatz | Analyse identifiants Windows | `mimikatz.exe` | Modules, commandes internes |
+| LaZagne | Audit récupération identifiants | `laZagne.exe` | Modules, `all`, `browsers` |
+| Chainsaw | Analyse journaux Windows | `chainsaw hunt <DIR>` | `hunt`, `search`, `dump`, `--sigma` |
+| Sigma | Règles de détection | Fichiers YAML | Logsource, Detection, Condition |
+| Velociraptor | DFIR / collecte endpoint | Interface Web / CLI | Hunts, Artifacts, Collect |
+| Timesketch | Analyse chronologique forensic | Interface Web | Timelines, Events, Tags |
+| Binwalk | Analyse firmware | `binwalk <FILE>` | `-e`, `-M`, `-E` |
+| Checksec | Vérification protections binaires | `checksec --file=<FILE>` | PIE, NX, RELRO, Canary |
+| GDB | Debugging binaire | `gdb <FILE>` | `run`, `break`, `info`, `x`, `disassemble` |
+| Pwntools | Exploitation binaire / CTF | `python3` | `pwn`, `ELF`, `ROP`, `cyclic` |
+| ROPgadget | Recherche gadgets ROP | `ROPgadget --binary <FILE>` | `--binary`, `--ropchain` |
+| Pwndbg | Extension GDB exploitation | `gdb <FILE>` | `context`, `vmmap`, `telescope` |
+| Docker Scout | Analyse sécurité images | `docker scout` | `quickview`, `cves`, `recommendations` |
+| Falco | Détection comportement runtime | `falco` | Rules, Events, JSON |
+| Kube-bench | Audit configuration Kubernetes | `kube-bench` | `run`, `--targets`, `--benchmark` |
+| Kube-hunter | Audit sécurité Kubernetes | `kube-hunter` | Remote, Interface, Pod |
+| Prowler | Audit cloud | `prowler` | AWS, Azure, GCP, `-M`, `-o` |
+| ScoutSuite | Audit cloud | `scout` | AWS, Azure, GCP, Reports |
+| Cloudsplaining | Analyse IAM AWS | `cloudsplaining` | `scan`, `download`, `--input-file` |
+| TruffleHog | Détection secrets | `trufflehog git <URL>` | `git`, `filesystem`, `github`, `--json` |
+| detect-secrets | Détection secrets dépôt | `detect-secrets scan` | `scan`, `audit`, `baseline` |
+| Semgrep | Analyse statique de code | `semgrep scan` | Rules, Findings |
+| OWASP Dependency-Check | Audit dépendances | `dependency-check.sh` | `--scan`, `--format`, `--out` |
+| Snyk | Audit dépendances / code | `snyk test` | `test`, `code`, `container`, `monitor` |
+| LanguageTool | Correction documentation | Interface Web | Orthographe, grammaire |
 
-| **GitHub / GitLab** | Recherche de code et dépôts | Interface Web | Code, Issues, Commits, Releases |
-| **GitHub CLI** | Gestion GitHub en terminal | `gh repo list` | `repo`, `issue`, `pr`, `auth` |
-| **Google Dorking** | Recherche avancée OSINT | Requête Google | `site:`, `filetype:`, `intitle:`, `inurl:` |
-| **Wayback Machine** | Historique de sites web | Interface Web | URL, dates, snapshots |
-| **urlscan.io** | Analyse d'URL | Interface Web | URL, domaines, IP, requêtes |
-| **VirusTotal** | Analyse fichiers et URL | Interface Web / API | `file`, `url`, `domain`, `ip` |
-| **Cyber Threat Intelligence** | Recherche d'indicateurs | Interfaces Web / API | IOC, IP, domaines, hashes |
-| **Pwned Passwords** | Vérification de compromission | Interface Web / API | Hash SHA-1, vérification de mot de passe |
-| **Recon-ng** | Reconnaissance OSINT | `recon-ng` | Modules, Workspaces, Marketplace |
-| **Wappalyzer** | Identification technologies web | Extension / Interface Web | CMS, Frameworks, Serveurs |
-| **Aquatone** | Visualisation domaines web | `aquatone` | `scan`, `gather`, `report` |
-| **httpx** | Vérification services HTTP | `httpx -l <FILE>` | `-title`, `-status-code`, `-tech-detect`, `-o` |
-| **Katana** | Crawling web | `katana -u <URL>` | `-d`, `-jc`, `-kf`, `-o` |
-| **Arjun** | Découverte paramètres HTTP | `arjun -u <URL>` | `-m`, `-o`, `-t` |
-| **ParamSpider** | Recherche paramètres URL | `paramspider -d <DOMAIN>` | `-d`, `-o`, `--exclude` |
-| **WPScan API** | Informations vulnérabilités WordPress | `wpscan --url <URL>` | `--api-token`, `--enumerate` |
-| **Chisel** | Tunnel réseau | `chisel server` | `server`, `client`, `--reverse` |
-| **Ligolo-ng** | Tunneling / pivot réseau | `ligolo-ng` | Agent, Proxy, Tunnels |
-| **Proxychains** | Routage via proxy | `proxychains <COMMAND>` | `-q`, `-f` |
-| **Impacket-GetNPUsers** | Audit Kerberos AD | `GetNPUsers.py <DOMAIN>/` | `-dc-ip`, `-usersfile`, `-request` |
-| **Impacket-GetUserSPNs** | Audit SPN Kerberos AD | `GetUserSPNs.py <DOMAIN>/` | `-dc-ip`, `-request`, `-outputfile` |
-| **Impacket-SMBClient** | Interaction SMB | `smbclient.py <TARGET>` | `-target-ip`, `-hashes`, `-no-pass` |
-| **Evil-WinRM** | Administration WinRM | `evil-winrm -i <IP>` | `-u`, `-p`, `-H`, `-s` |
-| **Rubeus** | Audit Kerberos Windows | `Rubeus.exe` | `kerberoast`, `asreproast`, `triage` |
-| **Mimikatz** | Analyse identifiants Windows | `mimikatz.exe` | Modules, commandes internes |
-| **LaZagne** | Audit récupération identifiants | `laZagne.exe` | Modules, `all`, `browsers` |
-| **Chainsaw** | Analyse journaux Windows | `chainsaw hunt <DIR>` | `hunt`, `search`, `dump`, `--sigma` |
-| **Sigma** | Règles de détection | Fichiers YAML | Logsource, Detection, Condition |
-| **Velociraptor** | DFIR / collecte endpoint | Interface Web / CLI | Hunts, Artifacts, Collect |
-| **Timesketch** | Analyse chronologique forensic | Interface Web | Timelines, Events, Tags |
-| **Binwalk** | Analyse firmware | `binwalk <FILE>` | `-e`, `-M`, `-E` |
-| **Checksec** | Vérification protections binaires | `checksec --file=<FILE>` | PIE, NX, RELRO, Canary |
-| **GDB** | Debugging binaire | `gdb <FILE>` | `run`, `break`, `info`, `x`, `disassemble` |
-| **Pwntools** | Exploitation binaire / CTF | `python3` | `pwn`, `ELF`, `ROP`, `cyclic` |
-| **ROPgadget** | Recherche gadgets ROP | `ROPgadget --binary <FILE>` | `--binary`, `--ropchain` |
-| **Pwndbg** | Extension GDB exploitation | `gdb <FILE>` | `context`, `vmmap`, `telescope` |
-| **Docker Scout** | Analyse sécurité images | `docker scout` | `quickview`, `cves`, `recommendations` |
-| **Falco** | Détection comportement runtime | `falco` | Rules, Events, JSON |
-| **Kube-bench** | Audit configuration Kubernetes | `kube-bench` | `run`, `--targets`, `--benchmark` |
-| **Kube-hunter** | Audit sécurité Kubernetes | `kube-hunter` | Remote, Interface, Pod |
-| **Prowler** | Audit cloud | `prowler` | AWS, Azure, GCP, `-M`, `-o` |
-| **ScoutSuite** | Audit cloud | `scout` | AWS, Azure, GCP, Reports |
-| **Cloudsplaining** | Analyse IAM AWS | `cloudsplaining` | `scan`, `download`, `--input-file` |
-| **TruffleHog** | Détection secrets | `trufflehog git <URL>` | `git`, `filesystem`, `github`, `--json` |
-| **detect-secrets** | Détection secrets dépôt | `detect-secrets scan` | `scan`, `audit`, `baseline` |
-| **Semgrep Assistant** | Analyse code assistée | `semgrep scan` | Rules, Findings |
-| **OWASP Dependency-Check** | Audit dépendances | `dependency-check.sh` | `--scan`, `--format`, `--out` |
-| **Snyk** | Audit dépendances / code | `snyk test` | `test`, `code`, `container`, `monitor` |
-| **Grammarly / LanguageTool** | Correction documentation | Interface Web | Orthographe, grammaire |
 
 ### Légende
 

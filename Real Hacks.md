@@ -86,54 +86,59 @@
 
 
 ## 2023
-- **2023 — MOVEit Transfer (CVE-2023-34362):** mass exploitation of a file-transfer zero-day led to data theft across many organizations.
-- **2023 — MGM Resorts:** social engineering-led intrusion caused major operational disruption.
-- **2023 — Caesars Entertainment:** social engineering and extortion incident disclosed.
-- **2023 — 23andMe:** account and ancestry data exposure associated with credential stuffing and reused passwords.
-- **2023 — T-Mobile:** another customer-data incident disclosed.
-- **2023 — Microsoft Storm-0558:** forged authentication tokens were used to access email accounts at organizations including US government agencies.
-- **2023 — Okta support-system incident:** support-related files containing customer information were accessed.
-- **2023 — Barracuda ESG:** exploitation of a zero-day in email security appliances led to compromise and data theft.
-- **2023 — Royal Mail / LockBit:** ransomware disrupted international shipping services.
-- **2023 — Dish Network:** ransomware incident caused service and operational disruption.
-- **2023 — Toyota data exposure:** cloud configuration issue exposed customer information in some environments.
-- **2023 — Yum! Brands:** ransomware disrupted operations at some restaurants.
-- **2023 — DDoS attacks against French government services:** public services experienced disruption during multiple campaigns.
+
+- **2023 — Okta Support-System Incident:** [Data Breach] Attackers accessed support case management files using compromised service account credentials, exposing session tokens and customer information.
+- **2023 — 23andMe:** [Credential Stuffing / Data Breach] Attackers leveraged reused credentials and the DNA Relatives feature to scrape ancestry and genetic profile records of roughly 6.9 million users.
+- **2023 — MGM Resorts (Scattered Spider):** [Social Engineering / Ransomware] Social engineering of an IT helpdesk led to an ALPHV/BlackCat ransomware intrusion that paralyzed casino, hotel, and reservation systems across Las Vegas.
+- **2023 — Caesars Entertainment:** [Social Engineering / Extortion] Scattered Spider compromised an outsourced IT vendor via social engineering, stealing loyalty program data and securing a reported $15 million extortion payment.
+- **2023 — Boeing / LockBit Ransomware:** [Ransomware] LockBit ransomware compromised parts and distribution systems, exfiltrating and leaking internal corporate data.
+- **2023 — Microsoft Storm-0558:** [Espionage / Cloud] China-linked threat actors used a stolen consumer signing key to forge authentication tokens and access email accounts at 25 organizations, including US government agencies.
+- **2023 — MOVEit Transfer (`CVE-2023-34362`):** [Zero-Day / Extortion] Cl0p mass-exploited a SQL injection zero-day vulnerability in Progress MOVEit Transfer, compromising over 2,700 organizations and affecting more than 90 million individuals worldwide.
+- **2023 — Barracuda ESG (`CVE-2023-2868`):** [Zero-Day / Espionage] China-linked threat actors exploited a zero-day command injection vulnerability in Email Security Gateway appliances to deploy persistent backdoors and steal data.
+- **2023 — Toyota Cloud Data Exposure:** [Cloud Misconfiguration] Misconfigured cloud database environments exposed vehicle location and customer information for over 2 million users over several years.
+- **2023 — Western Digital:** [Ransomware / Data Breach] Attackers breached corporate network infrastructure, disrupting My Cloud services and exfiltrating roughly 10 TB of internal data.
+- **2023 — Dish Network:** [Ransomware] Black Basta ransomware disrupted customer support, satellite TV, and wireless operations across North America.
+- **2023 — T-Mobile API Data Breach:** [API Exploit / Data Breach] Threat actors abused a vulnerable API endpoint to exfiltrate personal data of approximately 37 million postpaid and prepaid customer accounts.
+- **2023 — Royal Mail / LockBit:** [Ransomware] LockBit ransomware encrypted dispatch and tracking systems, severely disrupting international parcel exports from the UK.
+- **2023 — Yum! Brands:** [Ransomware] Ransomware attack forced the temporary closure of roughly 300 KFC, Pizza Hut, and Taco Bell restaurants in the UK and exposed employee data.
+- **2023 — DDoS Attacks Against French Government Services:** [DDoS / Hacktivism] Pro-Russian hacktivist groups conducted repeated distributed denial-of-service waves disrupting French ministerial and public-service websites.
 
 ## 2022
-- **2022 — Lapsus$:** extortion group publicly claimed intrusions at major technology companies.
-- **2022 — Uber:** intrusion followed social engineering and compromise of an employee account.
-- **2022 — Ronin Network:** cryptocurrency bridge theft of approximately $625 million.
-- **2022 — LastPass:** intrusions led to theft of customer vault backups and other information.
-- **2022 — Costa Rica government:** Conti ransomware disrupted government systems and services.
-- **2022 — Nvidia:** data theft and extortion claims by Lapsus$.
-- **2022 — Samsung:** source-code and internal data theft disclosed.
-- **2022 — Okta / Sitel:** contractor support environment compromise affected Okta customers.
-- **2022 — Toyota supplier Kojima Industries:** cyberattack disrupted Toyota production in Japan.
-- **2022 — Colonial Pipeline follow-up investigations:** continuing reporting and policy response after 2021 incident.
-- **2022 — Medibank (Australia):** ransomware/extortion group published health and personal data.
-- **2022 — Optus (Australia):** personal information of millions of customers exposed.
-- **2022 — Rackspace Hosted Exchange:** ransomware disrupted hosted email services.
-- **2022 — Twilio:** phishing campaign compromised employee accounts and affected customer data.
-- **2022 — Cisco:** social engineering intrusion and data theft disclosed.
-- **2022 — Australian government and firms:** multiple data incidents followed the Optus and Medibank disclosures.
+
+- **2022 — Rackspace Hosted Exchange (`CVE-2022-41040`, `CVE-2022-41082`):** [Zero-Day / Ransomware] Play ransomware exploited ProxyNotShell Exchange vulnerabilities to encrypt hosted email environments for tens of thousands of business customers.
+- **2022 — LastPass:** [Data Breach] Attackers compromised a developer environment and later a senior DevOps engineer's home computer to steal encrypted customer password vault backups and proprietary source code.
+- **2022 — Medibank (Australia):** [Ransomware / Extortion] REvil-linked extortionists breached internal systems and published sensitive health claims and personal records of 9.7 million Australians.
+- **2022 — Optus (Australia):** [API Exploit / Data Breach] Unauthenticated API exposure allowed attackers to exfiltrate personal identification records of nearly 10 million current and former telecom customers.
+- **2022 — Uber (Lapsus$):** [Social Engineering / Data Breach] Attacker bypassed MFA via fatigue bombing on a compromised contractor account, gaining full administrative access to internal Slack, AWS, and GSuite environments.
+- **2022 — Twilio & Signal Phishing Campaign (0ktapus):** [Phishing / Supply-Chain] Smishing campaign compromised employee credentials at Twilio, exposing customer data and allowing attackers to hijack downstream Signal user accounts.
+- **2022 — Cisco:** [Social Engineering / Espionage] Yanluowang extortion group compromised an employee's personal Google account via voice phishing and MFA fatigue to breach Cisco's corporate network.
+- **2022 — Costa Rica Government (Conti):** [Ransomware] Conti ransomware paralyzed tax, customs, and social security systems across Costa Rica, prompting a national state of emergency.
+- **2022 — Ronin Network (Lazarus Group):** [Crypto / Theft] North Korean state-sponsored hackers compromised validator private keys on the Axie Infinity bridge to steal roughly $625 million in cryptocurrency.
+- **2022 — Okta / Sitel Contractor Compromise:** [Supply-Chain] Lapsus$ compromised a third-party support engineer at Sitel, gaining brief administrative screen access affecting hundreds of Okta enterprise tenants.
+- **2022 — Samsung:** [Data Breach] Extortion group Lapsus$ breached internal repositories and leaked nearly 190 GB of Galaxy device source code and cryptographic keys.
+- **2022 — Nvidia:** [Ransomware / Extortion] Lapsus$ breached internal networks, exfiltrating 1 TB of proprietary GPU schematics, driver source code, and employee credentials.
+- **2022 — Toyota Supplier Kojima Industries:** [Ransomware / Supply-Chain] Cyberattack on a key plastics and electronics supplier forced Toyota to halt all 28 assembly lines across 14 plants in Japan.
+- **2022 — Colonial Pipeline Follow-Up Investigations:** [Policy / Investigation] Ongoing regulatory penalties and federal investigations followed the 2021 DarkSide ransomware disruption.
+- **2022 — Australian Government & Corporate Breach Wave:** [Data Breach] String of high-profile breaches following Optus and Medibank prompted sweeping Australian cybersecurity legislation reforms.
 
 ## 2021
-- **2021 — Microsoft Exchange ProxyLogon:** exploitation of multiple Exchange Server vulnerabilities enabled widespread compromise.
-- **2021 — Colonial Pipeline:** DarkSide ransomware led to temporary pipeline shutdown.
-- **2021 — Kaseya VSA:** REvil exploited a managed-service software supply chain to deploy ransomware.
-- **2021 — SolarWinds Orion:** trojanized software updates enabled espionage against numerous organizations.
-- **2021 — Log4Shell (CVE-2021-44228):** critical Log4j flaw enabled remote code execution in affected applications.
-- **2021 — Twitch:** source code and internal data leaked online.
-- **2021 — Accellion FTA:** exploitation and data theft affected multiple organizations.
-- **2021 — JBS Foods:** ransomware disrupted global meat-processing operations.
-- **2021 — CNA Financial:** ransomware incident reportedly involved a large extortion payment.
-- **2021 — Ireland HSE:** Conti ransomware severely disrupted healthcare IT.
-- **2021 — Verkada:** attackers accessed surveillance-camera feeds and internal data.
-- **2021 — Facebook data leak publication:** data scraped earlier was made broadly available.
-- **2021 — Acer:** ransomware/extortion claims involving company data.
-- **2021 — Brazilian government systems:** multiple cyber incidents disrupted public services.
-- **2021 — US water treatment facility, Oldsmar:** unauthorized access attempted to alter chemical settings.
+
+- **2021 — Log4Shell (`CVE-2021-44228`):** [Zero-Day / Vulnerability] Critical remote code execution vulnerability in Apache Log4j2 exposed hundreds of millions of Java-based enterprise applications and cloud services worldwide.
+- **2021 — Twitch:** [Data Breach] Anonymous leak published roughly 125 GB of internal source code, creator payout records, and unreleased product repositories due to a server configuration error.
+- **2021 — Kaseya VSA (`CVE-2021-30116`):** [Zero-Day / Supply-Chain] REvil exploited an authentication bypass in Kaseya's remote management software to deploy ransomware simultaneously across roughly 1,500 downstream businesses.
+- **2021 — JBS Foods:** [Ransomware] REvil ransomware disrupted beef, pork, and poultry processing plants across North America and Australia, resulting in an $11 million ransom payment.
+- **2021 — Ireland HSE (Health Service Executive):** [Ransomware] Conti ransomware encrypted IT systems across Ireland's national public health service, forcing hospitals to revert to paper records and cancel appointments.
+- **2021 — Colonial Pipeline:** [Ransomware] DarkSide ransomware compromised billing and IT networks via a leaked VPN password without MFA, halting East Coast fuel pipeline operations for six days.
+- **2021 — Facebook Data Leak Publication:** [Data Scraping / Data Breach] Personal data—including phone numbers, names, and locations—of 533 million users scraped via a 2019 contact-importer flaw was published freely online.
+- **2021 — CNA Financial:** [Ransomware] Phoenix CryptoLocker ransomware disrupted corporate networks at one of the largest US insurance firms, leading to a reported $40 million ransom payment.
+- **2021 — Acer:** [Ransomware] REvil breached Acer's networks—reportedly exploiting Microsoft Exchange flaws—and demanded a record $50 million ransom.
+- **2021 — Verkada:** [Data Breach] Hacktivists used exposed super-admin credentials found online to access live feeds and archives from 150,000 surveillance cameras across hospitals, schools, and companies.
+- **2021 — Microsoft Exchange ProxyLogon (`CVE-2021-26855`):** [Zero-Day / Espionage] China-linked Hafnium and multiple threat actors mass-exploited four zero-day vulnerabilities in on-premises Exchange Servers, compromising tens of thousands of organizations.
+- **2021 — US Water Treatment Facility, Oldsmar:** [ICS / Unauthorized Access] Intruder remotely accessed a Florida water plant's SCADA controls via TeamViewer and attempted to raise sodium hydroxide levels to toxic concentrations.
+- **2021 — Accellion FTA (`CVE-2021-27101`):** [Zero-Day / Extortion] Cl0p exploited multiple zero-day vulnerabilities in legacy Accellion File Transfer Appliances, stealing sensitive data from dozens of universities, banks, and corporations.
+- **2021 — Brazilian Government Systems:** [Ransomware / Defacement] Cyberattacks disrupted Ministry of Health COVID-19 vaccination databases and federal judicial networks in Brazil.
+- **2021 — SolarWinds Orion Follow-Up & Attribution:** [Supply-Chain / Espionage] Continuing forensic investigations and formal attribution to Russian SVR (APT29) detailed the scope of the SUNBURST backdoor across federal agencies and Fortune 500 firms.
+
 
 ## 2020
 - **2020 — SolarWinds (discovery):** SUNBURST supply-chain compromise publicly revealed.

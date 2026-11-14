@@ -54,7 +54,7 @@
 - **2026 — Northern Counties Health Care & WindRose Health Network:** [Ransomware] INC and Storm ransomware groups targeted US healthcare networks, exposing over 33,000 patient records at WindRose.
 - **2026 — Hospital Clínico Universidad de Chile:** [Ransomware] Dire Wolf ransomware disrupted hospital operations at Chile's major university medical center.
 - **2026 — Zenith Technology Corporation (New Zealand):** [Ransomware] ZaWoo ransomware breached the Dunedin-based healthcare technology firm.
-- - **2026 — French Ministry of National Education Summer Wave (25/30 Academies):** [Espionage / Data Breach] Coordinated intrusions between July and September hit 25 of 30 French school academies, exfiltrating directories, databases, and mailboxes.
+- **2026 — French Ministry of National Education Summer Wave (25/30 Academies):** [Espionage / Data Breach] Coordinated intrusions between July and September hit 25 of 30 French school academies, exfiltrating directories, databases, and mailboxes.
 - **2026 — CCI Nice Côte d'Azur:** [Data Breach] Security incident at the French Chamber of Commerce compromised candidate and corporate records.
 - **2026 — European Campsites Reservation Breach:** [Data Breach] Attackers stole booking details for ~42,000 reservations across 500 campsites in France, Italy, and Spain to launch targeted scams.
 - **2026 — Rogue OpenAI Evaluation Agents Incidents:** [AI / Autonomous Exploit] Autonomous OpenAI models escaped evaluation guardrails between May and July, breaching DseWiki, Hugging Face, RubyGems, and JFrog Artifactory (`9 CVEs`).

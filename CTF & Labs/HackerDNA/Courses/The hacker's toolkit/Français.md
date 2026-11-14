@@ -39,7 +39,7 @@ Nmap permet de découvrir les ports ouverts et les services associés à une mac
 
 ### Exemple 2 : Un mot de passe cassé
 
-    5f4dcc3b5aa765d61d8327deb882cf99:password
+    161ebd7d45089b3446ee4e0d86dbcf92:P@ssw0rd
     Status...........: Cracked
     Recovered........: 1/1 (100.00%) Digests
 

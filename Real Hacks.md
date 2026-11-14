@@ -64,6 +64,26 @@
 - **2024 — National Public Data:** large-scale personal-data exposure and breach claims became public.
 - **2024 — MediSecure (Australia):** ransomware/data theft incident affecting prescription-related data.
 - **2024 — Sisense:** security incident involving customer data and integrations was disclosed.
+- **2024 — Cleo Managed File Transfer Mass Exploitation (`CVE-2024-50623`, `CVE-2024-55956`):** [Zero-Day / Extortion] Cl0p exploited unpatched file-transfer vulnerabilities in Cleo Harmony, VLTrader, and LexiCom to exfiltrate data from dozens of enterprise organizations.
+- **2024 — Finastra:** [Data Breach] Unauthorized access to an internal file-transfer platform exposed over 400 GB of sensitive financial and client data affecting global banking institutions.
+- **2024 — Salt Typhoon US Telecom & Treasury Intrusions:** [Espionage] China-linked threat actors breached major telecommunications providers (including AT&T, Verizon, and T-Mobile) and US Treasury systems via unpatched edge devices and third-party compromises.
+- **2024 — Transport for London (TfL):** [Cyberattack / Data Breach] Cyberattack disrupted London transit back-office systems and exposed personal and banking details of roughly 5,000 customers.
+- **2024 — OpenSSH RegreSSHion (`CVE-2024-6387`):** [Vulnerability] Critical unauthenticated remote code execution race-condition vulnerability exposed millions of Linux OpenSSH servers worldwide.
+- **2024 — CDK Global:** [Ransomware] BlackSuit ransomware disrupted SaaS and dealer-management platforms used by over 15,000 automotive dealerships across North America.
+- **2024 — Synnovis / NHS London Hospitals:** [Ransomware] Qilin ransomware disrupted pathology and blood-transfusion services across major London hospitals, forcing thousands of postponed procedures.
+- **2024 — DMM Bitcoin:** [Crypto / Theft] Attackers compromised private keys and stole roughly $305 million (4,502.9 BTC) from the Japanese cryptocurrency exchange.
+- **2024 — Snowflake Customer Compromises (AT&T, Ticketmaster, Santander):** [Credential Stuffing / Data Breach] Attackers used stolen credentials on accounts lacking MFA to exfiltrate massive datasets—including billions of AT&T call logs and Ticketmaster customer records—across over 100 cloud tenants.
+- **2024 — MediSecure (Australia):** [Ransomware / Data Breach] Ransomware and data theft exposed personal and prescription records of approximately 12.9 million Australians.
+- **2024 — UK Ministry of Defence (MoD) Payroll Breach:** [Data Breach] Cyberattack on a third-party contractor payroll system exposed names and bank details of roughly 270,000 current and former armed forces personnel.
+- **2024 — Ascension:** [Ransomware] Black Basta ransomware disrupted clinical operations and electronic health records across one of the largest US hospital networks.
+- **2024 — Sisense:** [Supply-Chain / Data Breach] Compromised GitLab credentials exposed customer tokens, SSL certificates, and integration secrets at the business-intelligence provider.
+- **2024 — XZ Utils Backdoor Attempt (`CVE-2024-3094`):** [Supply-Chain] Malicious obfuscated code was inserted into release tarballs of a widely used Linux compression library before being caught prior to broad downstream deployment.
+- **2024 — National Public Data (`CVE-2023-45412`):** [Data Breach] Massive data aggregation breach exposed up to 2.9 billion personal records, including Social Security numbers and address histories.
+- **2024 — France Travail (Pôle Emploi):** [Data Breach] Intrusion exposed personal identification and contact records of approximately 43 million registered job seekers in France.
+- **2024 — Change Healthcare (ALPHV/BlackCat):** [Ransomware] Ransomware attack via an unauthenticated Citrix portal paralyzed US healthcare billing and pharmacy claims nationwide, causing over $2.8 billion in financial impact and a $22 million ransom payment.
+- **2024 — Ivanti Connect Secure Zero-Day Exploits (`CVE-2024-21887`, `CVE-2023-46805`):** [Zero-Day] Mass exploitation of authentication bypass and command injection flaws compromised thousands of enterprise and government VPN appliances, including CISA and MITRE.
+- **2024 — LoanDepot:** [Ransomware / Data Breach] ALPHV/BlackCat ransomware disrupted mortgage lending portals and exposed sensitive financial and personal data of 16.9 million customers.
+
 
 ## 2023
 - **2023 — MOVEit Transfer (CVE-2023-34362):** mass exploitation of a file-transfer zero-day led to data theft across many organizations.

@@ -583,9 +583,30 @@
 - **1970s — Phone phreaking:** manipulation of telephone signaling and switching systems became a precursor to computer hacking culture.
 
 ## Before 1970
-- **1960s — MIT Tech Model Railroad Club / early hacker culture:** experimentation with computer systems and creative technical problem-solving shaped the term “hacker.”
-- **1960s — Mainframe access and time-sharing experimentation:** unauthorized access and system exploration were limited to institutional computing environments.
-- **1960s — Telephone phreaking precursors:** exploration of telecom signaling predated widespread personal computing.
+
+- **1969 — ARPANET First Packet-Switching & Login Crash ("LO"):** [Network / Infrastructure] Researchers at UCLA and Stanford transmitted the first ARPANET message on October 29, 1969; the system crashed after sending the first two letters ("LO") of "LOGIN," marking the start of remote network access experimentation.
+- **1969 — 2600 Hz Bell System Tone Discovery (Joe Engressia / Joybubbles):** [Phone Phreaking] Blind student Joe Engressia discovered he could whistle a precise 2600 Hz tone to reset AT&T trunk lines and route free long-distance calls, sparking modern phone phreaking.
+- **1967 — IBM Systems Penetration & Password-File Exposure at University of Michigan:** [Unauthorized Access] Students exploring early time-sharing mainframes (MTS) discovered methods to bypass account isolation and read system password files.
+- **1966 — Early Time-Sharing Mainframe Account Bypass (Dartmouth & MIT CTSS):** [Unauthorized Access] Students on the Compatible Time-Sharing System (CTSS) and Dartmouth Time-Sharing System exploited shared memory and batch-job privileges to access restricted administrative files.
+- **1965 — Bell Labs & Multics Security Design Flaws Discovery:** [System Security] Early security researchers auditing the Multics operating system identified privilege-escalation and buffer-handling weaknesses, laying the groundwork for modern access-control models.
+- **1964 — Early Academic Mainframe Pranks & Resource Hijacking (MIT PDP-1):** [Hacker Culture] Students at MIT's Tech Model Railroad Club and AI Lab bypassed accounting timers and printer quotas on PDP-1 and IBM 7094 mainframes.
+- **1963 — Bell System Technical Journal Toll-Signaling Leak:** [Phone Phreaking] AT&T published an internal technical paper detailing multi-frequency (MF) trunk signaling tones, inadvertently giving hobbyists the blueprint to build "Blue Boxes."
+- **1962 — Allan Scherr MIT CTSS Password-File Hack:** [Credential Theft] MIT researcher Allan Scherr printed out the master password file of the CTSS time-sharing computer to bypass his four-hour weekly computing time limit, executing the first documented computer password theft.
+- **1961 — First Computer Password Authentication System (Fernando Corbató, MIT):** [Access Control] MIT introduced password-based logins on the CTSS time-sharing system to separate user files—creating the very mechanism that early hackers immediately sought to bypass.
+- **1959 — Birth of the Term "Hack" at MIT Tech Model Railroad Club (TMRC):** [Hacker Culture] Students in the TMRC Signals and Power Subcommittee coined "hack" to describe clever, unconventional engineering shortcuts on relay circuits and TX-0 computers.
+- **1957 — Early Telephone Blue Box & Tone-Generator Prototypes:** [Phone Phreaking] Hobbyists and college students began experimenting with audio oscillators to emulate AT&T's single-frequency (SF) and multi-frequency (MF) supervisory tones.
+- **1955 — Early Toll-Fraud & Operator-Trunk Manipulation Cases:** [Phone Phreaking] AT&T security engineers recorded the first organized attempts to manipulate automated long-distance switching trunks using recorded tones.
+- **1943–1945 — Bletchley Park Cryptanalysis (Enigma & Lorenz / Colossus):** [Cryptanalysis / Signals Intelligence] Allied codebreakers led by Alan Turing, Tommy Flowers, and Gordon Welchman broke German Enigma and Lorenz ciphers using electromechanical Bombes and Colossus—the world's first programmable electronic digital computers.
+- **1940 — US Signal Intelligence Service "Purple" Cipher Breach:** [Cryptanalysis] US cryptanalysts led by William Friedman and Genevieve Grotjan broke the Japanese diplomatic "Purple" cipher machine without ever possessing a physical unit.
+- **1939 — German Forschungsamt Wiretapping & Teleprinter Interception:** [Telecom / Interception] Specialized signals-intelligence units tapped international submarine cables and diplomatic teleprinter lines across Europe prior to World War II.
+- **1932 — Polish Cipher Bureau First Enigma Break (Marian Rejewski):** [Cryptanalysis] Polish mathematicians Marian Rejewski, Jerzy Różycki, and Henryk Zygalski reconstructed the military Enigma rotor wiring using group theory and mathematical cryptanalysis.
+- **1917 — Zimmermann Telegram Interception & Decryption (Room 40):** [Telecom / Cryptanalysis] British naval intelligence (Room 40) tapped transatlantic telegraph cables and decrypted Germany's coded telegram proposing a military alliance with Mexico against the United States.
+- **1914 — World War I Submarine Telegraph Cable Cuts & Tapping (HMS Telconia):** [Telecom / Sabotage] Britain severed Germany's transatlantic submarine telegraph cables at the outbreak of WWI, forcing German diplomatic traffic onto tappable radio and neutral cable routes.
+- **1903 — Marconi Wireless Telegraphy Hijack (Nevil Maskelyne):** [Telecom / Interception] British magician and inventor Nevil Maskelyne intercepted Guglielmo Marconi's public wireless telegraph demonstration at London's Royal Institution, injecting insulting Morse code messages to prove radio transmissions were insecure.
+- **1878 — Teenage Telephone Switchboard Pranks (Bell Telephone Company):** [Phone Phreaking] Teenage male operators hired for New York's earliest telephone exchanges deliberately misrouted calls, eavesdropped on conversations, and disconnected subscribers before being replaced by female operators.
+- **1861–1865 — American Civil War Telegraph Wiretapping & Cipher Spoofing:** [Telecom / Interception] Union and Confederate telegraphers routinely spliced into enemy telegraph lines to intercept troop movements and inject false dispatches.
+- **1834 — French Optical Telegraph Insider Attack (Blanc Brothers, Bordeaux):** [Telecom / Fraud] François and Joseph Blanc bribed an operator on the Chappe optical semaphore telegraph network to embed secret market signals into routine transmissions between Paris and Bordeaux, executing the earliest known telecommunications network hack.
+
 
 ---
 

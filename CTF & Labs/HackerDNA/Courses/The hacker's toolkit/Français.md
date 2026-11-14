@@ -252,6 +252,129 @@ Presque tous les outils de cette boîte à outils peuvent être utilisés depuis
 - [ ] Comprendre les commandes avant de les exécuter.
 - [ ] Utiliser uniquement des cibles autorisées.
 
+## 12. Cheat Sheet — Outils de cybersécurité
+
+| Outil | Utilisation | Commande | Options / Arguments |
+|---|---|---|---|
+| Nmap | Scan de ports | `nmap <IP>` | `-F`, `-sC`, `-sV`, `-p`, `-p-`, `-O`, `-A`, `-Pn`, `-oN`, `-oX`, `-oA` |
+| Masscan | Scan rapide de ports | `masscan <IP> -p<PORTS>` | `-p`, `--rate`, `-oL`, `-oJ` |
+| RustScan | Scan rapide de ports | `rustscan -a <IP>` | `-p`, `-b`, `--ulimit` |
+| Netcat | Connexions TCP/UDP | `nc <IP> <PORT>` | `-l`, `-v`, `-n`, `-u`, `-z` |
+| Socat | Relais réseau | `socat <TYPE1> <TYPE2>` | `TCP:`, `UDP:`, `LISTEN:`, `EXEC:` |
+| arp-scan | Découverte réseau local | `arp-scan --localnet` | `--interface`, `--localnet` |
+| fping | Ping multiple | `fping <IP>` | `-a`, `-g`, `-c`, `-r` |
+| tcpdump | Capture réseau | `tcpdump` | `-i`, `-n`, `-w`, `-r`, `-c`, `-A`, `-X` |
+| TShark | Analyse réseau CLI | `tshark` | `-i`, `-r`, `-Y`, `-f`, `-w` |
+| Wireshark | Analyse réseau GUI | `wireshark` | Filtres : `ip.addr`, `tcp.port`, `http`, `dns` |
+| Zeek | Analyse réseau | `zeek -r <PCAP>` | `-r`, `-C`, `LogAscii` |
+| Suricata | IDS/IPS | `suricata -r <PCAP>` | `-r`, `-i`, `-c`, `-T` |
+| Snort | Détection intrusion | `snort` | `-c`, `-i`, `-r`, `-A` |
+| dig | Requêtes DNS | `dig <DOMAIN>` | `A`, `AAAA`, `MX`, `NS`, `TXT`, `ANY`, `+short` |
+| nslookup | Résolution DNS | `nslookup <DOMAIN>` | `<DOMAIN>`, `<DNS>` |
+| host | Recherche DNS | `host <DOMAIN>` | `-t A`, `-t MX`, `-t NS` |
+| Amass | Reconnaissance domaines | `amass enum -d <DOMAIN>` | `-d`, `-passive`, `-active`, `-o` |
+| Subfinder | Sous-domaines | `subfinder -d <DOMAIN>` | `-d`, `-silent`, `-o`, `-all` |
+| DNSRecon | Reconnaissance DNS | `dnsrecon -d <DOMAIN>` | `-d`, `-t`, `-D`, `-n` |
+| theHarvester | OSINT domaines | `theHarvester -d <DOMAIN>` | `-d`, `-b`, `-l`, `-f` |
+| Shodan | Recherche appareils Internet | `shodan search <QUERY>` | `search`, `host`, `download`, `count` |
+| Censys | Recherche infrastructure | Recherche Web | `services.port`, `services.service_name` |
+| Maltego | Relations OSINT | Interface graphique | Transforms, Entities |
+| SpiderFoot | OSINT automatisé | `sf.py` | Modules, Scan |
+| ExifTool | Métadonnées | `exiftool <FILE>` | `-all`, `-json`, `-csv`, `-r` |
+| Burp Suite | Proxy HTTP | Interface graphique | Proxy, Repeater, Intruder, Scanner |
+| OWASP ZAP | Audit web | `zap.sh` | `-cmd`, `-quickurl`, `-quickout` |
+| Caido | Proxy HTTP | Interface graphique | Intercept, Replay, Automate |
+| mitmproxy | Proxy HTTP CLI | `mitmproxy` | `-p`, `-w`, `-r`, `-s` |
+| curl | Requêtes HTTP | `curl <URL>` | `-I`, `-X`, `-H`, `-d`, `-o`, `-v`, `-k` |
+| wget | Téléchargement | `wget <URL>` | `-O`, `-q`, `-r`, `-c` |
+| Gobuster | Énumération web | `gobuster dir` | `-u`, `-w`, `-x`, `-t`, `-o` |
+| Feroxbuster | Énumération web | `feroxbuster -u <URL>` | `-u`, `-w`, `-x`, `-t`, `-o` |
+| ffuf | Fuzzing web | `ffuf -u <URL>/FUZZ` | `-w`, `-u`, `-mc`, `-fc`, `-fs`, `-recursion` |
+| Dirsearch | Énumération web | `dirsearch -u <URL>` | `-u`, `-w`, `-e`, `-x`, `-o` |
+| Nikto | Audit web | `nikto -h <URL>` | `-h`, `-p`, `-ssl`, `-output` |
+| WhatWeb | Fingerprinting web | `whatweb <URL>` | `-a`, `-v`, `--color` |
+| Nuclei | Scan vulnérabilités | `nuclei -u <URL>` | `-u`, `-t`, `-severity`, `-o`, `-rl` |
+| SQLmap | Tests SQLi | `sqlmap -u <URL>` | `-u`, `--data`, `--cookie`, `--dbs`, `--batch` |
+| WPScan | Audit WordPress | `wpscan --url <URL>` | `--url`, `--enumerate`, `--plugins-detection` |
+| testssl.sh | Audit TLS | `testssl.sh <DOMAIN>` | `--fast`, `--full`, `--jsonfile` |
+| SSLyze | Audit SSL/TLS | `sslyze <DOMAIN>` | `--regular`, `--json_out` |
+| Searchsploit | Recherche exploits | `searchsploit <QUERY>` | `-w`, `-m`, `-x`, `--update` |
+| Metasploit | Framework exploitation | `msfconsole` | `search`, `use`, `show options`, `set`, `run` |
+| BeEF | Sécurité navigateur | `beef` | Interface Web |
+| Impacket | Protocoles Windows | `impacket-<SCRIPT>` | Options propres à chaque script |
+| BloodHound | Active Directory | Interface graphique | Collectors, Graphes |
+| PingCastle | Audit AD | `PingCastle.exe` | `--healthcheck`, `--scanner` |
+| Hashcat | Audit hashes | `hashcat -m <MODE>` | `-m`, `-a`, `-w`, `-o`, `--show`, `--status` |
+| John the Ripper | Audit hashes | `john <FILE>` | `--wordlist`, `--format`, `--show`, `--rules` |
+| Hydra | Audit authentification | `hydra` | `-l`, `-L`, `-p`, `-P`, `-t`, `-V` |
+| Medusa | Audit authentification | `medusa` | `-h`, `-u`, `-U`, `-p`, `-P`, `-M` |
+| CeWL | Génération wordlist | `cewl <URL>` | `-w`, `-m`, `-d`, `-c` |
+| Crunch | Génération wordlist | `crunch <MIN> <MAX>` | `-o`, `-t`, `-f` |
+| OpenSSL | Cryptographie | `openssl` | `enc`, `dgst`, `s_client`, `x509`, `genpkey` |
+| GnuPG | Chiffrement | `gpg` | `-c`, `-d`, `-e`, `-s`, `--verify` |
+| CyberChef | Encodage / décodage | Interface Web | Base64, Hex, URL, XOR, Hash |
+| age | Chiffrement fichiers | `age -r <KEY>` | `-r`, `-R`, `-o`, `-d` |
+| Ghidra | Reverse engineering | Interface graphique | Disassembly, Decompiler |
+| IDA Free | Reverse engineering | Interface graphique | Disassembly, Graph |
+| radare2 | Analyse binaire | `r2 <FILE>` | `-A`, `-q`, `-c` |
+| Cutter | Reverse engineering GUI | Interface graphique | Analyse, Graphes |
+| x64dbg | Debug Windows | Interface graphique | Breakpoints, Registers |
+| WinDbg | Debug Windows | `windbg` | `!analyze`, `k`, `lm` |
+| Frida | Instrumentation | `frida` | `-U`, `-f`, `-n`, `-l` |
+| YARA | Détection fichiers | `yara <RULE> <FILE>` | `-r`, `-s`, `-m`, `-w` |
+| Capa | Analyse capacités | `capa <FILE>` | `-v`, `-j`, `-r` |
+| Strings | Extraction chaînes | `strings <FILE>` | `-a`, `-n`, `-el`, `-eb` |
+| Autopsy | Forensic | Interface graphique | Cases, Images, Timeline |
+| Volatility 3 | Analyse RAM | `vol -f <DUMP>` | `windows.info`, `pslist`, `netscan` |
+| FTK Imager | Acquisition disque | Interface graphique | Image, Export, Verify |
+| Plaso | Timeline forensic | `log2timeline.py` | `-o`, `--storage-file` |
+| KAPE | Collecte forensic | `kape.exe` | `--tsource`, `--tdest`, `--target` |
+| ALEAPP | Forensic Android | `aleapp.py` | `-i`, `-o` |
+| iLEAPP | Forensic iOS | `ileapp.py` | `-i`, `-o` |
+| Sysinternals | Analyse Windows | Suite d'outils | Procmon, Autoruns, PsExec |
+| Process Monitor | Analyse processus | `Procmon.exe` | Filtres, Capture |
+| Process Explorer | Analyse processus | `procexp.exe` | Processus, DLL, Handles |
+| Autoruns | Démarrage Windows | `autoruns.exe` | Logon, Services, Drivers |
+| osquery | Requêtes système | `osqueryi` | SQL, Tables système |
+| Lynis | Audit Linux | `lynis audit system` | `--quick`, `--tests`, `--logfile` |
+| OpenSCAP | Conformité système | `oscap` | `info`, `eval`, `xccdf` |
+| Wazuh | SIEM / EDR | Interface Web | Agents, Rules, Alerts |
+| Graylog | Gestion logs | Interface Web | Search, Streams, Alerts |
+| Splunk | SIEM | `splunk` | `search`, `index`, SPL |
+| Nessus | Scan vulnérabilités | Interface Web | Policies, Scans |
+| OpenVAS | Scan vulnérabilités | Interface Web | Targets, Tasks, Reports |
+| Trivy | Scan vulnérabilités | `trivy image <IMAGE>` | `image`, `fs`, `config`, `repo` |
+| Grype | Scan vulnérabilités | `grype <IMAGE>` | `dir:`, `sbom:` |
+| Syft | Inventaire SBOM | `syft <IMAGE>` | `-o`, `cyclonedx`, `spdx` |
+| Semgrep | Analyse code | `semgrep scan` | `--config`, `--json`, `--exclude` |
+| Bandit | Audit Python | `bandit -r <DIR>` | `-r`, `-f`, `-o`, `-ll` |
+| Checkov | Audit IaC | `checkov -d <DIR>` | `-d`, `-f`, `--framework`, `--output` |
+| Gitleaks | Détection secrets | `gitleaks detect` | `detect`, `protect`, `--source`, `--report-format` |
+| MobSF | Audit mobile | Interface Web | Static Analysis, Dynamic Analysis |
+| JADX | Décompilation Android | `jadx <APK>` | `-d`, `-r`, `--show-bad-code` |
+| Apktool | Analyse APK | `apktool d <APK>` | `d`, `b`, `-o`, `-f` |
+| ADB | Android Debug Bridge | `adb devices` | `shell`, `pull`, `push`, `install`, `logcat` |
+| Objection | Audit mobile | `objection` | `-g`, `explore`, `android` |
+| Git | Gestion versions | `git` | `clone`, `status`, `add`, `commit`, `push`, `pull` |
+| Docker | Conteneurs | `docker` | `run`, `exec`, `ps`, `images`, `build` |
+| Kubernetes | Orchestration | `kubectl` | `get`, `describe`, `logs`, `exec`, `apply` |
+| Terraform | Infrastructure as Code | `terraform` | `init`, `plan`, `apply`, `destroy` |
+| Ansible | Automatisation | `ansible` | `-i`, `-m`, `-a`, `ansible-playbook` |
+
+### Légende
+
+- `<IP>` : adresse IP de la cible.
+- `<DOMAIN>` : nom de domaine.
+- `<URL>` : adresse URL.
+- `<PORT>` : numéro de port.
+- `<PORTS>` : liste ou plage de ports.
+- `<FILE>` : fichier.
+- `<DIR>` : répertoire.
+- `<QUERY>` : requête de recherche.
+- `<WORDLIST>` : liste de mots.
+
+**Attention :** les options peuvent varier selon les versions et systèmes. Consulter la documentation officielle avant utilisation.
+
 ## Conclusion
 
 La maîtrise de la boîte à outils repose sur la compréhension et non sur la quantité d'outils possédés.

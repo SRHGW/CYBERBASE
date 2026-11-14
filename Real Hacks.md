@@ -7,7 +7,25 @@
 > **Research dataset:** EuRepoC Global Dataset 1.3 covers 3,416 incidents from 2000–2024; it is a strategic/political incident catalogue, not all cybercrime. See sources at the end.
 
 ## 2026
-- **2026 —** Incidents to be added from verified public reporting; this file intentionally does not invent entries.
+
+- **2026 — Qare & Monceau Fleurs:** [Data Breach] Unauthorized access compromised patient records at teleconsultation platform Qare and customer data via a point-of-sale vendor breach at Monceau Fleurs.
+- **2026 — Binance (TraderTraitor):** [Crypto / Supply-Chain] North Korean state-sponsored group TraderTraitor compromised an engineer's environment via a fake job interview, affecting approximately $6.36 billion in assets; Binance froze/recovered $2.85 billion and covered remaining losses.
+- **2026 — US Department of Homeland Security (DHS):** [Data Breach] Over 40,000 employee records—including names, contact details, and sensitive surveillance or undercover roles—were published online following a breach.
+- **2026 — SafePay Ransomware Global Campaign:** [Ransomware] Coordinated ransomware campaign impacted at least 600 organizations across critical infrastructure sectors in North America, South America, Europe, and Australia.
+- **2026 — European Cold Chain / Supermarkets Refrigeration Sabotage:** [ICS / Sabotage] Threat actors accessed internet-exposed Danfoss refrigeration controllers across up to 700 supermarkets and triggered defrost mode overnight, causing tens of millions of euros in spoiled goods.
+- **2026 — Association des Maires de France (AMF):** [SQLi / Data Breach] SQL injection exposed roughly 114,000 records of local elected officials and territorial agents, including plaintext password tables.
+- **2026 — Anthropic & US Policy Experts Spear-Phishing:** [Espionage] China-linked hackers impersonated an Anthropic employee and former US officials in targeted phishing campaigns against AI policy specialists.
+- **2026 — Fédération Française de Rugby (FFR):** [Phishing / Data Breach] Phishing campaign compromised personal records, documents, and photos of over 500,000 licensed members.
+- **2026 — Kelp DAO:** [DeFi / Exploit] Smart-contract exploit resulted in major liquidity withdrawals and decentralized finance protocol losses.
+- **2026 — Telus (ShinyHunters):** [Data Breach] Hacking group ShinyHunters claimed theft of at least 700 TB of data from the Canadian telecom operator, including PII, call records, background checks, and source code.
+- **2026 — Singapore Telecoms (UNC3886):** [Espionage / Zero-Day] China-linked group UNC3886 breached all four major Singaporean telecommunications providers using zero-day exploits and rootkits before being countered via Operation Cyber Guardian.
+- **2026 — European Commission & Dutch Authorities (Ivanti EPMM):** [Zero-Day / Data Breach] Critical zero-day vulnerabilities in Ivanti Endpoint Manager Mobile exposed staff contact records at the European Commission, Dutch Data Protection Authority, and Dutch Judicial Council.
+- **2026 — University of Mississippi Medical Center (UMMC):** [Ransomware] Ransomware attack shut down IT networks and electronic health records across all 35 clinics statewide.
+- **2026 — FICOBA / DGFiP:** [Data Breach] Unauthorized access exposed banking account metadata affecting approximately 1.2 million bank accounts.
+- **2026 — Public Administrations Breach Wave (ANTS, URSSAF, Éducation Nationale):** [Data Breach] Series of major public-sector breaches exposed records across ANTS (11.7M accounts), URSSAF (12M individuals), Compas/Éducation Nationale (243,000 teachers), Bloctel (3M numbers), INSERM (190,000), and Santé publique France (80,000).
+- **2026 — Fédération Nationale des Chasseurs & ManoMano:** [Data Breach] Separate data breaches exposed personal data of roughly 1 million hunters and ManoMano e-commerce customers.
+- **2026 — Arup Deepfake Fraud:** [Social Engineering / AI] Attackers used real-time AI-generated video deepfakes impersonating company executives to steal $25 million.
+
 
 ## 2025
 - **2025 — Salt Typhoon / telecom investigations (continuing disclosures):** additional reporting and investigations concerning telecom compromises. Keep individual newly confirmed victims as separate entries only when sourced.

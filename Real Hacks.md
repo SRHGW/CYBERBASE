@@ -141,53 +141,85 @@
 
 
 ## 2020
-- **2020 — SolarWinds (discovery):** SUNBURST supply-chain compromise publicly revealed.
-- **2020 — Twitter accounts takeover:** attackers used employee access to hijack high-profile accounts.
-- **2020 — Garmin:** ransomware disrupted services and operations.
-- **2020 — FireEye:** red-team tools stolen after intrusion.
-- **2020 — Microsoft GitHub repository exposure:** large amount of source code accidentally exposed in a public repository.
-- **2020 — Marriott:** further breach-related disclosures and regulatory actions concerning earlier compromise.
-- **2020 — Nintendo:** account compromise campaign affected many users.
-- **2020 — EasyJet:** customer data breach disclosed.
-- **2020 — Blackbaud:** ransomware and data theft affected nonprofit and education customers.
-- **2020 — Vastaamo (Finland):** psychotherapy patient records stolen and patients extorted.
-- **2020 — Magellan Health:** ransomware and data breach disclosed.
-- **2020 — University of California San Francisco:** ransomware payment after attack on research systems.
-- **2020 — Travelex:** ransomware disrupted currency-exchange services (incident began late 2019).
-- **2020 — Maze ransomware disclosures:** numerous companies had data stolen and published through extortion sites.
+
+- **2020 — SolarWinds Orion / SUNBURST (`CVE-2020-10148`):** [Supply-Chain / Espionage] Russian SVR (APT29) trojanized Orion updates, infiltrating ~18,000 organizations including US federal agencies (Treasury, Commerce, DHS).
+- **2020 — FireEye Red-Team Tools Theft:** [Espionage] Nation-state attackers breached FireEye during the SolarWinds campaign and stole proprietary red-team penetration-testing tools.
+- **2020 — AIDA Cruises & Carnival Corporation:** [Ransomware] Ransomware attacks disrupted IT and shipboard networks across Carnival Corp and its German subsidiary AIDA Cruises.
+- **2020 — Hurtigruten:** [Ransomware] Ransomware hit the Norwegian cruise line's global IT infrastructure, disrupting booking and vessel operations.
+- **2020 — International Maritime Organization (IMO):** [Cyberattack] Sophisticated attack breached the UN maritime agency's public website and internal web-based applications.
+- **2020 — Kmart & Foxconn Ransomware Attacks:** [Ransomware] DoppelPaymer and Egregor ransomware disrupted retail back-office systems at Kmart and manufacturing plants at Foxconn.
+- **2020 — Vastaamo (Finland):** [Ransomware / Extortion] Attacker breached a Finnish psychotherapy center's database and directly extorted tens of thousands of patients using therapy notes.
+- **2020 — Sopra Steria:** [Ransomware] Ryuk ransomware encrypted corporate networks at the European IT services giant, causing an estimated €40–50 million in remediation costs.
+- **2020 — Software AG:** [Ransomware] Cl0p ransomware disrupted internal networks and helpdesk systems at the German enterprise software vendor, demanding over $20 million.
+- **2020 — University Hospital Düsseldorf:** [Ransomware] DoppelPaymer ransomware encrypted 30 hospital servers via a Citrix flaw, forcing emergency diversions during a critical care case.
+- **2020 — KuCoin Cryptocurrency Exchange:** [Crypto / Theft] Attackers compromised hot-wallet private keys and stole roughly $275 million in Bitcoin, Ethereum, and ERC-20 tokens.
+- **2020 — Twitter VIP Accounts Takeover:** [Social Engineering] Phone spear-phishing of employees gave attackers admin access to hijack 130 high-profile accounts (Obama, Musk, Apple) for a Bitcoin scam.
+- **2020 — University of California San Francisco (UCSF):** [Ransomware] NetWalker ransomware encrypted School of Medicine servers, prompting a $1.14 million ransom payment.
+- **2020 — Garmin:** [Ransomware] WastedLocker ransomware encrypted corporate systems, shutting down Garmin Connect and aviation navigation updates for days.
+- **2020 — Honda Motor Company:** [Ransomware / ICS] Snake (EKANS) ransomware disrupted global manufacturing plants, customer service, and financial operations.
+- **2020 — Blackbaud:** [Ransomware / Data Breach] Ransomware disrupted cloud fundraising databases and exposed donor/patient data across hundreds of universities and nonprofits.
+- **2020 — EasyJet:** [Data Breach] Cyberattack exposed email addresses, travel records, and credit card details (including CVVs for >2,200 cards) of ~9 million customers.
+- **2020 — Cognizant:** [Ransomware] Maze ransomware disrupted client-facing IT services and internal directories, costing an estimated $50–70 million.
+- **2020 — Nintendo NNID Account Compromises:** [Credential Stuffing] Legacy Nintendo Network IDs were compromised to access ~300,000 accounts and make fraudulent digital purchases.
+- **2020 — Magellan Health:** [Ransomware / Data Breach] Phishing-led ransomware exposed healthcare and employee records of 365,000 individuals.
+- **2020 — Marriott International:** [API Exploit / Data Breach] Compromised franchise employee credentials exposed contact and loyalty details of 5.2 million hotel guests.
+- **2020 — Whisper App Database Exposure:** [Cloud Misconfiguration] Unsecured ElasticSearch database exposed ~900 million user posts, ages, ethnicities, and location metadata.
+- **2020 — Bouygues Construction:** [Ransomware] Maze ransomware encrypted corporate systems and exfiltrated confidential project files in France.
+- **2020 — Estée Lauder Database Exposure:** [Cloud Misconfiguration] Unprotected middleware database exposed over 440 million internal corporate and audit records online.
+- **2020 — Travelex:** [Ransomware] Sodinokibi (REvil) ransomware—via unpatched Pulse Secure VPNs from late 2019—took the currency-exchange firm offline for weeks.
+- **2020 — Microsoft Customer Support Database Exposure:** [Cloud Misconfiguration] Misconfigured Elasticsearch servers exposed ~250 million anonymized customer service and support logs.
+
 
 ## 2019
-- **2019 — Capital One:** cloud misconfiguration and exploitation led to data exposure affecting about 100 million people in the US and Canada.
-- **2019 — Citrix:** password-spraying and exploitation concerns affected corporate systems.
-- **2019 — Norsk Hydro:** LockerGoga ransomware disrupted aluminum production and operations.
-- **2019 — Baltimore City:** RobbinHood ransomware disrupted municipal services.
-- **2019 — First American Financial:** hundreds of millions of document records were exposed through an application flaw.
-- **2019 — Facebook:** hundreds of millions of phone numbers were found in an exposed dataset.
-- **2019 — Canva:** user records and password hashes stolen.
-- **2019 — Quest Diagnostics / AMCA:** medical and financial data exposed through a billing vendor.
-- **2019 — Zynga:** user account data from games was stolen.
-- **2019 — Toyota / subsidiaries:** data theft incidents disclosed in Japan.
-- **2019 — Checkers / Rally's:** payment-card data incident disclosed.
-- **2019 — Louisiana government:** ransomware disrupted state systems.
-- **2019 — City of Johannesburg:** ransomware disrupted municipal services.
-- **2019 — Emotet:** malware campaigns expanded through malicious email attachments.
-- **2019 — BlueKeep (CVE-2019-0708):** critical Windows RDP vulnerability prompted widespread emergency patching.
+
+- **2019 — New Orleans City Cyberattack:** [Ransomware] Ryuk ransomware forced the City of New Orleans to declare a state of emergency and shut down municipal servers.
+- **2019 — Louisiana Government:** [Ransomware] Coordinated ransomware attacks disrupted state agency networks and public school districts across Louisiana.
+- **2019 — City of Johannesburg:** [Ransomware] ShadowKillers ransomware took municipal billing portals, websites, and electricity-vending systems offline.
+- **2019 — Capital One:** [Cloud Misconfiguration / SSRF] Attacker exploited a misconfigured AWS WAF via SSRF to steal personal and credit records of >100 million people.
+- **2019 — Quest Diagnostics / AMCA:** [Data Breach] Breach at billing vendor AMCA exposed financial, medical, and SSN records of nearly 12 million patients.
+- **2019 — US Customs and Border Protection (CBP) Subcontractor Breach:** [Data Breach] Cyberattack on a federal contractor exposed ~100,000 license-plate and traveler photos.
+- **2019 — First American Financial:** [Vulnerability / Data Breach] IDOR flaw on a public website exposed ~885 million real-estate title and mortgage documents.
+- **2019 — BlueKeep (`CVE-2019-0708`):** [Vulnerability] Critical unauthenticated RCE flaw in Windows RDP prompted rare emergency patches even for Windows XP.
+- **2019 — Canva:** [Data Breach] Attackers breached the graphic-design platform and stole email addresses, usernames, and bcrypt password hashes of ~137 million users.
+- **2019 — Baltimore City:** [Ransomware] RobbinHood ransomware paralyzed municipal email, real-estate portals, and water billing systems, costing >$18 million.
+- **2019 — Riviera Beach & Lake City (Florida):** [Ransomware] Sequential ransomware attacks forced two Florida municipalities to pay ~$1.1 million combined in Bitcoin ransoms.
+- **2019 — Facebook Phone Numbers Database Exposure:** [Cloud Misconfiguration] Unprotected servers exposed >419 million Facebook user IDs linked to phone numbers online.
+- **2019 — Norsk Hydro:** [Ransomware] LockerGoga ransomware disrupted aluminum smelting operations across 170 sites worldwide, costing >$70 million.
+- **2019 — ASUS Live Update Supply-Chain Attack (ShadowHammer):** [Supply-Chain] Attackers hijacked ASUS' update server to push signed, backdoored updates targeting specific MAC addresses across ~1 million PCs.
+- **2019 — Citrix ADC Exploitation (`CVE-2019-19781`):** [Vulnerability] Critical path-traversal vulnerability in Citrix ADC/Gateway appliances enabled widespread corporate breaches.
+- **2019 — Zynga:** [Data Breach] Attackers breached game servers and exposed login credentials for >170 million *Words With Friends* players.
+- **2019 — Eurofins Scientific:** [Ransomware] Ransomware disrupted global forensic and laboratory testing networks, forcing UK police to suspend forensic submissions.
+- **2019 — Airbus Commercial Aircraft Division:** [Espionage] Cyber intrusion targeted Airbus' commercial aviation IT systems and supplier-related technical records.
+- **2019 — German Politicians Doxing Leak:** [Data Breach / Leak] Personal data, chats, and financial records of hundreds of German politicians (including Chancellor Merkel) were leaked online.
+- **2019 — Toyota & Subsidiaries:** [Data Breach] Unauthorized access to sales subsidiaries in Japan and Asia exposed records of up to 3.1 million users.
+- **2019 — Checkers / Rally's:** [POS Malware / Data Breach] Point-of-sale malware infected payment terminals across >100 US restaurants, stealing payment card data.
+- **2019 — Emotet Banking Trojan & Botnet Resurgence:** [Malware / Botnet] Modular Emotet malware expanded via malicious Office macros, acting as a dropper for Ryuk and TrickBot.
+
 
 ## 2018
-- **2018 — Marriott / Starwood:** breach affecting guest reservation data disclosed; compromise dated back years.
-- **2018 — Facebook access-token incident:** attackers exploited a flaw affecting approximately 50 million accounts.
-- **2018 — SingHealth:** personal medical data of about 1.5 million patients stolen in Singapore.
-- **2018 — British Airways:** payment and personal data breach caused by malicious code on the website.
-- **2018 — Under Armour / MyFitnessPal:** account data for roughly 150 million users exposed.
-- **2018 — Exactis:** database containing personal information of hundreds of millions of people exposed.
-- **2018 — Quora:** unauthorized access exposed account information for about 100 million users.
-- **2018 — T-Mobile:** customer information exposed in a web-related incident.
-- **2018 — Ticketfly:** ransomware/attack disrupted ticketing services.
-- **2018 — Atlanta:** SamSam ransomware disrupted city services.
-- **2018 — Norsk Hydro precursor reporting:** industrial cybersecurity threats continued to rise.
-- **2018 — Magecart campaigns:** payment-card skimming injected into online shops.
-- **2018 — Olympic Destroyer:** malware disrupted IT systems during Winter Olympics opening.
-- **2018 — Cosmos Bank (India):** fraudulent ATM and SWIFT transactions caused major financial loss.
+
+- **2018 — Marriott / Starwood:** [Espionage / Data Breach] Breach dating back to 2014 in Starwood's reservation database exposed personal and passport records of up to 383 million guests.
+- **2018 — Quora:** [Data Breach] Unauthorized access to backend systems compromised account details, IP addresses, and activity of ~100 million users.
+- **2018 — Cathay Pacific:** [Data Breach] Unauthorized access to passenger systems exposed personal data, travel histories, and passport numbers of 9.4 million travelers.
+- **2018 — Google+ API Bug Exposure:** [API Exploit / Data Breach] Software bug in Google+ APIs exposed private profile fields of ~52.5 million users, accelerating Google+'s shutdown.
+- **2018 — Facebook Access-Token Incident:** [Vulnerability / Data Breach] Attackers chained three bugs in Facebook's "View As" feature to steal OAuth tokens for ~50 million accounts.
+- **2018 — British Airways (Magecart):** [Web Skimming / Data Breach] Magecart injected malicious JavaScript into British Airways' payment page, skimming cards from ~380,000 bookings.
+- **2018 — Huazhu Hotels Group:** [Data Breach] Database containing ~500 million guest identity, reservation, and check-in records was leaked on a dark-web forum after a developer uploaded DB credentials to GitHub.
+- **2018 — T-Mobile:** [API Exploit / Data Breach] Attackers abused an exposed API endpoint to steal personal account details of ~2 million customers.
+- **2018 — Cosmos Bank (India):** [Financial Fraud / Malware] Lazarus Group breached ATM switching infrastructure to execute global ATM cash-outs and SWIFT fraud totaling $13.5 million.
+- **2018 — TSMC (Taiwan Semiconductor Manufacturing):** [Malware / ICS] WannaCry variant infected fab tools via an unpatched supplier machine, halting chip production for days and costing ~$170 million.
+- **2018 — SingHealth:** [Espionage / Data Breach] State-linked intrusion breached Singapore's largest healthcare group, stealing records of 1.5 million patients including PM Lee Hsien Loong.
+- **2018 — Dixons Carphone:** [POS Malware / Data Breach] Attackers infiltrated point-of-sale systems, accessing 5.9 million payment cards and 10 million personal records.
+- **2018 — Exactis:** [Cloud Misconfiguration] Publicly accessible Elasticsearch server exposed detailed personal profiles of nearly 340 million individuals and businesses.
+- **2018 — MyHeritage:** [Data Breach] Security researcher found a file containing email addresses and SHA-1 hashed passwords of 92 million genealogy users on an external server.
+- **2018 — Ticketfly:** [Defacement / Data Breach] Attacker defaced Eventbrite's Ticketfly portal and stole names, addresses, and hashed passwords of 27 million users.
+- **2018 — Aadhaar Database Exposure (India):** [Data Breach / Misconfiguration] Security flaws and unauthorized access exposed personal details linked to India's 1.1-billion-citizen biometric ID database.
+- **2018 — Atlanta City:** [Ransomware] SamSam ransomware encrypted municipal court, police, and utility systems, causing >$17 million in recovery costs.
+- **2018 — Under Armour / MyFitnessPal:** [Data Breach] Intrusion exposed usernames, email addresses, and hashed passwords of ~150 million nutrition-app accounts.
+- **2018 — Olympic Destroyer:** [Malware / Sabotage] Destructive wiper malware disrupted Wi-Fi, ticketing, and broadcast IT during the PyeongChang Winter Olympics opening ceremony.
+- **2018 — Coincheck Cryptocurrency Hack:** [Crypto / Theft] Attackers compromised hot wallets lacking multi-signature protection to steal ~$530 million in NEM tokens.
+- **2018 — Meltdown & Spectre (`CVE-2017-5754`, `CVE-2017-5753`, `CVE-2017-5715`):** [Hardware Vulnerability] Speculative execution flaws disclosed across Intel, AMD, and ARM CPUs allowed unauthorized reading of kernel memory.
+
 
 ## 2017
 - **2017 — WannaCry:** ransomware worm exploited EternalBlue and disrupted organizations worldwide.

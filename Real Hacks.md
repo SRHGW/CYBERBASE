@@ -30,6 +30,28 @@
 ## 2025
 - **2025 — Salt Typhoon / telecom investigations (continuing disclosures):** additional reporting and investigations concerning telecom compromises. Keep individual newly confirmed victims as separate entries only when sourced.
 - **2025 — Public-sector and enterprise ransomware incidents:** add verified case-by-case entries from advisories and incident disclosures.
+- **2025 — Polish Energy Grid Coordinated Cyberattacks:** [Critical Infrastructure] State-linked threat actors targeted roughly 30 sites connected to Poland's electrical infrastructure in late 2025 to disrupt power and heating systems.
+- **2025 — Salesforce / Gainsight & Salesloft-Drift Supply-Chain Breaches:** [Supply-Chain / Data Breach] Compromised third-party OAuth integrations and AI chatbot connectors exposed CRM records across hundreds of enterprise organizations.
+- **2025 — Oracle E-Business Suite Zero-Day Extortion (`CVE-2025-61882`, `CVE-2025-61884`):** [Zero-Day / Extortion] Cl0p exploited critical ERP vulnerabilities to exfiltrate corporate data from multiple major enterprises.
+- **2025 — Dodd Group / UK Ministry of Defence Contractor (Lynx):** [Ransomware / Espionage] Cybercrime group Lynx breached a UK defense contractor, exfiltrating roughly 4 TB of sensitive construction, security, and military base records.
+- **2025 — Vietnam Airlines & Partner Platform Breach:** [Data Breach] Attackers leaked 23 million customer records linked to an online customer-service technology partner.
+- **2025 — Collins Aerospace vMUSE Airport Disruptions:** [Ransomware / Critical Infrastructure] Ransomware encrypted backend servers on an airport passenger-processing platform, disrupting check-in and boarding at Heathrow, Brussels, and Berlin airports.
+- **2025 — Asahi Group Holdings:** [Ransomware] Ransomware forced the suspension of industrial and logistics IT systems, disrupting nationwide beverage production and shipping in Japan.
+- **2025 — Jaguar Land Rover (JLR):** [Ransomware / Supply-Chain] Coordinated cyberattack halted global manufacturing plants and IT systems for weeks, causing an estimated £1.9 billion ($2.2B+) economic impact.
+- **2025 — Kering Luxury Group (Gucci, Balenciaga, Alexander McQueen):** [Data Breach] Attackers infiltrated group systems via third-party tools and credential stuffing, stealing millions of customer records.
+- **2025 — Volvo Group / Miljödata HR Provider:** [Ransomware / Supply-Chain] Ransomware hit an HR software vendor, exposing roughly 870,000 employee records including names and Social Security numbers.
+- **2025 — Microsoft SharePoint Zero-Day Exploitation:** [Zero-Day / Espionage] China-linked threat actors exploited critical SharePoint flaws to compromise US government agencies and international corporations.
+- **2025 — npm Open-Source Supply-Chain Campaign:** [Supply-Chain] Malicious updates injected into widely used JavaScript packages on npm compromised developer environments and credentials.
+- **2025 — United Natural Foods (UNFI):** [Cyberattack / Supply-Chain] Cyberattack disrupted ordering and distribution systems at the major North American food wholesaler.
+- **2025 — Marks & Spencer, Co-op & Harrods (UK Retail Wave):** [Ransomware / Social Engineering] Coordinated attacks using stolen credentials and helpdesk impersonation disrupted retail operations and exposed customer loyalty data.
+- **2025 — SK Telecom (BPFDoor Intrusion):** [Espionage / Data Breach] Long-running stealth malware compromise exposed HSS and USIM data for nearly 27 million mobile subscribers in South Korea.
+- **2025 — SAP NetWeaver Zero-Day Exploitation:** [Zero-Day] Threat actors actively exploited a critical remote code execution flaw in SAP NetWeaver enterprise environments.
+- **2025 — Morocco National Social Security Fund (CNSS):** [Data Breach] Hackers breached social security databases and leaked personal and financial records of roughly 2 million citizens.
+- **2025 — US Office of the Comptroller of the Currency (OCC):** [Espionage / Data Breach] Compromised administrator credentials allowed attackers to monitor emails of over 100 US banking regulators.
+- **2025 — Bank Sepah (Codebreakers):** [Data Breach] Attackers breached the Iranian bank and claimed theft of 42 million customer records.
+- **2025 — Bybit Cryptocurrency Exchange (Lazarus Group):** [Crypto / Supply-Chain] North Korean state-sponsored hackers exploited a third-party wallet interface to steal approximately $1.5 billion in Ethereum.
+- **2025 — Salt Typhoon / Global Telecom Investigations:** [Espionage] Ongoing disclosures revealed persistent state-backed intrusions into telecommunications providers and lawful-intercept infrastructure.
+
 
 ## 2024
 - **2024 — Change Healthcare:** ransomware disruption affected US healthcare payment and pharmacy operations.

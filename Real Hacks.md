@@ -541,37 +541,191 @@
 - **2000 — Microsoft / major web outages:** security incidents and DDoS highlighted Internet fragility.
 
 ## 1990–1999
-- **1999 — Melissa:** macro virus spread through Microsoft Word and Outlook.
-- **1999 — CIH / Chernobyl:** destructive virus damaged BIOS and disk data on some systems.
-- **1999 — ExploreZip:** worm spread through email and network shares.
-- **1999 — Happy99:** email worm displayed fireworks and spread via attachments.
-- **1999 — Kosovo conflict website attacks:** politically motivated defacements and DDoS.
-- **1998 — Solar Sunrise:** intrusions targeted US military systems.
-- **1998 — CIH first discovered:** destructive payload later caused widespread damage.
-- **1998 — Back Orifice:** remote-administration trojan released by Cult of the Dead Cow.
-- **1998 — L0pht testimony:** hackers warned US Senate about infrastructure security.
-- **1997 — AOL password theft:** phishing and credential scams targeted AOL users.
-- **1996 — CD Universe / early web intrusions:** web defacement and database attacks grew.
-- **1995 — Kevin Mitnick arrested:** high-profile case involving unauthorized access and social engineering.
-- **1994 — Phiber Optik / phone-system hacking cases:** phreaking and computer intrusion cases became prominent.
-- **1993 — Kevin Poulsen released:** famous telephone-network intrusion case.
-- **1992 — Michelangelo virus:** destructive boot-sector virus received major media attention.
-- **1991 — Dark Avenger virus:** malware author and virus-writing scene became known.
-- **1990 — First major BBS and dial-up intrusion cases:** account abuse and phone-system hacking were widely reported.
+
+- **1999-12 — Happy99 — Email Worm** : Happy99 se propage par courrier électronique et affiche une animation festive tout en infectant les systèmes Windows.
+- **1999-11 — ExploreZip — Destructive Email Worm** : ExploreZip se propage par email et détruit des fichiers sur certains systèmes infectés.
+- **1999-10 — BubbleBoy — Word Macro Virus** : BubbleBoy démontre qu'un virus peut s'exécuter automatiquement dans certaines configurations Outlook et Word.
+- **1999-09 — Back Orifice 2000 — Remote Administration Trojan** : BO2K est publié comme outil d'administration à distance pouvant être détourné pour espionner et contrôler des machines.
+- **1999-08 — Trinoo — DDoS Botnet** : Trinoo est utilisé pour coordonner des attaques distribuées par déni de service.
+- **1999-07 — Back Orifice — Windows Remote Control Trojan** : Back Orifice permet de contrôler à distance des systèmes Windows compromis.
+- **1999-06 — CIH / Chernobyl — Destructive Virus Outbreak** : CIH infecte des ordinateurs Windows et peut écraser des données ainsi que certaines informations BIOS.
+- **1999-05 — Hotmail — Password Theft** : Des hackers dérobent des mots de passe de comptes Hotmail.
+- **1999-04-26 — CIH — Worldwide Computer Damage** : Le virus CIH déclenche des destructions de données sur de nombreux ordinateurs.
+- **1999-04-01 — Melissa — Email Macro Worm Outbreak** : Melissa se propage via Microsoft Word et Outlook, saturant des systèmes de messagerie.
+- **1999-03 — Moonlight Maze — Military Network Espionage** : Une campagne d'intrusions cible des réseaux militaires et gouvernementaux américains.
+- **1999-03-24 — NATO — Serbian Hacker DDoS** : Des attaques perturbent les sites de l'OTAN pendant la guerre du Kosovo.
+- **1999-03 — Global Hell — Government Website Intrusions** : Le groupe Global Hell cible plusieurs sites gouvernementaux américains.
+- **1999-02 — COMDEX — Website Defacement** : Le site de COMDEX est modifié par des hackers.
+- **1999-02 — id Software — Website Defacement** : Le site d'id Software est compromis et modifié.
+- **1999-01 — Censure and MoveOn — Website Defacement** : Un site militant est compromis par des hackers.
+- **1998-12 — Windows 98 — Malware Experimentation** : Des virus expérimentaux ciblent les nouveaux environnements Windows.
+- **1998-11 — Electronic Commerce — Credit Card Database Exposures** : Des bases de données de cartes bancaires sont exposées ou compromises sur Internet.
+- **1998-10 — Solar Sunrise — Military Network Intrusions** : Une série d'intrusions vise des systèmes militaires américains.
+- **1998-09 — Pentagon — Network Intrusions** : Des hackers pénètrent dans des systèmes du Pentagone.
+- **1998-08 — Microsoft — Website Defacement** : Le site de Microsoft est compromis et modifié.
+- **1998-07 — AOL — Account Theft and Abuse** : Des comptes AOL sont volés et utilisés frauduleusement.
+- **1998-06 — L0pht — Password Security Demonstration** : L0pht démontre publiquement des faiblesses de mots de passe et de sécurité informatique.
+- **1998-05 — L0pht — Senate Cybersecurity Testimony** : L0pht avertit le Sénat américain des risques de compromission des infrastructures informatiques.
+- **1998-04 — Windows NT — Security Exploit Research** : Des chercheurs publient des failles permettant d'affecter la sécurité de systèmes Windows NT.
+- **1998-03 — Internet Relay Chat — Account Hijacking** : Des utilisateurs détournent des comptes IRC et exploitent des faiblesses d'authentification.
+- **1998-02 — Linux — Unauthorized Root Access Exploits** : Des vulnérabilités Linux sont exploitées pour obtenir des privilèges élevés.
+- **1998-01 — Yahoo! — Website Security Weaknesses** : Des faiblesses de sécurité sont découvertes dans les premiers services web commerciaux.
+- **1997-12 — Windows NT — Remote Access Vulnerabilities** : Des failles de configuration et d'accès distant touchent des systèmes Windows NT.
+- **1997-11 — Internet Service Providers — DDoS Experiments** : Des attaques par saturation ciblent des infrastructures Internet.
+- **1997-10 — Yahoo! — Unauthorized Account Access** : Des comptes de services Internet sont compromis.
+- **1997-09 — AOL — Password Theft** : Des utilisateurs exploitent des techniques de vol de mots de passe et de comptes.
+- **1997-08 — Microsoft — Security Vulnerability Disclosures** : Des failles de sécurité sont publiées dans les systèmes Microsoft.
+- **1997-07 — Linux — Buffer Overflow Exploitation** : Des vulnérabilités de débordement de mémoire sont exploitées dans des logiciels Linux.
+- **1997-06 — Windows 95 — Trojan Distribution** : Des chevaux de Troie sont diffusés via des logiciels et fichiers téléchargés.
+- **1997-05 — Internet Relay Chat — IRC Bot Experiments** : Des scripts automatisés commencent à exploiter les canaux IRC.
+- **1997-04 — Web Servers — CGI Vulnerability Exploitation** : Des hackers exploitent des scripts CGI vulnérables sur des serveurs web.
+- **1997-03 — Internet Banking — Security Weaknesses** : Des failles dans des services bancaires en ligne sont identifiées.
+- **1997-02 — Windows — Macro Virus Outbreaks** : Les virus macro se propagent via les documents bureautiques.
+- **1997-01 — Email Systems — Mail Bombing** : Des attaques par saturation de courrier électronique perturbent des services Internet.
+- **1996-12 — Windows — Hare Virus** : Le virus Hare infecte des systèmes Windows et DOS.
+- **1996-11-08 — New York Times — SYN Flood Attack** : Une attaque SYN flood perturbe le site web du New York Times.
+- **1996-10-23 — Fort Bragg — Military Password Disclosure** : Un militaire compromet des systèmes de l'armée américaine et transmet des mots de passe à la Chine.
+- **1996-10-22 — Czech Banks — $2 Million Computer Theft** : Des hackers pénètrent dans des systèmes bancaires tchèques et dérobent environ deux millions de dollars.
+- **1996-10-15 — Digital Technologies Group — Employee Data Destruction** : Un employé efface des fichiers informatiques de l'entreprise.
+- **1996-10-05 — Wazzu — Word Macro Virus** : Wazzu infecte des documents Word et modifie leur contenu.
+- **1996-09-25 — Kevin Mitnick — Federal Indictment** : Mitnick est inculpé pour plusieurs intrusions et vols de logiciels.
+- **1996-09-20 — Usenet — Cancelbot Attack** : Un programme automatisé supprime des milliers de messages Usenet.
+- **1996-09-18 — CIA Website — Swedish Hacker Defacement** : Des hackers suédois modifient le site web de la CIA.
+- **1996-09-06 — PANIX — SYN Flood Attack** : Une attaque SYN flood met hors service le fournisseur d'accès PANIX.
+- **1996-08-16 — U.S. Department of Justice — Website Defacement** : Le site du ministère américain de la Justice est compromis.
+- **1996-07-31 — Omega Engineering — Logic Bomb Sabotage** : Un employé installe une bombe logique qui détruit des données et perturbe l'entreprise.
+- **1996-07-05 — Laroux — First Excel Macro Virus** : Laroux devient l'un des premiers virus macro Excel.
+- **1996-06 — Lockheed — Computer Intrusion** : Deux hackers britanniques sont accusés d'intrusion dans des systèmes Lockheed.
+- **1996-05 — Rome Laboratory — Datastream Cowboy Arrest** : Richard Pryce est arrêté après des intrusions dans le laboratoire militaire Rome.
+- **1996-04-27 — Cambridge University — Confidential Files Intrusion** : Des hackers accèdent à des fichiers confidentiels de l'université.
+- **1996-03-18 — Internet Chess Club — Hacker Attack** : Le serveur de l'Internet Chess Club subit une attaque informatique.
+- **1996-03-17 — Telia — Swedish ISP Website Defacement** : Le site de Telia, grand fournisseur d'accès suédois, est compromis.
+- **1996-03-06 — Boston ISPs — Hacker Intrusions** : Des hackers pénètrent dans des systèmes de fournisseurs d'accès et suppriment des pages du Boston Globe.
+- **1996-03-05 — White House — Email Flooding** : Des emails falsifiés et massifs perturbent le site de la Maison-Blanche.
+- **1996-01-25 — Citibank — Russian Wire Fraud Investigation** : Des participants à une fraude informatique visant Citibank sont poursuivis.
+- **1996-01-15 — Florida 911 — Telephone System Hack** : Un hacker suédois compromet un système téléphonique d'urgence en Floride.
+- **1995-12-20 — NASA Ames — Website Defacement** : Le site du centre NASA Ames est modifié par un hacker.
+- **1995-09-17 — Netscape SSL — Random Number Generator Weakness** : Des chercheurs découvrent une faiblesse dans le générateur pseudo-aléatoire de Netscape, affectant SSL.
+- **1995-08-15 — Netscape SSL — 40-bit Encryption Cracking** : Des hackers démontrent la faiblesse du chiffrement SSL 40 bits.
+- **1995-08-04 — New York Times — Internet Service Hack** : Des hackers compromettent le service Internet du New York Times.
+- **1995-07-25 — Randal Schwartz — Intel Computer Crime Conviction** : Schwartz est condamné pour des infractions informatiques liées à ses activités chez Intel.
+- **1995-07 — U.S. Navy — Military Computer Intrusion** : Des hackers pénètrent dans des systèmes de la Navy et accèdent à des informations alliées.
+- **1995-06-02 — U.S. Air Force — Computer Intrusion** : Des hackers utilisent des ordinateurs universitaires pour accéder à un site de l'Air Force.
+- **1995-05-05 — Chris Lamprecht — Internet Access Ban** : Lamprecht devient la première personne connue à être interdite d'accès à Internet par décision judiciaire.
+- **1995-04-05 — SATAN — Security Assessment Tool Release** : Dan Farmer et Wietse Venema publient SATAN, outil d'analyse automatisée de vulnérabilités réseau.
+- **1995-02-15 — Kevin Mitnick — Arrest** : Mitnick est arrêté après plusieurs années d'intrusions informatiques et de télécommunications.
+- **1995-01-27 — Kevin Mitnick — WELL and Netcom Intrusions** : Mitnick compromet des systèmes du WELL et accède à des données de Netcom.
+- **1994-12-25 — Kevin Mitnick — Shimomura Computer Intrusion** : Mitnick pénètre dans les systèmes de Tsutomu Shimomura et dérobe des outils informatiques.
+- **1994-12 — U.S. Naval Academy — Network Sniffer Installation** : Des hackers installent des programmes de capture de données sur le réseau de l'Académie navale.
+- **1994-11-01 — FBI Conference Calling — Telephone System Hack** : Un hacker compromet le système de conférence téléphonique du FBI et provoque des appels frauduleux.
+- **1994-10-12 — Marks & Spencer — PIN Security File Intrusion** : Un ingénieur informatique accède à un fichier de sécurité contenant des numéros PIN.
+- **1994-09 — Netcom — Credit Card Database Exposure** : Une base de données de cartes bancaires est accessible sans autorisation.
+- **1994-07-21 — Pentagon — Computer Intrusion and Data Alteration** : Des hackers pénètrent dans des systèmes du Pentagone et modifient ou effacent des données.
+- **1994-07-14 — RC4 — 40-bit Encryption Cracking** : Damien Doligez contribue à démontrer la faiblesse du chiffrement RC4 40 bits.
+- **1994-06-13 — Citibank — Vladimir Levin Bank Fraud** : Vladimir Levin et ses complices détournent environ 10 à 12 millions de dollars par transferts bancaires frauduleux.
+- **1994-03-23 — Rome Laboratory — Datastream Cowboy Intrusion** : Un adolescent britannique pénètre dans des systèmes militaires américains et utilise un sniffer.
+- **1994-02 — Network Sniffer — 100,000 Credentials Theft** : Un hacker installe un sniffer et collecte des dizaines de milliers de noms et mots de passe.
+- **1994-02-01 — Dartmouth — Email Spoofing and Exam Cancellation** : Un hacker usurpe l'identité d'un professeur et envoie un email annulant des examens.
+- **1993-10-28 — Intel — Password Cracking** : Randal Schwartz utilise Crack pour tester et casser des mots de passe chez Intel.
+- **1993-08 — Financial Services — Computer Fraud** : Justin Petersen est arrêté pour des intrusions et fraudes visant des services financiers.
+- **1993 — Masters of Deception — Telephone Phreaking Investigation** : Le groupe de phreakers Masters of Deception est poursuivi après une enquête utilisant des écoutes téléphoniques.
+- **1993 — General Mills — Mainframe Intrusion** : Un scientifique alimentaire obtient un accès non autorisé à des systèmes mainframe de General Mills.
+- **1992-11 — California DMV — Kevin Mitnick Intrusion** : Mitnick pénètre dans des systèmes du Department of Motor Vehicles californien.
+- **1992-03-06 — Michelangelo — Virus Activation** : Michelangelo déclenche une vague de panique médiatique et de détection de virus.
+- **1992-02 — Chris Lamprecht — Microprocessor Theft Attempt** : Lamprecht est impliqué dans une affaire de vol de composants électroniques.
+- **1992 — Morty Rosenfeld — TRW Credit Reports Theft** : Rosenfeld est condamné après avoir volé des rapports et numéros de cartes de crédit chez TRW.
+- **1992 — Eindhoven University — Root Access Intrusion** : Des hackers obtiennent des privilèges root sur des systèmes universitaires néerlandais.
+- **1991-06-21 — Kevin Poulsen — Pacific Bell Intrusion** : Poulsen est arrêté après avoir compromis des systèmes téléphoniques de Pacific Bell.
+- **1991-04 — Dutch Hackers — U.S. Military Computer Intrusions** : Des hackers néerlandais pénètrent dans des systèmes militaires américains.
+- **1991-03 — NASA / NIH / BLM — Government Network Intrusions** : Des hackers accèdent à des systèmes de la NASA, du NIH et du Bureau of Land Management.
+- **1991-01 — Southwestern Bell — Telephone Network Intrusion** : Chris Lamprecht compromet des systèmes de Southwestern Bell.
+- **1991-03-06 — Michelangelo — DOS Virus Outbreak** : Michelangelo infecte des systèmes DOS et écrase des données à sa date d'activation.
+- **1990-10 — British Clearing Banks — Computer Intrusions** : Des hackers pénètrent dans des systèmes de banques britanniques.
+- **1990-04 — Dutch Hackers — U.S. Department of Defense Intrusions** : Des hackers néerlandais accèdent à plusieurs systèmes du Département de la Défense américain.
+- **1990-03-21 — Clifford Stoll — Computer Intrusion** : Un hacker compromet l'ordinateur de Clifford Stoll et y ajoute un message.
+- **1990-03-07 — NASA — Huntsville and Greenbelt Intrusions** : Un hacker de Denver pénètre dans des systèmes NASA à Huntsville et Greenbelt.
+- **1990 — Legion of Doom / Masters of Deception — Hacker Group Rivalry** : Deux groupes de hackers et phreakers deviennent rivaux et sont associés à diverses intrusions.
+- **1990 — Kevin Poulsen / Dark Dante — Radio Contest Phone Hack** : Poulsen manipule des systèmes téléphoniques de Pacific Bell pour devenir le 102e appelant d'une émission radio et gagner un prix.
+- **1990 — ToneLoc — Telephone Scanner Development** : Chris Lamprecht développe ToneLoc, outil utilisé pour scanner des lignes téléphoniques et identifier des modems.
+- **1990 — BellSouth — Computer Network Intrusions** : Des membres de Legion of Doom sont arrêtés pour des intrusions dans des systèmes BellSouth.
+- **1990 — NASA / Government Networks — Unauthorized Access** : Des hackers explorent des réseaux gouvernementaux et scientifiques américains.
 
 ## 1980–1989
-- **1989 — AIDS Trojan:** early ransomware-like program distributed by physical media.
-- **1988 — Morris Worm:** worm disrupted thousands of Internet-connected computers.
-- **1988 — Jerusalem virus:** DOS virus activated on Fridays and infected executable files.
-- **1988 — Cascade virus:** encrypted DOS virus spread through computer systems.
-- **1987 — Vienna virus:** early PC virus analyzed and removed by antivirus tools.
-- **1986 — Brain virus:** infected floppy disks and displayed Pakistani authorship message.
-- **1986 — PC-Write Trojan:** malicious software distributed under false pretenses.
-- **1985 — Early BBS intrusions:** password theft and unauthorized access reported in dial-up communities.
-- **1984 — Chaos Computer Club:** public demonstrations and disclosures about computer security.
-- **1983 — ARPANET security research:** early demonstrations of network intrusion and worm concepts.
-- **1981 — Elk Cloner:** Apple II boot-sector virus spread via floppy disks.
-- **1980 — Early telephone phreaking and computer access cases:** manipulation of telecom systems preceded modern Internet hacking.
+
+- **1989-10-16 — WANK Worm — NASA SPAN Network Infection** : Le ver WANK se propage sur le réseau DECnet SPAN de la NASA et d'autres organismes, en affichant des messages politiques antinucléaires.
+- **1989 — AIDS Trojan — First Ransomware Distribution** : Le cheval de Troie AIDS est distribué par courrier postal sur disquettes et chiffre des noms de fichiers avant de réclamer un paiement.
+- **1989 — Dark Avenger — 1260 Virus Development** : Dark Avenger développe le virus 1260, considéré comme l'un des premiers virus polymorphes.
+- **1989 — VCC — Virus Construction Toolkit** : Apparition du Virus Construction Kit, facilitant la création de virus informatiques.
+- **1989 — Ghostball — First Multi-Platform Virus** : Découverte de Ghostball, virus infectant les exécutables DOS et les fichiers Amiga.
+- **1989 — Jerusalem-B — DOS Virus Outbreak** : Une variante de Jérusalem se répand sur des ordinateurs DOS et provoque la suppression de fichiers exécutés certains jours.
+- **1989 — MacMag — Macintosh Virus Incident** : Le virus MacMag se propage sur Macintosh et affiche un message militant.
+- **1989 — Datacrime — Dutch Virus Outbreak** : Le virus Datacrime se diffuse sur des ordinateurs DOS et provoque des dommages aux données.
+- **1989 — AEGIS — DOS Virus Discovery** : Découverte d'un virus DOS infectant les fichiers exécutables.
+- **1989 — 405 Virus — DOS Executable Infection** : Un virus infecte les fichiers exécutables DOS et modifie leur comportement.
+- **1988-12 — DEC VMS / Father Christmas — Network Worm** : Un ver se propage sur les réseaux DECnet et perturbe des systèmes VAX/VMS.
+- **1988-12-16 — Kevin Mitnick — MCI DEC Network Intrusion** : Mitnick pénètre dans un réseau DEC lié à MCI et dérobe des logiciels et codes sources.
+- **1988-11-23 — USAF Sperry 1160 — Military Computer Intrusion** : Un intrus accède à un ordinateur militaire Sperry 1160 à San Antonio.
+- **1988-11-02 — Robert Tappan Morris — Morris Worm** : Le ver Morris exploite plusieurs vulnérabilités Unix et infecte des milliers de machines connectées à Internet.
+- **1988-09 — Prophet — BellSouth AIMSX Intrusion** : Un hacker pénètre dans le réseau informatique AIMSX de BellSouth.
+- **1988-06-15 — Mac/Scores — Macintosh Virus Infection** : Le virus Scores infecte des Macintosh et perturbe certains logiciels.
+- **1988 — First National Bank of Chicago — $70 Million Computer Fraud** : Une fraude informatique visant une banque de Chicago implique des transferts financiers massifs.
+- **1988 — NASA / Universities — Internet Worm Disruption** : Des systèmes universitaires et scientifiques sont paralysés par le ver Morris.
+- **1988 — DEC VAX / VMS — Unauthorized Network Access** : Des intrusions et expérimentations non autorisées ciblent des systèmes VAX connectés à des réseaux.
+- **1988 — CERT/CC — Emergency Response Creation** : Après le ver Morris, un centre de réponse aux incidents informatiques est créé pour coordonner les défenses.
+- **1987-12 — Christmas Tree EXEC — IBM Network Worm** : Un programme autoréplicatif provoque une saturation des réseaux IBM VNET, BITNET et EARN.
+- **1987 — NASA / Government Systems — Hacker Intrusions** : Des hackers pénètrent dans plusieurs systèmes informatiques gouvernementaux et scientifiques.
+- **1987 — IBM VM/CMS — Unauthorized System Access** : Des utilisateurs exploitent des failles de configuration et de contrôle d'accès dans des systèmes IBM.
+- **1987 — Atari ST — Ghost Virus** : Un virus infecte certains systèmes Atari ST et provoque des perturbations.
+- **1987 — Jerusalem Virus — International Outbreak** : Le virus Jérusalem se répand sur des ordinateurs DOS dans plusieurs pays.
+- **1987 — Cascade Virus — DOS Infection** : Le virus Cascade infecte les fichiers exécutables et provoque la chute animée de caractères à l'écran.
+- **1987 — Lehigh Virus — University Infection** : Un virus infecte les systèmes universitaires et les fichiers exécutables DOS.
+- **1987 — Vienna Virus — DOS Executable Infection** : Le virus Vienna se propage sur des ordinateurs DOS.
+- **1987 — Brain Virus — International Spread** : Brain continue sa propagation internationale sur disquettes.
+- **1987 — Computer Underground — Unauthorized System Intrusions** : Des groupes de hackers explorent et pénètrent des systèmes informatiques universitaires et commerciaux.
+- **1986 — Brain — First IBM PC Virus** : Le virus Brain infecte les secteurs de démarrage des disquettes IBM PC et se propage mondialement.
+- **1986 — Bouncing Ball — DOS Boot Virus** : Un virus de secteur de démarrage provoque des effets visuels sur les ordinateurs infectés.
+- **1986 — Virdem — Virus Demonstration** : Un programme viral expérimental démontre la propagation possible d'un virus informatique.
+- **1986 — PC-Write Trojan — Software Trojan Incident** : Un cheval de Troie est distribué sous l'apparence d'un logiciel de traitement de texte.
+- **1986 — Pakistani Brain Authors — Unauthorized Software Copy Protection** : Les frères Alvi diffusent Brain en réaction à la copie non autorisée de leur logiciel.
+- **1986 — Computer Fraud and Abuse Act — Unauthorized Computer Access Criminalized** : Les États-Unis adoptent le CFAA, renforçant les poursuites contre les intrusions informatiques.
+- **1986 — NASA / Military Computers — Hacker Penetrations** : Des intrusions informatiques touchent des systèmes militaires et scientifiques américains.
+- **1986 — Commodore Amiga — Early Malware Experiments** : Des programmes expérimentaux malveillants commencent à circuler sur les systèmes Amiga.
+- **1986 — DOS Executables — Early Virus Development** : Des virus expérimentaux infectent des fichiers exécutables DOS.
+- **1985 — Phrack — Hacker Underground Publication** : Lancement de Phrack, publication clandestine diffusant des informations sur les réseaux et le hacking.
+- **1985 — Black Hat / Hacker Underground — Telephone Network Exploration** : Des phreakers explorent les systèmes de télécommunications et leurs mécanismes de signalisation.
+- **1985 — Commodore 64 — Early Computer Virus Experiments** : Des expérimentations virales sont documentées sur des ordinateurs personnels.
+- **1985 — Amiga — Early Trojan Software** : Des logiciels malveillants apparaissent dans l'écosystème Amiga.
+- **1985 — IBM PC — Executable Virus Experiments** : Des virus expérimentaux sont développés pour les ordinateurs compatibles IBM PC.
+- **1985 — DOS Boot Sector — Disk Infection Techniques** : Des techniques d'infection des secteurs de démarrage se diffusent dans les milieux underground.
+- **1985 — Computer Underground — Unauthorized BBS Access** : Des hackers explorent des systèmes de bulletin boards et obtiennent des accès non autorisés.
+- **1984 — Chaos Computer Club — Unauthorized Computer Exploration** : Le CCC se développe en Allemagne autour de l'exploration informatique, des intrusions et de la divulgation de vulnérabilités.
+- **1984 — 2600 Magazine — Telephone Phreaking Knowledge** : La publication 2600 diffuse des informations sur le phreaking et les systèmes téléphoniques.
+- **1984 — Legion of Doom — Hacker Group Formation** : Formation du groupe Legion of Doom, connu pour ses recherches et intrusions dans les réseaux téléphoniques et informatiques.
+- **1984 — Apple II — Early Malware Experiments** : Des programmes malveillants expérimentaux apparaissent sur les ordinateurs Apple II.
+- **1984 — IBM PC — Trojan Software Distribution** : Des chevaux de Troie commencent à circuler dans les logiciels distribués sur disquettes.
+- **1984 — BBS Networks — Unauthorized Access** : Les systèmes de bulletin boards deviennent des cibles de piratage et de fraude aux comptes.
+- **1984 — Telephone Phreaking — Long-Distance Fraud** : Des phreakers détournent des appels longue distance grâce à la manipulation des signaux téléphoniques.
+- **1983 — Kevin Mitnick — Early Computer Intrusions** : Mitnick commence à explorer des systèmes informatiques et téléphoniques sans autorisation.
+- **1983 — WarGames Effect — Pentagon Hacker Scare** : Le film WarGames contribue à une prise de conscience publique des risques d'intrusion informatique.
+- **1983 — U.S. Congress — Computer Hacking Hearings** : Des auditions parlementaires américaines examinent les intrusions informatiques et leurs risques.
+- **1983 — ARPANET — Unauthorized Access Investigations** : Des enquêtes concernent des accès non autorisés à des systèmes connectés aux réseaux de recherche.
+- **1983 — Apple II — Elk Cloner Spread** : Elk Cloner continue de circuler sur disquettes Apple II.
+- **1982 — Elk Cloner — Apple II Boot Virus** : Elk Cloner infecte les disquettes Apple II et affiche un poème après plusieurs démarrages.
+- **1982 — Siberian Pipeline — Alleged Trojan Explosion** : Une histoire controversée rapporte qu'un cheval de Troie aurait provoqué une explosion dans un pipeline soviétique.
+- **1982 — Xerox PARC — Experimental Worm Research** : Des chercheurs expérimentent des programmes mobiles capables d'utiliser les ressources de machines connectées.
+- **1982 — IBM PC — Early Malware Development** : Des programmes malveillants expérimentaux apparaissent avec la diffusion des ordinateurs personnels.
+- **1982 — Telephone Phreaking — Bell System Exploitation** : Les phreakers continuent d'exploiter les systèmes de signalisation et de facturation téléphoniques.
+- **1981 — Chaos Computer Club — Early Network Intrusions** : Le CCC commence ses activités d'exploration informatique et de démonstration de failles.
+- **1981 — Apple II — Elk Cloner Development** : Un programme viral est développé pour infecter les disquettes Apple II.
+- **1981 — IBM PC — Early Unauthorized Software Access** : Les premières explorations non autorisées ciblent les systèmes informatiques personnels.
+- **1981 — BBS — Password and Account Abuse** : Des utilisateurs commencent à exploiter les comptes et accès de systèmes BBS.
+- **1981 — Telephone Networks — Phreaking Operations** : Les réseaux téléphoniques restent la cible de manipulations et fraudes.
+- **1980 — PDP-10 / TENEX — Unauthorized Account Access** : Des utilisateurs explorent les mécanismes d'accès et de protection des systèmes TENEX.
+- **1980 — ARPANET — Network Security Weaknesses** : Les premiers réseaux de recherche présentent des faiblesses d'authentification et de contrôle d'accès.
+- **1980 — Telephone Switching Systems — Phreaking Exploitation** : Des phreakers exploitent les systèmes de commutation téléphonique.
+- **1980 — Computer Underground — Early Intrusion Experiments** : Les communautés underground commencent à documenter des intrusions et techniques d'accès non autorisé.
+- **1980 — Mainframe Passwords — Unauthorized Account Use** : Des comptes et mots de passe de systèmes centraux sont utilisés sans autorisation.
+- **1980 — University Computing Systems — Access Control Abuse** : Des étudiants exploitent des configurations faibles sur des systèmes universitaires.
 
 ## 1970–1979
 

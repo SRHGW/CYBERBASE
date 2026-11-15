@@ -112,61 +112,122 @@
 
 
 ## 2025
-- **2025 — Salt Typhoon / telecom investigations (continuing disclosures):** additional reporting and investigations concerning telecom compromises. Keep individual newly confirmed victims as separate entries only when sourced.
-- **2025 — Public-sector and enterprise ransomware incidents:** add verified case-by-case entries from advisories and incident disclosures.
-- **2025 — Polish Energy Grid Coordinated Cyberattacks:** [Critical Infrastructure] State-linked threat actors targeted roughly 30 sites connected to Poland's electrical infrastructure in late 2025 to disrupt power and heating systems.
-- **2025 — Salesforce / Gainsight & Salesloft-Drift Supply-Chain Breaches:** [Supply-Chain / Data Breach] Compromised third-party OAuth integrations and AI chatbot connectors exposed CRM records across hundreds of enterprise organizations.
-- **2025 — Oracle E-Business Suite Zero-Day Extortion (`CVE-2025-61882`, `CVE-2025-61884`):** [Zero-Day / Extortion] Cl0p exploited critical ERP vulnerabilities to exfiltrate corporate data from multiple major enterprises.
-- **2025 — Dodd Group / UK Ministry of Defence Contractor (Lynx):** [Ransomware / Espionage] Cybercrime group Lynx breached a UK defense contractor, exfiltrating roughly 4 TB of sensitive construction, security, and military base records.
-- **2025 — Vietnam Airlines & Partner Platform Breach:** [Data Breach] Attackers leaked 23 million customer records linked to an online customer-service technology partner.
-- **2025 — Collins Aerospace vMUSE Airport Disruptions:** [Ransomware / Critical Infrastructure] Ransomware encrypted backend servers on an airport passenger-processing platform, disrupting check-in and boarding at Heathrow, Brussels, and Berlin airports.
-- **2025 — Asahi Group Holdings:** [Ransomware] Ransomware forced the suspension of industrial and logistics IT systems, disrupting nationwide beverage production and shipping in Japan.
-- **2025 — Jaguar Land Rover (JLR):** [Ransomware / Supply-Chain] Coordinated cyberattack halted global manufacturing plants and IT systems for weeks, causing an estimated £1.9 billion ($2.2B+) economic impact.
-- **2025 — Kering Luxury Group (Gucci, Balenciaga, Alexander McQueen):** [Data Breach] Attackers infiltrated group systems via third-party tools and credential stuffing, stealing millions of customer records.
-- **2025 — Volvo Group / Miljödata HR Provider:** [Ransomware / Supply-Chain] Ransomware hit an HR software vendor, exposing roughly 870,000 employee records including names and Social Security numbers.
-- **2025 — Microsoft SharePoint Zero-Day Exploitation:** [Zero-Day / Espionage] China-linked threat actors exploited critical SharePoint flaws to compromise US government agencies and international corporations.
-- **2025 — npm Open-Source Supply-Chain Campaign:** [Supply-Chain] Malicious updates injected into widely used JavaScript packages on npm compromised developer environments and credentials.
-- **2025 — United Natural Foods (UNFI):** [Cyberattack / Supply-Chain] Cyberattack disrupted ordering and distribution systems at the major North American food wholesaler.
-- **2025 — Marks & Spencer, Co-op & Harrods (UK Retail Wave):** [Ransomware / Social Engineering] Coordinated attacks using stolen credentials and helpdesk impersonation disrupted retail operations and exposed customer loyalty data.
-- **2025 — SK Telecom (BPFDoor Intrusion):** [Espionage / Data Breach] Long-running stealth malware compromise exposed HSS and USIM data for nearly 27 million mobile subscribers in South Korea.
-- **2025 — SAP NetWeaver Zero-Day Exploitation:** [Zero-Day] Threat actors actively exploited a critical remote code execution flaw in SAP NetWeaver enterprise environments.
-- **2025 — Morocco National Social Security Fund (CNSS):** [Data Breach] Hackers breached social security databases and leaked personal and financial records of roughly 2 million citizens.
-- **2025 — US Office of the Comptroller of the Currency (OCC):** [Espionage / Data Breach] Compromised administrator credentials allowed attackers to monitor emails of over 100 US banking regulators.
-- **2025 — Bank Sepah (Codebreakers):** [Data Breach] Attackers breached the Iranian bank and claimed theft of 42 million customer records.
-- **2025 — Bybit Cryptocurrency Exchange (Lazarus Group):** [Crypto / Supply-Chain] North Korean state-sponsored hackers exploited a third-party wallet interface to steal approximately $1.5 billion in Ethereum.
-- **2025 — Salt Typhoon / Global Telecom Investigations:** [Espionage] Ongoing disclosures revealed persistent state-backed intrusions into telecommunications providers and lawful-intercept infrastructure.
 
+- **2025-12-31 — Cogent Communications — Fuite de données** : Des informations de clients et d'infrastructures sont revendiquées comme compromises.
+- **2025-12-22 — Aflac — Fuite de données** : Une notification révèle l'exposition de données de plus de 22 millions de personnes.
+- **2025-12-21 — University of Phoenix — Fuite de données** : Des informations personnelles de millions de personnes sont exposées.
+- **2025-12-16 — 700Credit — Fuite de données** : Des informations de millions de personnes sont compromises.
+- **2025-12-09 — Prosper Marketplace — Fuite de données** : Une violation expose des données de plus de 13 millions de personnes.
+- **2025-11-29 — Coupang — Fuite de données** : Le géant sud-coréen révèle un vol massif d'informations personnelles concernant des dizaines de millions de clients.
+- **2025-11-24 — SK Telecom — Compromission révélée** : L'opérateur sud-coréen fait face aux conséquences d'une intrusion et d'une exposition de données.
+- **2025-10-08 — Conduent — Fuite de données** : Une violation expose plus de 62 millions de personnes selon les notifications.
+- **2025-10-01 — Oracle E-Business Suite — Clop** : Une campagne exploite une vulnérabilité pour voler des données d'organisations utilisant Oracle.
+- **2025-09-30 — Jaguar Land Rover — Cyberattaque** : Une intrusion perturbe la production et les opérations du constructeur automobile britannique.
+- **2025-09-29 — Asahi Group — Qilin** : Le groupe japonais de boissons subit une attaque ransomware qui perturbe production et logistique.
+- **2025-09-25 — Kering — Fuite de données** : Des informations de clients de Gucci, Balenciaga et Alexander McQueen sont revendiquées comme volées.
+- **2025-09-19 — Collins Aerospace — Ransomware** : Une attaque contre la plateforme vMUSE perturbe l'enregistrement et l'embarquement dans plusieurs aéroports européens.
+- **2025-09-01 — Salesforce / Salesloft — Campagne d'exfiltration** : Des attaquants exploitent des intégrations compromises pour accéder à des données Salesforce de nombreuses entreprises.
+- **2025-08-27 — TransUnion — Fuite de données** : Une notification révèle l'exposition de plusieurs millions de personnes.
+- **2025-08-07 — Columbia University — Fuite de données** : Une intrusion expose les données de millions de personnes.
+- **2025-07-25 — Cerner — Fuite de données** : Une notification révèle l'exposition de millions de dossiers.
+- **2025-07-22 — SonicWall — Akira** : Une campagne ransomware compromet des environnements et exfiltre des données.
+- **2025-07-15 — Ingram Micro — Ransomware** : Une attaque SafePay perturbe les systèmes et les commandes du distributeur informatique.
+- **2025-07-14 — DaVita — Interlock** : Une attaque ransomware affecte les systèmes de l'entreprise américaine de soins rénaux.
+- **2025-06-15 — United Natural Foods — Cyberattaque** : Une intrusion perturbe les systèmes et les livraisons du distributeur alimentaire américain.
+- **2025-06-06 — Episource — Fuite de données** : Une violation expose plus de six millions de dossiers.
+- **2025-06-03 — Kettering Health — Interlock** : Une attaque ransomware perturbe les systèmes d'un réseau hospitalier américain.
+- **2025-05-22 — Co-op — DragonForce** : Une intrusion entraîne le vol de données de millions de membres et perturbe les opérations du distributeur britannique.
+- **2025-05-21 — Marks & Spencer — Scattered Spider** : Une cyberattaque perturbe les systèmes de paiement, les commandes en ligne et les opérations du détaillant britannique.
+- **2025-05-12 — SK Telecom — Fuite de données** : Une compromission expose les informations de millions d'abonnés sud-coréens.
+- **2025-04-28 — Marks & Spencer — Cyberattaque** : Les systèmes de vente et de paiement du détaillant britannique sont perturbés.
+- **2025-04-22 — Co-op — Cyberattaque** : Une intrusion entraîne des perturbations opérationnelles et des fuites de données.
+- **2025-04-15 — Malaysia Airports — Qilin** : Une attaque avec vol de données entraîne une demande de rançon de plusieurs millions de dollars.
+- **2025-03-31 — Oracle Cloud — Fuite de données** : Une campagne d'accès non autorisé à des environnements Oracle expose des données de clients.
+- **2025-03-21 — PowerSchool — Fuite de données** : Une attaque révélée en janvier continue d'entraîner des notifications concernant des millions d'élèves et d'enseignants.
+- **2025-03-05 — Qantas — Fuite de données** : Une intrusion chez un prestataire expose des données de millions de membres du programme de fidélité.
+- **2025-02-25 — National Museum of Archaeology Hungary — RansomHub** : Une attaque ransomware revendique le vol de données.
+- **2025-02-08 — Gouvernement américain — Salt Typhoon** : Les autorités révèlent l'extension de l'espionnage chinois visant les télécommunications.
+- **2025-01-30 — DaVita — Fuite de données** : Une notification révèle l'exposition de plus d'un million de personnes.
+- **2025-01-29 — PIH Health — Fuite de données** : Une violation expose près de trois millions de dossiers.
+- **2025-01-10 — PowerSchool — Intrusion** : Une attaque contre le fournisseur de logiciels scolaires expose des données d'élèves et de personnels.
+- **2025-01-08 — U.S. Treasury — Intrusion attribuée à la Chine** : Des attaquants accèdent à des postes de travail et documents non classifiés via BeyondTrust.
+- **2025-01-03 — Salt Typhoon — Espionnage télécom** : De nouveaux opérateurs sont identifiés comme victimes de la campagne d'espionnage.
 
 ## 2024
-- **2024 — Change Healthcare:** ransomware disruption affected US healthcare payment and pharmacy operations.
-- **2024 — Snowflake customer compromises:** data theft from customer environments involving stolen credentials and inadequate account protections.
-- **2024 — CDK Global:** cyberattack disrupted software services used by automotive dealerships across North America.
-- **2024 — XZ Utils backdoor attempt (CVE-2024-3094):** malicious code was introduced into release artifacts of a widely used compression library; detected before broad downstream deployment.
-- **2024 — Synnovis:** ransomware attack disrupted pathology services in London hospitals.
-- **2024 — Ticketmaster / Live Nation data incident:** customer data was advertised as stolen in a breach involving a cloud-hosted environment.
-- **2024 — Ascension:** ransomware incident disrupted a major US healthcare network.
-- **2024 — National Public Data:** large-scale personal-data exposure and breach claims became public.
-- **2024 — MediSecure (Australia):** ransomware/data theft incident affecting prescription-related data.
-- **2024 — Sisense:** security incident involving customer data and integrations was disclosed.
-- **2024 — Cleo Managed File Transfer Mass Exploitation (`CVE-2024-50623`, `CVE-2024-55956`):** [Zero-Day / Extortion] Cl0p exploited unpatched file-transfer vulnerabilities in Cleo Harmony, VLTrader, and LexiCom to exfiltrate data from dozens of enterprise organizations.
-- **2024 — Finastra:** [Data Breach] Unauthorized access to an internal file-transfer platform exposed over 400 GB of sensitive financial and client data affecting global banking institutions.
-- **2024 — Salt Typhoon US Telecom & Treasury Intrusions:** [Espionage] China-linked threat actors breached major telecommunications providers (including AT&T, Verizon, and T-Mobile) and US Treasury systems via unpatched edge devices and third-party compromises.
-- **2024 — Transport for London (TfL):** [Cyberattack / Data Breach] Cyberattack disrupted London transit back-office systems and exposed personal and banking details of roughly 5,000 customers.
-- **2024 — OpenSSH RegreSSHion (`CVE-2024-6387`):** [Vulnerability] Critical unauthenticated remote code execution race-condition vulnerability exposed millions of Linux OpenSSH servers worldwide.
-- **2024 — CDK Global:** [Ransomware] BlackSuit ransomware disrupted SaaS and dealer-management platforms used by over 15,000 automotive dealerships across North America.
-- **2024 — Synnovis / NHS London Hospitals:** [Ransomware] Qilin ransomware disrupted pathology and blood-transfusion services across major London hospitals, forcing thousands of postponed procedures.
-- **2024 — DMM Bitcoin:** [Crypto / Theft] Attackers compromised private keys and stole roughly $305 million (4,502.9 BTC) from the Japanese cryptocurrency exchange.
-- **2024 — Snowflake Customer Compromises (AT&T, Ticketmaster, Santander):** [Credential Stuffing / Data Breach] Attackers used stolen credentials on accounts lacking MFA to exfiltrate massive datasets—including billions of AT&T call logs and Ticketmaster customer records—across over 100 cloud tenants.
-- **2024 — MediSecure (Australia):** [Ransomware / Data Breach] Ransomware and data theft exposed personal and prescription records of approximately 12.9 million Australians.
-- **2024 — UK Ministry of Defence (MoD) Payroll Breach:** [Data Breach] Cyberattack on a third-party contractor payroll system exposed names and bank details of roughly 270,000 current and former armed forces personnel.
-- **2024 — Ascension:** [Ransomware] Black Basta ransomware disrupted clinical operations and electronic health records across one of the largest US hospital networks.
-- **2024 — Sisense:** [Supply-Chain / Data Breach] Compromised GitLab credentials exposed customer tokens, SSL certificates, and integration secrets at the business-intelligence provider.
-- **2024 — XZ Utils Backdoor Attempt (`CVE-2024-3094`):** [Supply-Chain] Malicious obfuscated code was inserted into release tarballs of a widely used Linux compression library before being caught prior to broad downstream deployment.
-- **2024 — National Public Data (`CVE-2023-45412`):** [Data Breach] Massive data aggregation breach exposed up to 2.9 billion personal records, including Social Security numbers and address histories.
-- **2024 — France Travail (Pôle Emploi):** [Data Breach] Intrusion exposed personal identification and contact records of approximately 43 million registered job seekers in France.
-- **2024 — Change Healthcare (ALPHV/BlackCat):** [Ransomware] Ransomware attack via an unauthenticated Citrix portal paralyzed US healthcare billing and pharmacy claims nationwide, causing over $2.8 billion in financial impact and a $22 million ransom payment.
-- **2024 — Ivanti Connect Secure Zero-Day Exploits (`CVE-2024-21887`, `CVE-2023-46805`):** [Zero-Day] Mass exploitation of authentication bypass and command injection flaws compromised thousands of enterprise and government VPN appliances, including CISA and MITRE.
-- **2024 — LoanDepot:** [Ransomware / Data Breach] ALPHV/BlackCat ransomware disrupted mortgage lending portals and exposed sensitive financial and personal data of 16.9 million customers.
+
+- **2024-12-31 — Cogitis — DragonForce** : Le syndicat informatique français est revendiqué comme victime d'une attaque ransomware avec exfiltration de données.
+- **2024-12-30 — Arsoé — Ransomware** : Le prestataire informatique agricole français subit un chiffrement de ses systèmes.
+- **2024-12-27 — U.S. Treasury — Intrusion attribuée à la Chine** : Des attaquants exploitent un accès compromis chez BeyondTrust pour pénétrer des postes de travail du Trésor américain.
+- **2024-12-24 — BeyondTrust — Exploitation de vulnérabilité** : Une faille dans les produits de support distant est utilisée dans l'intrusion contre le Trésor américain.
+- **2024-12-19 — Turks and Caicos Islands Government — Ransomware** : Une attaque perturbe des systèmes gouvernementaux.
+- **2024-12-18 — ENGlobal — Ransomware** : Une attaque limite l'accès aux systèmes informatiques de l'entreprise américaine.
+- **2024-12-12 — Artivion — Cyberattaque** : Une intrusion perturbe les commandes et les expéditions de l'entreprise médicale.
+- **2024-12-11 — Centre for Vein Restoration — Fuite de données** : Des informations de patients et employés sont exposées.
+- **2024-12-06 — Port of Rijeka — Ransomware** : Le port croate est revendiqué comme victime d'une attaque avec vol de données.
+- **2024-12-05 — BT Group — Black Basta** : Le groupe télécom britannique confirme une tentative d'attaque contre sa division de visioconférence.
+- **2024-12-02 — RECOPE — Ransomware** : L'entreprise publique de carburants du Costa Rica est contrainte de fonctionner manuellement.
+- **2024-11-28 — Alder Hey Children's NHS Trust — INC Ransom** : Des données hospitalières sont publiées par les attaquants.
+- **2024-11-27 — Wirral University Teaching Hospital — Cyberattaque** : L'établissement britannique déclare un incident majeur.
+- **2024-11-25 — Blue Yonder — Ransomware** : L'attaque perturbe des chaînes d'approvisionnement et des opérations de distribution.
+- **2024-11-25 — Texas Tech University Health Sciences Center — Ransomware** : Une violation affecte les données de plus d'un million de patients.
+- **2024-11-24 — SFR — Fuite de données** : Des informations de millions de clients français sont revendiquées comme volées.
+- **2024-11-22 — Compagnie de transport strasbourgeoise — Fuite de données** : Des informations de voyageurs sont exposées.
+- **2024-11-19 — Auchan — Fuite de données** : Des données personnelles de clients sont compromises.
+- **2024-11-19 — Direct Assurance — Fuite de données** : Des informations personnelles de clients sont signalées comme exposées.
+- **2024-11-19 — Finastra — Compromission de plateforme de transfert de fichiers** : L'entreprise enquête sur une intrusion dans son infrastructure de transfert.
+- **2024-11-15 — Gouvernement mexicain — RansomHub** : Des attaquants revendiquent le vol de centaines de gigaoctets de données.
+- **2024-11-15 — T-Mobile — Salt Typhoon** : L'opérateur américain est identifié parmi les cibles de la campagne d'espionnage télécom.
+- **2024-11-14 — DemandScience — Fuite de données** : Une base contenant environ 122 millions d'enregistrements est confirmée comme provenant de l'entreprise.
+- **2024-11-13 — Alberta Innovates — Intrusion** : L'organisme canadien confirme un accès non autorisé à son réseau.
+- **2024-11-11 — Hot Topic — Fuite de données** : Une violation affecte des dizaines de millions de dossiers clients.
+- **2024-11-08 — Ahold Delhaize USA — Cyberattaque** : Des systèmes de pharmacies, commandes en ligne et magasins sont perturbés.
+- **2024-11-04 — Schneider Electric — Hellcat** : Des attaquants revendiquent le vol de données depuis un serveur Jira.
+- **2024-11-01 — Microlise — Cyberattaque** : Des systèmes de suivi de véhicules utilisés par DHL et Serco sont perturbés.
+- **2024-10-31 — Salt Typhoon — Espionnage télécom** : Une campagne attribuée à la Chine compromet plusieurs opérateurs américains et vise des communications sensibles.
+- **2024-10-29 — Australian Nursing Home Foundation — Abyss** : Le groupe ransomware revendique le vol de données.
+- **2024-10-26 — Free — Fuite de données** : L'opérateur français confirme une intrusion affectant des données d'abonnés.
+- **2024-10-24 — Landmark Admin — Fuite de données** : Une violation expose les informations de plus de 800 000 clients d'assurance.
+- **2024-10-22 — Interbank — Fuite de données** : La banque péruvienne confirme un incident après une revendication sur le dark web.
+- **2024-10-15 — Internet Archive — Intrusion et fuite de données** : Des millions de comptes sont exposés et le site subit des perturbations.
+- **2024-10-10 — Internet Archive — DDoS** : Des attaques par déni de service rendent le site inaccessible.
+- **2024-10-04 — Salt Typhoon — Campagne d'espionnage** : Des intrusions dans les télécommunications américaines sont révélées.
+- **2024-09-30 — Transport for London — Cyberattaque** : Une intrusion perturbe les systèmes informatiques et certains services.
+- **2024-09-28 — Internet Archive — Fuite de données** : Une base d'authentification contenant environ 31 millions de comptes est compromise.
+- **2024-09-12 — Halliburton — RansomHub** : Le groupe pétrolier américain subit une attaque ransomware.
+- **2024-09-07 — Boulanger — Fuite de données** : Des données de clients sont signalées comme compromises.
+- **2024-08-16 — National Public Data — Fuite massive** : Une base gigantesque de données personnelles américaines est diffusée.
+- **2024-08-13 — Star Health Insurance — Fuite de données et extorsion** : Des données médicales et personnelles sont volées.
+- **2024-08-01 — Microsoft — Midnight Blizzard** : Le groupe russe poursuit ses tentatives d'accès aux systèmes de l'entreprise.
+- **2024-07-19 — CrowdStrike — Mise à jour défectueuse** : Une mise à jour Falcon provoque une panne mondiale de millions de systèmes Windows.
+- **2024-07-12 — AT&T — Fuite de métadonnées téléphoniques** : Des données d'appels et de messages d'environ 110 millions de clients sont volées via Snowflake.
+- **2024-07-18 — WazirX — Lazarus Group** : Une attaque vole environ 230 millions de dollars en cryptomonnaies.
+- **2024-06-27 — CDK Global — Ransomware** : Une attaque paralyse les logiciels de milliers de concessionnaires automobiles américains.
+- **2024-06-03 — Snowflake — UNC5537** : Une campagne utilise des identifiants volés pour accéder aux environnements cloud de nombreuses entreprises.
+- **2024-06-03 — Ticketmaster — Fuite de données** : Une base contenant des données de centaines de millions de clients est revendiquée comme volée.
+- **2024-06-03 — Santander — Fuite de données** : Des informations de clients et employés sont exposées dans une campagne ciblant Snowflake.
+- **2024-06-03 — LendingTree — Fuite de données** : Des informations de clients sont exposées dans la campagne visant les environnements Snowflake.
+- **2024-06-03 — Pure Storage — Fuite de données** : Des données de clients sont revendiquées dans la campagne de vol de données cloud.
+- **2024-06-03 — Neiman Marcus — Fuite de données** : Des informations personnelles de clients sont affectées par une violation.
+- **2024-06-03 — Advance Auto Parts — Fuite de données** : Une intrusion dans l'environnement Snowflake expose des données.
+- **2024-06-03 — QuoteWizard — Fuite de données** : Des informations de clients sont compromises dans la campagne Snowflake.
+- **2024-06-03 — AT&T — Fuite de données Snowflake** : Des informations historiques de communications sont volées.
+- **2024-05-09 — Ascension Health — Black Basta** : Une attaque ransomware perturbe les systèmes d'un réseau hospitalier américain.
+- **2024-05-06 — MediSecure — Ransomware** : Le fournisseur australien de prescriptions électroniques subit une attaque et une fuite de données.
+- **2024-04-24 — LockBit — Tentatives d'attaque contre des organisations** : Le groupe poursuit ses opérations malgré l'opération policière Cronos.
+- **2024-04-18 — Dell — Fuite de données** : Une base contenant des informations sur des millions de clients est revendiquée comme volée.
+- **2024-04-15 — XZ Utils — Backdoor CVE-2024-3094** : Une porte dérobée sophistiquée est découverte dans des versions de la bibliothèque XZ, avant sa diffusion généralisée dans les distributions Linux.
+- **2024-04-01 — National Public Data — Début de la fuite** : Des données personnelles issues de courtiers en données commencent à apparaître sur des forums clandestins.
+- **2024-03-29 — XZ Utils — Découverte de la backdoor** : Le développeur Andres Freund découvre un comportement anormal dans SSH et identifie une compromission de la chaîne de développement.
+- **2024-03-26 — BoAt — Fuite de données** : Des informations de millions de clients du fabricant indien sont publiées.
+- **2024-03-20 — France Travail — Fuite de données** : Une intrusion via des prestataires expose des informations de millions de demandeurs d'emploi.
+- **2024-03-12 — Viamedis et Almerys — Cyberattaque** : Les opérateurs français de tiers payant subissent une intrusion et une fuite de données.
+- **2024-02-21 — Change Healthcare — ALPHV/BlackCat** : Une attaque ransomware paralyse le traitement des remboursements médicaux aux États-Unis.
+- **2024-02-08 — Ivanti Connect Secure — Exploitation de zero-days** : Des vulnérabilités critiques sont utilisées pour compromettre des appliances VPN.
+- **2024-01-24 — Schneider Electric — Cactus** : Une attaque ransomware affecte la branche Sustainability Business.
+- **2024-01-12 — Ivanti — Vulnérabilités VPN** : Des failles critiques sont exploitées dans des équipements d'accès distant.
+- **2024-01-11 — Microsoft — Midnight Blizzard** : Des attaquants russes accèdent à des comptes de messagerie d'entreprise et à des échanges internes.
+- **2024-01-10 — Trello — Scraping massif** : Des données associées à des comptes sont récupérées et diffusées.
+- **2024-01-08 — Ministère britannique de la Défense — Fuite de données de paie** : Des informations relatives à des personnels sont compromises.
 
 ## 2023
 

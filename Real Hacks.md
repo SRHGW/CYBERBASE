@@ -582,24 +582,86 @@
 - **1971 — Creeper:** experimental program moved between ARPANET systems and displayed a message.
 - **1970s — Phone phreaking:** manipulation of telephone signaling and switching systems became a precursor to computer hacking culture.
 
-## Before 1970
+## Before 1970 — Extended Historical Hacks
 
-* **29 October 1969 — ARPANET First Packet-Switching & Login Crash ("LO")** : Première transmission ARPANET par Charley Kline et Bill Duvall qui se solda par un plantage après les deux premières lettres ("LO").
-* **1969 — 2600 Hz Bell System Tone Discovery** : Découverte par Joe Engressia (Joybubbles) qu'un sifflement à 2600 Hz permettait de réinitialiser les lignes AT&T et d'obtenir des appels longue distance gratuits.
-* **November 1967 — Evanston Township High School Network Penetration** : Intrusions pionnières d'élèves sur des réseaux et mainframes partagés (notamment à l'Illinois, au Michigan, chez IBM, Dartmouth ou au MIT via CTSS au cours des années 1960).
-* **1965 — Bell Labs & Multics Security Design Flaws Discovery** : Identification de failles d'escalade de privilèges et de buffers par William D. Mathews.
-* **20 November 1963 — First Malicious Hacking Reference in MIT's *The Tech*** : Première mention connue dans la presse étudiante du MIT concernant des "hackers" s'appropriant les lignes téléphoniques de l'université.
-* **1962 — Allan Scherr MIT CTSS Password-File Hack** : Premier vol de mots de passe documenté par impression du fichier maître sur cartes perforées.
-* **April 1959 — Birth of the Term "Hack" at MIT Tech Model Railroad Club (TMRC)** : Codification du terme "hack" pour désigner des raccourcis ingénieux sur des circuits à relais et ordinateurs TX-0.
-* **1943–1945 — Bletchley Park Cryptanalysis** : Cassage des chiffres Enigma et Lorenz par Alan Turing, Tommy Flowers et Gordon Welchman via les machines Colossus et Bombes.
-* **1941–1943 — René Carmille Sabotage of Vichy French Punch-Card Census** : Modification par René Carmille des machines à cartes perforées IBM/Bull en France de Vichy afin d'écarter la colonne sur la religion pour protéger des citoyens.
-* **20 September 1940 — US Signal Intelligence Service "Purple" Cipher Breach** : Découverte par Genevieve Grotjan des modèles de cycle de la machine diplomatique japonaise "Purple".
-* **December 1932 — Polish Cipher Bureau First Enigma Break** : Reconstitution mathématique du câblage d'Enigma par Marian Rejewski, Jerzy Różycki et Henryk Zygalski.
-* **16 January 1917 — Zimmermann Telegram Interception & Decryption (Room 40)** : Interception et déchiffrement par le renseignement naval britannique de l'alliance proposée par l'Allemagne au Mexique.
-* **05 August 1914 — World War I Submarine Telegraph Cable Cuts & Tapping** : Coupure des câbles sous-marins allemands par la Grande-Bretagne (via *CS Alert* et *HMS Telconia*).
-* **04 June 1903 — Marconi Wireless Telegraphy Hijack** : Interception et envoi de messages insultants en morse ("Rats") par Nevil Maskelyne lors de la démonstration sans fil de Marconi.
-* **1871 – 1878 — Early Telegraph & Telephone Manipulation** : Premières fraudes et mises sur écoute sur les lignes de Western Union et premiers canulars par de jeunes opérateurs téléphoniques.
-* **1834 — French Optical Telegraph Insider Attack (Blanc Brothers, Bordeaux)** : Introduction de signaux frauduleux dans le réseau télégraphique optique Chappe par François et Joseph Blanc, considéré comme le plus ancien piratage de réseau de télécommunication.
+### 1960–1969
+
+* **1969 — ARPANET Early Protocol & Network Experimentation** : Premières expérimentations de communications entre machines distantes, révélant les limites des protocoles expérimentaux.
+* **1968 — Early MIT Multics Security Experiments** : Exploration des mécanismes de protection, de séparation des utilisateurs et des possibilités d'accès privilégié dans Multics.
+* **1967 — IBM APL Network Access & Early Remote Computing Abuse** : Exploration non autorisée de ressources informatiques distantes par des utilisateurs du réseau APL.
+* **1966 — CTSS Master Password File Disclosure** : Exposition accidentelle des mots de passe CTSS à la suite d'un défaut de fichiers temporaires.
+* **1965 — MIT CTSS Shared Temporary File Vulnerability** : Défaut de nommage des fichiers temporaires permettant l'interversion de données sensibles.
+* **1964 — Early Computer Time-Sharing Abuse** : Manipulation de ressources et de limites de sessions dans les systèmes informatiques partagés.
+* **1963 — MIT PDP-1 Telephone Network Intrusion** : Connexion expérimentale du PDP-1 au réseau téléphonique et détournement des appels.
+* **1962 — Allan Scherr CTSS Password Theft** : Impression clandestine du fichier maître de mots de passe CTSS pour accéder à d'autres comptes.
+* **1961 — Early CTSS Authentication Weaknesses** : Faiblesses initiales des systèmes d'identification et de séparation des sessions.
+* **1960s — Bell System Toll Fraud Experiments** : Expérimentations visant à manipuler les mécanismes de facturation des appels téléphoniques.
+* **1960s — Early Blue Box Telephone Network Exploitation** : Utilisation de générateurs de tonalités pour manipuler les réseaux téléphoniques longue distance.
+
+### 1950–1959
+
+* **1959 — MIT TX-0 Computer Hardware Hacks** : Expérimentations et modifications ingénieuses des circuits du TX-0 par les premiers hackers du MIT.
+* **1958 — Early Computer Access-Control Experimentation** : Premières recherches pratiques sur les limitations d'accès aux ordinateurs partagés.
+* **1957 — Joybubbles 2600 Hz Telephone Phreaking Discovery** : Découverte du contrôle de certains systèmes téléphoniques par tonalité.
+* **1956 — Early Automated Telephone Switching Exploitation** : Exploration des signaux de contrôle des centraux téléphoniques automatisés.
+* **1955 — TMRC Relay-System Hacks** : Manipulations des circuits de commande et relais électromécaniques au MIT.
+* **1950s — Early Telephone Operator Insider Abuse** : Détournement d'appels et écoute de conversations par des opérateurs ayant accès aux centraux.
+* **1950s — Early Telephone Line Tapping** : Interception physique des conversations sur les lignes téléphoniques en cuivre.
+* **1950s — Early Radio Signal Interception** : Surveillance et exploitation de transmissions radio non chiffrées.
+
+### 1940–1949
+
+* **1945 — VENONA Project Cryptanalysis Begins** : Lancement du programme américain de cryptanalyse des communications soviétiques chiffrées.
+* **1944 — German Lorenz Cipher Cryptanalysis** : Exploitation des faiblesses du système Lorenz par les cryptanalystes de Bletchley Park.
+* **1943 — Colossus Cipher-Breaking Operations** : Utilisation des ordinateurs Colossus pour analyser les communications chiffrées allemandes.
+* **1942 — Japanese Naval Cipher JN-25 Cryptanalysis** : Exploitation des systèmes cryptographiques japonais par les services cryptologiques alliés.
+* **1941 — Pearl Harbor Intelligence Decryption Failures** : Défaillances de traitement et de partage du renseignement cryptographique avant l'attaque japonaise.
+* **1940 — Japanese PURPLE Cipher Reconstruction** : Reconstruction du système diplomatique japonais par les cryptanalystes américains.
+* **1940 — German Enigma Operational Weakness Exploitation** : Exploitation des erreurs de procédures cryptographiques allemandes.
+* **1940 — British Naval Enigma Cryptanalysis** : Analyse des communications navales allemandes et exploitation des captures de matériel cryptographique.
+* **1939 — German Enigma Key-Procedure Weaknesses** : Exploitation des faiblesses de procédures et de répétitions dans les communications allemandes.
+* **1938 — Polish Cryptanalytic Bombe Development** : Développement de machines électromécaniques pour automatiser la recherche de clés Enigma.
+* **1937 — Early Japanese Diplomatic Cipher Interception** : Interception et analyse de communications diplomatiques japonaises par des services occidentaux.
+* **1932 — Polish Enigma Breakthrough** : Reconstitution mathématique du fonctionnement d'Enigma par Marian Rejewski.
+* **1929 — Herbert Yardley Black Chamber Exposure** : Publication de secrets cryptographiques américains après la fermeture du bureau cryptanalytique.
+* **1920s — US Black Chamber Cryptanalysis Operations** : Décryptage de communications diplomatiques étrangères par le renseignement américain.
+* **1920s — Early Telephone Wiretapping Scandals** : Utilisation massive des écoutes téléphoniques dans des enquêtes et opérations d'espionnage.
+* **1919 — Zimmermann Telegram Intelligence Aftermath** : Exploitation des conséquences diplomatiques et militaires du décryptage du télégramme Zimmermann.
+* **1917 — Zimmermann Telegram Interception** : Interception et décryptage d'une proposition d'alliance allemande avec le Mexique.
+* **1916 — British Naval Cipher Intelligence Operations** : Exploitation de codes navals allemands à partir de documents capturés.
+* **1915 — German Naval Code Capture & Cryptanalysis** : Capture de documents cryptographiques allemands et exploitation par les services britanniques.
+* **1914 — German Submarine Cable Disruption** : Coupure des câbles télégraphiques allemands par la Grande-Bretagne.
+* **1914 — WWI Telegraph Interception Network** : Exploitation des réseaux internationaux de câbles pour intercepter les communications allemandes.
+* **1914 — Room 40 British Naval Intelligence Formation** : Mise en place du service britannique spécialisé dans l'interception et le décryptage des communications.
+* **1903 — Marconi Wireless Demonstration Signal Hijacking** : Nevil Maskelyne interrompt une démonstration de télégraphie sans fil par l'injection de messages Morse.
+* **1898 — Nikola Tesla Wireless Signal Interference Experiments** : Expérimentations sur les interférences et la manipulation de signaux radio.
+* **1890s — Early Telegraph Cipher Exploitation** : Analyse et exploitation de codes télégraphiques commerciaux et militaires.
+* **1883 — Auguste Kerckhoffs Cryptographic Security Principles** : Publication de principes fondamentaux sur la sécurité des systèmes cryptographiques.
+* **1876 — Early Telephone Wiretapping** : Interception physique de conversations téléphoniques sur les premières installations commerciales.
+* **1870 — British Telegraph Network Nationalization & Interception** : Centralisation des communications télégraphiques et possibilités d'interception à grande échelle.
+* **1865 — Civil War Telegraph Cryptanalysis** : Décryptage et interception des communications militaires durant la guerre de Sécession.
+* **1864 — Confederate Cipher Interception** : Exploitation des communications cryptographiques confédérées par les services de renseignement unionistes.
+* **1863 — Union Telegraph Network Security Exploitation** : Interception et manipulation des communications télégraphiques militaires pendant la guerre de Sécession.
+* **1862 — Confederate Telegraph Cipher Weaknesses** : Exploitation des erreurs et répétitions dans les codes télégraphiques militaires.
+* **1861 — Civil War Telegraph Wiretapping** : Interception de communications militaires par accès physique aux lignes télégraphiques.
+* **1859 — Early Telegraph Message Spoofing** : Manipulation de messages télégraphiques par des opérateurs et fraudeurs.
+* **1855 — Telegraph Operator Insider Attacks** : Abus d'accès aux stations télégraphiques pour détourner des messages.
+* **1850s — Telegraph Line Physical Interception** : Écoute et interception de communications sur les lignes télégraphiques.
+* **1849 — Early Telegraph Financial Fraud** : Exploitation des délais et faiblesses de vérification des dépêches financières.
+* **1845 — Early Commercial Telegraph Cipher Publication** : Développement de codes commerciaux pour limiter l'interception de communications télégraphiques.
+* **1844 — Baltimore–Washington Telegraph Interception Risks** : Premières démonstrations du télégraphe électrique et apparition des risques d'interception des messages.
+* **1837 — Telegraph Network Insider Fraud** : Premières manipulations de systèmes télégraphiques par des opérateurs ayant accès aux lignes.
+* **1836 — Blanc Brothers Telegraph Fraud Exposure** : Découverte de l'exploitation frauduleuse du réseau télégraphique Chappe.
+* **1834 — French Optical Telegraph Insider Attack** : Manipulation du télégraphe Chappe par François et Joseph Blanc pour obtenir des informations boursières.
+* **1790s — French Chappe Telegraph Network Security Risks** : Déploiement d'un réseau national de télégraphie optique dont les stations et opérateurs deviennent des points potentiels de compromission.
+* **1776 — American Revolutionary Cipher Interception** : Interception et exploitation de communications chiffrées durant la guerre d'indépendance américaine.
+* **1757 — Frederick the Great Cipher Intelligence Operations** : Utilisation de cryptanalyse et de renseignement sur les communications adverses pendant la guerre de Sept Ans.
+* **1700s — Early Diplomatic Cipher Exploitation** : Décryptage de correspondances diplomatiques par les cabinets noirs européens.
+* **1600s — European Black Chamber Cryptanalysis** : Interception et décryptage systématique de communications diplomatiques.
+* **1500s — Mary Queen of Scots Cipher Conspiracy** : Interception et décryptage de communications secrètes utilisées dans une conspiration contre Elizabeth I.
+* **1400s — Early Diplomatic Cipher Interception** : Exploitation de correspondances chiffrées par les services diplomatiques et religieux.
+* **1300s — Arab Cryptanalysis & Frequency Analysis** : Développement et utilisation de l'analyse fréquentielle pour casser des substitutions cryptographiques.
+* **800s — Al-Kindi Cryptanalysis** : Formalisation de l'analyse fréquentielle pour déchiffrer des messages substitués.
 
 
 ---

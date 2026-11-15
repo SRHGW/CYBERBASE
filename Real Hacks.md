@@ -574,13 +574,59 @@
 - **1980 — Early telephone phreaking and computer access cases:** manipulation of telecom systems preceded modern Internet hacking.
 
 ## 1970–1979
-- **1979 — WORM concepts at Xerox PARC:** research explored self-propagating programs.
-- **1978 — Early network worm experiments:** research environments explored automated program propagation.
-- **1977 — Personal computer security experimentation:** early hobbyist systems faced unauthorized access and software tampering.
-- **1976 — Phone phreaking publications:** technical knowledge about telephone networks circulated among hobbyists.
-- **1974 — Creeper/Reaper history:** early network program experiments remained influential.
-- **1971 — Creeper:** experimental program moved between ARPANET systems and displayed a message.
-- **1970s — Phone phreaking:** manipulation of telephone signaling and switching systems became a precursor to computer hacking culture.
+
+- **1979 — Kevin Mitnick — DEC Ark Intrusion** : Kevin Mitnick accède au système Ark de Digital Equipment Corporation (DEC), utilisé pour développer RSTS/E, et copie des logiciels.
+- **1979 — Xerox PARC — Experimental Computer Worm** : John Shoch et Jon Hupp développent un programme mobile capable de rechercher des processeurs inutilisés sur un réseau. Le mécanisme provoque des effets inattendus lorsqu'il se propage.
+- **1979 — Xerox PARC — Worm Resource Exhaustion** : Les expériences sur les programmes mobiles révèlent qu'un worm peut monopoliser les ressources informatiques et perturber les machines connectées.
+- **1979 — ARPANET — Network Security Limitations** : L'extension du réseau universitaire et scientifique met en évidence les limites de la confiance accordée aux machines et utilisateurs connectés.
+- **1979 — CSNET — Research Network Proposal** : La proposition de CSNET marque l'expansion des réseaux informatiques universitaires et l'apparition de nouvelles problématiques de sécurité entre institutions.
+- **1978 — Florida — Computer Crime Legislation** : La Floride adopte une loi criminalisant certains accès informatiques non autorisés, parmi les premières législations américaines consacrées aux crimes informatiques.
+- **1978 — John Draper / Cap'n Crunch — Pennsylvania Phreaking Arrest** : Draper est arrêté pour appels téléphoniques frauduleux et passe environ 30 jours en prison avant sa libération sous caution.
+- **1978 — John Draper / Cap'n Crunch — Parole Violation** : Une affaire liée à ses précédentes condamnations entraîne une violation de sa liberté conditionnelle.
+- **1978 — CBBS — First Computer Bulletin Board System** : Ward Christensen et Randy Suess lancent CBBS, premier BBS informatique reconnu, permettant aux utilisateurs de communiquer par modem.
+- **1978 — CBBS — Dial-up Community Access** : CBBS ouvre la voie aux communications informatiques par ligne téléphonique, créant de nouvelles possibilités d'accès distant et de partage de fichiers.
+- **1977-11-26 — John Draper / Cap'n Crunch — New Jersey Phreaking Conviction** : Draper plaide coupable pour possession d'un dispositif destiné à détourner des services téléphoniques et reçoit une peine de prison.
+- **1977-10-22 — John Draper / Cap'n Crunch — Pennsylvania Arrest** : Draper est arrêté pour appels téléphoniques illégaux.
+- **1977 — Bell System — Blue Box Fraud Investigations** : Les compagnies téléphoniques intensifient leurs investigations contre les utilisateurs de Blue Boxes exploitant les systèmes de signalisation.
+- **1977 — Telephone Phreaking — International Blue Box Networks** : Des communautés de phreakers échangent des informations sur les systèmes téléphoniques et les dispositifs électroniques permettant de les manipuler.
+- **1976-08-23 — John Draper / Cap'n Crunch — Federal Phreaking Sentence** : Draper est condamné à une peine comprenant quatre mois d'incarcération et devient l'un des premiers phreakers à purger une peine fédérale.
+- **1976-04-02 — John Draper / Cap'n Crunch — Wire Fraud Arrest** : Draper est arrêté en Californie pour fraude par télécommunications.
+- **1976 — Donn B. Parker — Crime by Computer** : Publication de *Crime by Computer*, ouvrage majeur documentant les fraudes, abus et crimes informatiques.
+- **1976 — Computer Security — Computer Crime Research** : Les recherches sur les abus informatiques se développent, notamment autour des accès non autorisés, des manipulations de données et des fraudes.
+- **1975 — John Brunner — The Shockwave Rider** : Le roman popularise l'idée d'un programme informatique autonome capable de se déplacer dans un réseau, inspirant le concept de worm.
+- **1975 — AT&T — Phreaking Surveillance** : AT&T surveille massivement les appels longue distance pour détecter les fraudes téléphoniques et les utilisateurs de Blue Boxes.
+- **1974 — Rabbit — Self-Replicating Program** : Un programme surnommé Rabbit se multiplie rapidement et monopolise les ressources informatiques, perturbant les systèmes concernés.
+- **1974 — Telenet — Commercial Packet Network** : Le lancement de Telenet étend l'accès aux réseaux à commutation de paquets et multiplie les enjeux de sécurité des communications distantes.
+- **1974 — Telephone Phreaking — Trunk-Line Exploitation** : Des utilisateurs exploitent les mécanismes de signalisation des lignes interurbaines pour contourner les systèmes de facturation.
+- **1973 — British Post Office — Internal Telephone Fiddles** : Des employés manipulent au moins 75 centraux téléphoniques britanniques pour permettre des appels longue distance gratuits.
+- **1973 — Bath University — Telephone Phreaking Arrests** : Neuf étudiants sont poursuivis pour avoir utilisé des codes permettant d'accéder directement aux lignes interurbaines.
+- **1973 — British Post Office — London Phreaking Raid** : Une opération à Londres conduit à l'arrestation de 19 personnes possédant du matériel électronique et des codes téléphoniques.
+- **1973 — British Post Office — Telephone Exchange Fraud** : Des circuits téléphoniques frauduleux sont découverts dans au moins 28 centraux britanniques, entraînant des pertes considérables.
+- **1973 — YIPL / TAP — Telecommunications Technical Publication** : YIPL devient TAP et diffuse des informations techniques concernant les télécommunications et les méthodes de phreaking.
+- **1973 — Yippies — Telephone Network Manipulation** : Des militants utilisent les techniques de phreaking pour protester contre le monopole téléphonique et expérimenter les infrastructures de communication.
+- **1973 — Phone Phreak Convention — New York** : Une convention rassemble des phreakers et des passionnés de télécommunications autour de leurs techniques et équipements.
+- **1973 — ARPANET — Network Email Expansion** : Le courrier électronique devient une part majeure du trafic ARPANET, ouvrant de nouvelles possibilités d'abus et d'usurpation dans les communications numériques.
+- **1972 — John Draper / Cap'n Crunch — California Wire Fraud Case** : Draper est arrêté pour fraude téléphonique et poursuivi pour manipulation frauduleuse du réseau.
+- **1972 — John Draper / Cap'n Crunch — 2600 Hz Exploitation** : Draper popularise l'utilisation d'un sifflet produisant 2600 Hz pour manipuler les circuits téléphoniques.
+- **1972 — Steve Wozniak — Blue Box Construction** : Wozniak construit des Blue Boxes électroniques permettant de reproduire les tonalités de contrôle du réseau téléphonique.
+- **1972 — Steve Jobs & Steve Wozniak — Blue Box Sales** : Jobs et Wozniak vendent des Blue Boxes à des utilisateurs cherchant à contourner les tarifs des appels longue distance.
+- **1972 — AT&T — Blue Box Phreaking Crackdown** : Des enquêtes et arrestations visent les utilisateurs de Blue Boxes qui exploitent les systèmes de signalisation téléphonique.
+- **1972 — London Phreaking — Telephone Equipment Raid** : Une enquête britannique découvre du matériel multifréquence et des documents techniques appartenant à un groupe de phreakers.
+- **1972 — ARPANET — Reaper Program** : Ray Tomlinson développe Reaper, programme destiné à rechercher et supprimer Creeper sur les systèmes connectés.
+- **1972 — ARPANET — Creeper/Reaper Experiment** : L'interaction entre Creeper et Reaper constitue une première expérience de propagation et de contre-mesure automatique sur réseau.
+- **1971 — Bob Thomas — Creeper Worm** : Creeper se déplace entre ordinateurs TENEX connectés à ARPANET et affiche le message « I'm the creeper: catch me if you can! ».
+- **1971 — Ray Tomlinson — Networked Creeper Modification** : Tomlinson modifie Creeper pour qu'il se déplace entre systèmes plutôt que de simplement s'y copier.
+- **1971 — Ron Rosenbaum — Secrets of the Little Blue Box** : L'article d'Esquire révèle au grand public les techniques de phreaking et les possibilités de manipulation du réseau téléphonique Bell.
+- **1971 — John Draper / Cap'n Crunch — Blue Box Popularization** : Les techniques de manipulation du réseau téléphonique deviennent largement connues grâce à la presse et aux communautés de phreakers.
+- **1971 — YIPL — Youth International Party Line** : La publication diffuse des informations sur le phreaking et les techniques d'exploitation du réseau téléphonique.
+- **1971 — AT&T — Toll Fraud Detection** : Les équipes de sécurité téléphonique renforcent les contrôles et les investigations contre les appels longue distance frauduleux.
+- **1970s — AT&T Bell System — In-Band Signaling Exploitation** : Des phreakers exploitent les signaux de contrôle transmis dans la même bande que la voix pour manipuler le routage des appels.
+- **1970s — Blue Box — Multifrequency Signaling Abuse** : Les appareils Blue Box reproduisent des tonalités multifréquences utilisées par les centraux téléphoniques pour contrôler les circuits.
+- **1970s — Telephone Phreaking — Long-Distance Billing Fraud** : Des utilisateurs contournent les mécanismes de facturation des appels interurbains en exploitant les faiblesses de la signalisation.
+- **1970s — Telephone Phreaking — Operator-System Manipulation** : Des phreakers expérimentent les fonctions de contrôle normalement réservées aux opérateurs et aux centraux.
+- **1970s — ARPANET — Early Network Trust Model** : Les premiers réseaux de recherche fonctionnent sur un modèle de confiance entre utilisateurs et institutions, exposant des faiblesses d'authentification et de contrôle d'accès.
+- **1970s — Computer Security — Unauthorized Access Research** : Les chercheurs et administrateurs commencent à documenter les accès non autorisés, les abus de privilèges et les risques des systèmes en temps partagé.
+- **1970s — Computer Crime — Data Manipulation Fraud** : Les fraudes par modification de données, détournement de ressources et abus de comptes deviennent un sujet majeur de recherche en sécurité informatique.
 
 ## Before 1970 — Extended Historical Hacks
 

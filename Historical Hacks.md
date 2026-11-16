@@ -1139,7 +1139,7 @@
 
 ## 2007
 
-- **2001-09-11 — Nimda — Ver multi-vecteurs** : propagation mondiale fulgurante exploitant simultanément les serveurs Web Microsoft IIS, les e-mails Outlook, les partages réseau et des portes dérobées pour infecter et saturer des centaines de milliers de serveurs et postes de travail.
+- **2007-01-17 — TJX — Révélation de fuite bancaire massive** : annonce publique de la compromission de jusqu'à 94 millions de cartes de crédit et de débit lors de l'intrusion des systèmes du groupe de distribution, entraînant des fraudes à grande échelle et des recours collectifs.
 - **2007-06 — U.S. Department of Defense — Intrusion** : compromission de systèmes et perte de données.
 - **2007-06 — Pentagon — Cyberattaque** : intrusion dans des systèmes de défense américains.
 - **2007-06 — U.S. State Department — Intrusion** : compromission de systèmes gouvernementaux.
@@ -1177,7 +1177,6 @@
 
 ## 2006
 
-- **2007-01-17 — TJX — Révélation de fuite bancaire massive** : annonce publique de la compromission de jusqu'à 94 millions de cartes de crédit et de débit lors de l'intrusion des systèmes du groupe de distribution, entraînant des fraudes à grande échelle et des recours collectifs.
 - **2006-01 — WMF — Exploit** : exploitation de la vulnérabilité Windows Metafile.
 - **2006-01 — WMF — RCE** : exécution de code via des images WMF malveillantes.
 - **2006-01 — WMF — Internet Explorer** : exploitation de fichiers graphiques dans le navigateur.
@@ -1672,38 +1671,7 @@
 - **2001-08 — Magistr résurgence** — Worm : propagation de variantes.
 - **2001-08 — Aliz résurgence** — Worm : diffusion de copies.
 - **2001-08 — Sadmind résurgence** — Worm : nouvelles infections de serveurs.
-- **2001-09-11 — Nimda** — Worm : propagation massive après les attentats du 11 septembre.
-- **2001-09 — Nimda IIS** — Worm : exploitation de serveurs Web vulnérables.
-- **2001-09 — Nimda Outlook** — Worm : diffusion par courrier électronique.
-- **2001-09 — Nimda partage réseau** — Worm : propagation par répertoires partagés.
-- **2001-09 — Nimda WebDAV** — Worm : exploitation de WebDAV.
-- **2001-09 — Nimda backdoors** — Intrusion : installation de portes dérobées.
-- **2001-09 — Nimda fichiers** — Worm : infection et modification de fichiers.
-- **2001-09 — Nimda administrations** — Worm : infections de réseaux publics.
-- **2001-09 — Nimda entreprises** — Worm : perturbation de réseaux professionnels.
-- **2001-09 — Nimda universités** — Worm : propagation dans les campus.
-- **2001-09 — Nimda hébergeurs** — Worm : compromission de serveurs Web.
-- **2001-09 — Nimda variantes** — Worm : évolution des méthodes d'infection.
-- **2001-09 — Nimda scanning** — Worm : balayage automatisé de serveurs.
-- **2001-09 — Nimda FTP** — Worm : propagation via fichiers et serveurs FTP.
-- **2001-09 — Nimda HTTP** — Worm : exploitation de requêtes Web malveillantes.
-- **2001-09 — Nimda SMTP** — Worm : propagation par courrier électronique.
-- **2001-09 — Nimda comptes administrateur** — Intrusion : exploitation de privilèges sur systèmes compromis.
-- **2001-09 — Nimda réseaux internes** — Worm : propagation latérale.
-- **2001-09 — Nimda fichiers partagés** — Worm : infections sur volumes réseau.
-- **2001-09 — Nimda serveurs IIS** — Worm : compromission massive de serveurs Windows.
-- **2001-09 — Nimda postes clients** — Worm : propagation sur postes Windows.
-- **2001-09 — Nimda messagerie** — Worm : saturation des systèmes de courrier.
-- **2001-09 — Nimda nettoyage** — Incident : opérations de désinfection à grande échelle.
-- **2001-09 — Nimda CERT** — Incident : alertes de sécurité urgentes.
-- **2001-09 — Nimda fournisseurs Internet** — Incident : perturbations de services.
-- **2001-09 — Nimda réseaux gouvernementaux** — Worm : infections de systèmes publics.
-- **2001-09 — Nimda réseaux militaires** — Worm : infections et mesures de confinement.
-- **2001-09 — Nimda réseaux financiers** — Worm : perturbations de systèmes professionnels.
-- **2001-09 — Nimda réseaux médias** — Worm : infections de serveurs d'information.
-- **2001-09 — Nimda réseaux européens** — Worm : propagation internationale.
-- **2001-09 — Nimda réseaux asiatiques** — Worm : diffusion en Asie.
-- **2001-09 — Nimda réseaux américains** — Worm : propagation massive aux États-Unis.
+- **2001-09-11 — Nimda — Ver multi-vecteurs** : propagation mondiale fulgurante exploitant simultanément les serveurs Web Microsoft IIS, les e-mails Outlook, les partages réseau et des portes dérobées pour infecter et saturer des centaines de milliers de serveurs et postes de travail.
 - **2001-10 — W32/Elkern** — Virus : infection de fichiers et propagation.
 - **2001-10 — W32/Choke** — Worm : infections de systèmes Windows.
 - **2001-10 — Badtrans II** — Worm : nouvelle vague de diffusion par e-mail.
@@ -1751,7 +1719,6 @@
 - **2000-04 — SubSeven** — Trojan RAT : contrôle distant de machines Windows infectées.
 - **2000-04 — Back Orifice 2000** — RAT : administration distante détournée de systèmes Windows.
 - **2000-04 — NetBus** — RAT : exploitation de machines exposées à des commandes distantes.
-- **2000-05-04 — ILOVEYOU** — Worm : propagation mondiale par pièce jointe VBS et Outlook.
 - **2000-05 — LoveLetter variantes** — Malware : variantes du ver ILOVEYOU contournant les filtres.
 - **2000-05 — Mother’s Day** — Variante : nouvelle diffusion du Love Bug.
 - **2000-05 — Very Funny** — Variante : propagation sous un nom trompeur.

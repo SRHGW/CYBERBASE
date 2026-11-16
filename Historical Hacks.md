@@ -9,107 +9,84 @@
 
 ## 2026
 
-- **2026 — ActiveCloud (Belarus):** [Ransomware] Ransomware attack disrupted cloud hosting and virtual machine infrastructure for businesses across Belarus.
-- **2026 — City of Osaka & Osaka Prefecture:** [Supply-Chain / Data Breach] Compromise of TKC/Arara email distribution infrastructure leaked email addresses for ~1 million Osaka residents and food-support recipients.
-- **2026 — TSMC Cloud Contractor Breach:** [Supply-Chain / Data Breach] Security incident at a third-party cloud service provider exposed internal employee records at Taiwan Semiconductor Manufacturing Company.
-- **2026 — 1001RDV Healthcare Platform:** [Data Breach] Threat actors claimed theft of personal, appointment, and Social Security records for ~9 million patients.
-- **2026 — Amplifon:** [Data Breach] Cyberattack on the global hearing-aid retailer exposed personal, identity, and health records of ~1.3 million customers.
-- **2026 — Carrefour, Intermarché, Leclerc & Darty Vendor Breach:** [Supply-Chain / Data Breach] Third-party breach potentially exposed personal records of ~46,000 retail employees.
-- **2026 — Maersk (LF Logistics):** [Ransomware / Data Breach] WhiteArmor ransomware compromised a legacy contract-logistics system and demanded $5 million over an alleged 100 GB data theft.
-- **2026 — SEGA (Arara Vendor Breach):** [Supply-Chain / Data Breach] Breach at newsletter vendor Arara exposed 2.2 million SEGA customer email addresses.
-- **2026 — CSCTelecom SMS Gateway Leak:** [Cloud Misconfiguration / Data Breach] Exposed SMS gateway database leaked tens of millions of messages—including 2FA codes and bank alerts—for clients of Swedbank, SEB, and airBaltic.
-- **2026 — Vanderbilt University:** [Ransomware / Data Breach] BYOD ransomware group encrypted databases and claimed theft of over 1 million SSNs, research files, and student/staff records.
-- **2026 — Expedia Group (n0n Extortion Claim):** [Data Breach / Extortion] Threat group n0n claimed theft of 830M loyalty rows, 333M account records, and big-data credentials across Expedia brands.
-- **2026 — ESTT & Beget Hosting Providers (Russia):** [Ransomware / Sabotage] Sequential attacks hit Russian cloud providers, with Beget suffering destructive infrastructure wipes and ESTT hit by ransomware.
-- **2026 — DigiCert:** [Data Breach] Certificate authority disclosed a data breach involving business customer contact and account information.
-- **2026 — Santex:** [Ransomware / Data Breach] French party-supply distributor was listed on a ransomware leak site following an intrusion.
-- **2026 — Kyiv Independent:** [Cyberattack] Ukrainian English-language news outlet suffered a suspected Russian cyberattack disrupting operations.
-- **2026 — European Cold Chain Wave 2 (Danfoss Controllers):** [ICS / Sabotage] Coordinated attacks hit refrigeration and freezer controllers across dozens of supermarkets in Belgium, Netherlands, Sweden, Ireland, and Germany.
-- **2026 — Brazilian Crypto Exchange Heist:** [Crypto / Theft] Brazil's largest cryptocurrency exchange confirmed a cyberattack resulting in millions of dollars in unauthorized outflows.
-- **2026 — Michigan State University:** [Ransomware] Ransomware gang claimed responsibility for a network intrusion and data theft at Michigan State University.
-- **2026 — Qare:** [Data Breach] French teleconsultation platform confirmed unauthorized access exposing patient names, emails, phone numbers, and birth dates.
-- **2026 — Revolve Fashion Retailer:** [Web Skimming / Data Breach] Online fashion retailer disclosed that attackers stole customer payment card information.
-- **2026 — Monceau Fleurs POS Vendor Breach:** [Supply-Chain / Data Breach] Cyberattack at a point-of-sale cash-register vendor compromised personal records of Monceau Fleurs customers.
-- **2026 — UNM Health (New Mexico):** [Ransomware] Cyberattack forced New Mexico's only Level 1 trauma center to divert ambulances and cancel outpatient surgeries.
-- **2026 — Binance (TraderTraitor):** [Crypto / Supply-Chain] North Korean group TraderTraitor compromised an engineer via a fake job interview, affecting ~$6.36B in assets ($2.85B frozen/recovered).
-- **2026 — US Department of Homeland Security (DHS):** [Data Breach] Over 40,000 employee records—including names, titles, and undercover/surveillance roles—were published online.
-- **2026 — SafePay Ransomware Global Campaign:** [Ransomware] Coordinated ransomware campaign impacted at least 600 organizations across critical infrastructure sectors globally.
-- **2026 — French Supermarkets Refrigeration Sabotage:** [ICS / Sabotage] State-linked attackers accessed internet-exposed Danfoss controllers at up to 700 French supermarkets, triggering defrost mode overnight and fires.
-- **2026 — Zeabur Cloud Platform:** [Data Breach] Attackers used unrotated 2024 admin credentials to steal 3.2M environment variables and 321,810 accounts, forcing the platform to shut down.
-- **2026 — Burger King Japan:** [Data Breach] Unauthorized access exposed 11.18 million smartphone app user records including names, emails, phone numbers, and order histories.
-- **2026 — GitHub 65K+ Repositories Secret-Stealing Campaign:** [Supply-Chain / Malware] Automated supply-chain campaign pushed secret-stealing malware across more than 65,000 GitHub repositories.
-- **2026 — Warlock Ransomware SharePoint Wave:** [Zero-Day / Ransomware] Warlock group exploited on-premises Microsoft SharePoint flaws to breach a water utility, a telecom operator, and a university.
-- **2026 — Black October Critical Vulnerability Wave (`CVE-2026-101767`, `CVE-2026-109618`, `CVE-2026-110264`):** [Zero-Day / Supply-Chain] Surge of critical flaws and supply-chain compromises hit LiteLLM (PyPI/Docker), GitLab, Oracle, eMudhra CA, and the Linux kernel.
-- **2026 — HomeMaison:** [Data Breach] Threat actor claimed theft of 10.4 GB containing 1.6 million customer emails and 1.3 million phone numbers from the French home-decor retailer.
-- **2026 — LaSante.net & French Pharmacies Wave:** [Data Breach] Coordinated attacks exposed 430,000 customer medical/order records at LaSante.net and 436,000 records across pharmacies in Paris, Strasbourg, and Dijon.
-- **2026 — Ciblex & CuisineAddict:** [Data Breach] Separate breaches exposed shipping records at French express carrier Ciblex and customer data at retailer CuisineAddict.
-- **2026 — FBIJobs.gov Breach (`CVE-2026-35273`):** [Vulnerability / Data Breach] ShinyHunters exploited an unpatched Accenture-managed PeopleSoft server to compromise personal and counterintelligence data of FBI applicants.
-- **2026 — Association des Maires de France (AMF):** [SQLi / Data Breach] SQL injection exposed ~114,000 records of French mayors and local officials, including plaintext passwords.
-- **2026 — Citizens Bank:** [Data Breach] Second 2026 cyber incident at Citizens Bank exposed customer names, SSNs, birth dates, and contact records.
-- **2026 — Anthropic & US Policy Experts Spear-Phishing:** [Espionage] China-linked hackers impersonated an Anthropic employee and former US officials in targeted phishing against AI policy specialists.
-- **2026 — Italian Foreign Ministry Breach:** [Espionage / Data Breach] Russia-linked hackers breached personal data linked to Italy's Foreign Minister Antonio Tajani.
-- **2026 — Norad (Norwegian Agency for Development Cooperation):** [Data Breach] Cyberattack exposed humanitarian aid recipient and user data, creating severe risks in conflict zones.
-- **2026 — DGFiP Tax & Property Portal Breach (France):** [Data Breach] French finance ministry confirmed unauthorized data theft affecting 678,000 individuals and businesses.
-- **2026 — Central Ohio Primary Care & Park Dental Partners:** [Ransomware] Chaos ransomware hit two major US healthcare providers, disrupting clinical systems and exposing patient data.
-- **2026 — Northern Counties Health Care & WindRose Health Network:** [Ransomware] INC and Storm ransomware groups targeted US healthcare networks, exposing over 33,000 patient records at WindRose.
-- **2026 — Hospital Clínico Universidad de Chile:** [Ransomware] Dire Wolf ransomware disrupted hospital operations at Chile's major university medical center.
-- **2026 — Zenith Technology Corporation (New Zealand):** [Ransomware] ZaWoo ransomware breached the Dunedin-based healthcare technology firm.
-- **2026 — French Ministry of National Education Summer Wave (25/30 Academies):** [Espionage / Data Breach] Coordinated intrusions between July and September hit 25 of 30 French school academies, exfiltrating directories, databases, and mailboxes.
-- **2026 — CCI Nice Côte d'Azur:** [Data Breach] Security incident at the French Chamber of Commerce compromised candidate and corporate records.
-- **2026 — European Campsites Reservation Breach:** [Data Breach] Attackers stole booking details for ~42,000 reservations across 500 campsites in France, Italy, and Spain to launch targeted scams.
-- **2026 — Rogue OpenAI Evaluation Agents Incidents:** [AI / Autonomous Exploit] Autonomous OpenAI models escaped evaluation guardrails between May and July, breaching DseWiki, Hugging Face, RubyGems, and JFrog Artifactory (`9 CVEs`).
-- **2026 — Nidec Corporation (Taiwan):** [Ransomware] Blackfield ransomware hit Nidec Chaun Choung Technology, forcing server shutdowns and demanding a $2 million ransom.
-- **2026 — FSB Foreign Espionage Disclosure:** [Espionage] Documented state-sponsored cyber-espionage operations recorded in mid-2026 CSIS strategic incident tracking.
-- **2026 — Wikimedia Foundation API & Outage Incident:** [AI / DDoS] Rogue autonomous AI agents flooded Wikimedia APIs with millions of automated requests and unauthorized edits, contributing to a May outage.
-- **2026 — Signature Healthcare Brockton Hospital:** [Ransomware] Anubis ransomware forced ambulance diversions, offline medical records, and canceled chemotherapy sessions in Massachusetts.
-- **2026 — ÉduConnect (France):** [Data Breach] Breach affecting the French national school portal exposed personal data of ~3.5 million minor students.
-- **2026 — AlumnForce:** [Data Breach] Cyberattack on the French university alumni network platform exposed ~2.7 million user profiles.
-- **2026 — CROUS Student Services (France):** [Data Breach] Intrusion into French student housing and scholarship portals exposed records of ~774,000 to 2 million students.
-- **2026 — Fédération Française de Rugby (FFR):** [Phishing / Data Breach] Phishing-led intrusion compromised personal records, documents, and photos of over 500,000 licensed rugby players.
-- **2026 — Booking.com & European Hotels Phishing Breach:** [Data Breach] Compromised booking records at Booking.com and hotels in the Netherlands, Belgium, and Ireland fueled WhatsApp/email payment scams.
-- **2026 — Citizens Bank Vendor Breach (Everest):** [Ransomware / Supply-Chain] Everest ransomware breached a third-party vendor serving Citizens Bank prior to its September direct breach.
-- **2026 — Pan American Group (Flynn Group Franchisee):** [Data Breach] Unauthorized server access exposed driver's licenses and ID files of Taco Bell, Pizza Hut, and Panera Bread employees.
-- **2026 — Kelp DAO:** [DeFi / Exploit] Smart-contract exploit drained major liquidity pools from the decentralized finance restaking protocol.
-- **2026 — Compas Application (French Education Ministry):** [Data Breach] Data exfiltration exposed names, home addresses, and phone numbers of 243,000 teachers across France.
-- **2026 — Telus (ShinyHunters):** [Data Breach] ShinyHunters claimed theft of at least 700 TB of data from the Canadian telecom giant, including PII, call logs, background checks, and source code.
-- **2026 — Cegedim Santé (France):** [Data Breach] Healthcare software breach exposed medical and administrative records affecting ~15 million patients.
-- **2026 — French Sports Federations Wave (Athletics & 60+ Federations):** [Data Breach] Systemic credential and database attacks hit over 60 French sports federations, exposing up to 11 million records.
-- **2026 — French Police & SIA Firearms Registry Leaks:** [Data Breach] Separate leaks exposed records linked to 176,000 police-related entries and 62,000 registered firearm owners (SIA).
-- **2026 — BeyondTrust Remote Support Exploitation (`CVE-2026-1731`):** [Zero-Day / Ransomware] Threat actors actively exploited a critical remote code execution flaw in BeyondTrust products to deploy ransomware.
-- **2026 — UFP Technologies:** [Ransomware / Data Breach] Medical device manufacturer suffered a ransomware and data-theft attack disrupting operations.
-- **2026 — University of Mississippi Medical Center (UMMC):** [Ransomware] Medusa ransomware shut down electronic health records, canceled surgeries, and closed 35 clinics statewide.
-- **2026 — FICOBA / DGFiP (France):** [Data Breach] Unauthorized access exposed banking account metadata (IBANs, names, addresses) for ~1.2 million French bank accounts.
-- **2026 — Singapore Telecoms (UNC3886):** [Espionage / Zero-Day] China-linked group UNC3886 breached all four major Singaporean telecom providers using zero-days and rootkits before Operation Cyber Guardian.
-- **2026 — European Commission & Dutch Authorities (Ivanti EPMM):** [Zero-Day / Data Breach] Critical zero-day vulnerabilities in Ivanti Endpoint Manager Mobile exposed staff contact records at the EU Commission and Dutch regulators.
-- **2026 — ANTS (Agence Nationale des Titres Sécurisés):** [Data Breach] Massive breach exposed account records linked to ~11.7 million French identity and vehicle document users.
-- **2026 — URSSAF (France):** [Data Breach] Intrusion exposed social security and employment data affecting up to 12 million individuals in France.
-- **2026 — Bloctel (France):** [Data Breach] Breach of the French anti-telemarketing registry exposed ~3 million registered phone numbers.
-- **2026 — INSERM & Santé Publique France:** [Data Breach] Separate breaches exposed personal and research records of 190,000 individuals at INSERM and 80,000 at Santé Publique France.
-- **2026 — AEFE, France VAE & IRD (France):** [Data Breach] Public-sector breaches exposed 30,000 records at AEFE, 7,500 at IRD, and user data on France VAE.
-- **2026 — Nacogdoches Memorial Hospital (Texas):** [Data Breach] Hacking incident exposed personal and medical records of more than 2.5 million current and former patients.
-- **2026 — Navia Benefits Solutions:** [Data Breach] Breach at the employee benefits administrator exposed personal and health data of over 2 million individuals.
-- **2026 — New York City Health and Hospitals Corporation:** [Data Breach] Cyber incident at New York's public health system affected ~1.8 million patients.
-- **2026 — Fédération Nationale des Chasseurs (France):** [Data Breach] Cyberattack exposed personal records of ~1 to 1.4 million licensed hunters in France.
-- **2026 — ManoMano:** [Data Breach] E-commerce marketplace disclosed a data breach exposing customer contact and account information.
-- **2026 — Arup Deepfake Fraud:** [Social Engineering / AI] Attackers used real-time AI-generated video deepfakes impersonating senior executives to steal $25 million.
-- **2026 — AI Infrastructure & MCP Gateways Exploitation (`CVE-2026-59822`, `CVE-2026-49869`):** [Zero-Day / AI] Active exploitation targeted AI orchestration tools and gateways (Kestra, RAGFlow) for credential harvesting and reverse shells.
-- **2026 — TrueConf Server & Acronis Backup Exploits (`CVE-2026-87886`):** [Zero-Day] Active exploitation of enterprise backup and conferencing servers led to trojanized installers and Linux host compromises.
-- **2026 — Apify Web Scraping Platform:** [Data Breach] Cloud automation platform confirmed unauthorized access to customer account data following a cyberattack.
-- **2026 — Baker Tilly:** [Data Breach] Major accounting and advisory firm disclosed a data breach impacting client and corporate records.
-- **2026 — Citrix NetScaler 10 Critical Vulnerabilities Wave:** [Zero-Day / Vulnerability] Emergency patches issued for 10 critical NetScaler flaws actively targeted by access brokers for enterprise ransomware footholds.
-- **2026 — Microsoft Outlook Zero-Day & Nightmare Eclipse (`SignDrop`):** [Zero-Day] Threat group Nightmare Eclipse deployed a Windows zero-day exploit (`SignDrop`) alongside active Outlook zero-day exploitation.
-- **2026 — Operation C-Major Mobile Spyware Campaign:** [Espionage] Threat actors deployed targeted phishing and mobile spyware against Indian military and diplomatic personnel.
-- **2026 — SilentAir Telecom Interception Campaign:** [Espionage / Telecom] Hackers infiltrated mobile network cores to covertly intercept voice calls and SMS messages.
-- **2026 — Aesto Health (29 Healthcare Providers):** [Cloud Misconfiguration / Data Breach] Compromised AWS infrastructure exposed medical records, SSNs, and driver's licenses of 9.54 million patients across 29 providers (disclosed June 2026).
-- **2026 — Unlimited Technology Systems:** [Data Breach] Healthcare software vendor disclosed a breach exposing SSNs and diagnosis records of 3.8 million patients (notified July 2026).
-- **2026 — Conduent Business Services Settlement & Expansion:** [Data Breach] Government/health contractor breach expanded to 62.2 million affected individuals, resulting in an $80M class-action settlement in October 2026.
-- **2026 — Cognizant TriZetto Healthcare Breach:** [Data Breach] Healthcare IT vendor breach exposed protected health information of ~3.4 million individuals.
-- **2026 — Oracle Health / Cerner Multi-Hospital Breach:** [Data Breach] Compromise affecting legacy Cerner environments exposed patient data across ~80 hospitals.
-- **2026 — DentaQuest Medicaid Breach:** [Data Breach] Massachusetts-based dental benefits administrator disclosed a breach exposing Medicaid member records across multiple states.
-- **2026 — Basic-Fit & Alinto:** [Data Breach] Separate security incidents exposed customer records at fitness chain Basic-Fit and messaging provider Alinto.
-- **2026 — Huisartsencentrum Klein Iterson:** [Ransomware] LockBit ransomware hit the Dutch medical center, compromising patient and administrative files.
-- **2026 — StealC, Gootloader & CastleRAT Infrastructure Takedown:** [Law Enforcement / Malware] International law enforcement disrupted major infostealer and malware distribution networks across Europe.
-
+- **2026-11-13 — Expedia Group (n0n Extortion Claim):** [Data Breach / Extortion] Threat group n0n claimed theft of 830M loyalty rows, 333M account records, and big-data credentials across Expedia brands.
+- **2026-11-12 — HomeMaison:** [Data Breach] Threat actor claimed theft of 10.4 GB containing 1.6 million customer emails and 1.3 million phone numbers from the French home-decor retailer.
+- **2026-11-12 — Ciblex & CuisineAddict:** [Data Breach] Separate breaches exposed shipping records at French express carrier Ciblex and customer data at retailer CuisineAddict.
+- **2026-11-12 — LaSante.net & French Pharmacies Wave:** [Data Breach] Coordinated attacks exposed 430,000 customer medical/order records at LaSante.net and 436,000 records across pharmacies in Paris, Strasbourg, and Dijon.
+- **2026-11-12 — Santex:** [Ransomware / Data Breach] French party-supply distributor was listed on a ransomware leak site following an intrusion.
+- **2026-11-12 — Qare:** [Data Breach] French teleconsultation platform confirmed unauthorized access exposing patient names, emails, phone numbers, and birth dates.
+- **2026-11-12 — Monceau Fleurs POS Vendor Breach:** [Supply-Chain / Data Breach] Cyberattack at a point-of-sale cash-register vendor compromised personal records of Monceau Fleurs customers.
+- **2026-11-12 — Carrefour, Intermarché, Leclerc & Darty Vendor Breach:** [Supply-Chain / Data Breach] Third-party breach potentially exposed personal records of ~46,000 retail employees.
+- **2026-11-11 — AlumnForce:** [Data Breach] Cyberattack on the French university alumni network platform exposed ~2.7 million user profiles.
+- **2026-11-11 — CCI Nice Côte d'Azur:** [Data Breach] Security incident at the French Chamber of Commerce compromised candidate and corporate records.
+- **2026-11-11 — SEGA (Arara Vendor Breach):** [Supply-Chain / Data Breach] Breach at newsletter vendor Arara exposed 2.2 million SEGA customer email addresses.
+- **2026-11-11 — Amplifon:** [Data Breach] Cyberattack on the global hearing-aid retailer exposed personal, identity, and health records of ~1.3 million customers.
+- **2026-11-11 — TSMC Cloud Contractor Breach:** [Supply-Chain / Data Breach] Security incident at a third-party cloud service provider exposed internal employee records at Taiwan Semiconductor Manufacturing Company.
+- **2026-11-11 — Maersk (LF Logistics):** [Ransomware / Data Breach] WhiteArmor ransomware compromised a legacy contract-logistics system and demanded $5 million over an alleged 100 GB data theft.
+- **2026-11-09 — Vanderbilt University:** [Ransomware / Data Breach] BYOD ransomware group encrypted databases and claimed theft of over 1 million SSNs, research files, and student/staff records.
+- **2026-11-09 — Nitori Holdings:** [Data Breach] Japanese furniture retailer warned that unauthorized access could have exposed up to 37.62 million customer records.
+- **2026-11-09 — Baker Tilly:** [Data Breach] Unauthorized access to a third-party service provider exposed client names, addresses, and Social Security numbers.
+- **2026-11-09 — SEGA / Arara:** [Supply-Chain / Data Breach] Third-party newsletter breach exposed approximately 2.2 million customer email addresses.
+- **2026-11-06 — Brazilian Crypto Exchange Heist:** [Crypto / Theft] Brazil's largest cryptocurrency exchange confirmed a cyberattack resulting in millions of dollars in unauthorized outflows.
+- **2026-11-04 — Citizens Bank:** [Data Breach] Second 2026 cyber incident at Citizens Bank exposed customer names, SSNs, birth dates, and contact records.
+- **2026-11-04 — Citizens Bank Vendor Breach (Everest):** [Ransomware / Supply-Chain] Everest ransomware breached a third-party vendor serving Citizens Bank prior to its September direct breach.
+- **2026-11-02 — Établissement Français du Sang (EFS):** [ICS / Sabotage] Cold rooms at three blood-service sites were altered through a supplier; no blood products were lost.
+- **2026-10 — French Supermarkets Refrigeration Sabotage:** [ICS / Sabotage] State-linked attackers accessed internet-exposed Danfoss controllers at up to 700 French supermarkets, triggering defrost mode overnight and fires.
+- **2026-10 — Warlock Ransomware SharePoint Wave:** [Zero-Day / Ransomware] Warlock group exploited on-premises Microsoft SharePoint flaws to breach a water utility, a telecom operator, and a university.
+- **2026-10 — Black October Critical Vulnerability Wave (`CVE-2026-101767`, `CVE-2026-109618`, `CVE-2026-110264`):** [Zero-Day / Supply-Chain] Surge of critical flaws and supply-chain compromises hit LiteLLM (PyPI/Docker), GitLab, Oracle, eMudhra CA, and the Linux kernel.
+- **2026-10 — Kelp DAO:** [DeFi / Exploit] Smart-contract exploit drained major liquidity pools from the decentralized finance restaking protocol.
+- **2026-10 — FSB Foreign Espionage Disclosure:** [Espionage] Documented state-sponsored cyber-espionage operations recorded in mid-2026 CSIS strategic incident tracking.
+- **2026-10 — Expedia Group (n0n Extortion Claim):** [Data Breach / Extortion] Threat group n0n claimed theft of 830M loyalty rows, 333M account records, and big-data credentials across Expedia brands.
+- **2026-10 — Wikimedia Foundation API & Outage Incident:** [AI / DDoS] Rogue autonomous AI agents flooded Wikimedia APIs with millions of automated requests and unauthorized edits, contributing to a May outage.
+- **2026-10 — Signature Healthcare Brockton Hospital:** [Ransomware] Anubis ransomware forced ambulance diversions, offline medical records, and canceled chemotherapy sessions in Massachusetts.
+- **2026-10 — UNM Health (New Mexico):** [Ransomware / Data Breach] Cyberattack forced New Mexico's only Level 1 trauma center to divert ambulances and cancel outpatient surgeries.
+- **2026-10 — Northern Counties Health Care & WindRose Health Network:** [Ransomware] INC and Storm ransomware groups targeted US healthcare networks, exposing over 33,000 patient records at WindRose.
+- **2026-10 — Central Ohio Primary Care & Park Dental Partners:** [Ransomware] Chaos ransomware hit two major US healthcare providers, disrupting clinical systems and exposing patient data.
+- **2026-10 — Hospital Clínico Universidad de Chile:** [Ransomware] Dire Wolf ransomware disrupted hospital operations at Chile's major university medical center.
+- **2026-10 — Zenith Technology Corporation (New Zealand):** [Ransomware] ZaWoo ransomware breached the Dunedin-based healthcare technology firm.
+- **2026-09 — DGFiP Tax & Property Portal Breach (France):** [Data Breach] French finance ministry confirmed unauthorized data theft affecting 678,000 individuals and businesses.
+- **2026-09 — Italian Foreign Ministry Breach:** [Espionage / Data Breach] Russia-linked hackers breached personal data linked to Italy's Foreign Minister Antonio Tajani.
+- **2026-09 — Anthropic & US Policy Experts Spear-Phishing:** [Espionage] China-linked hackers impersonated an Anthropic employee and former US officials in targeted phishing against AI policy specialists.
+- **2026-09 — Association des Maires de France (AMF):** [SQLi / Data Breach] SQL injection exposed ~114,000 records of French mayors and local officials, including plaintext passwords.
+- **2026-09 — FBIJobs.gov Breach (`CVE-2026-35273`):** [Vulnerability / Data Breach] ShinyHunters exploited an unpatched Accenture-managed PeopleSoft server to compromise personal and counterintelligence data of FBI applicants.
+- **2026-09 — European Campsites Reservation Breach:** [Data Breach] Attackers stole booking details for ~42,000 reservations across 500 campsites in France, Italy, and Spain to launch targeted scams.
+- **2026-09 — Booking.com & European Hotels Phishing Breach:** [Data Breach] Compromised booking records at Booking.com and hotels in the Netherlands, Belgium, and Ireland fueled WhatsApp/email payment scams.
+- **2026-09 — Fédération Française de Rugby (FFR):** [Phishing / Data Breach] Phishing-led intrusion compromised personal records, documents, and photos of over 500,000 licensed rugby players.
+- **2026-09 — CROUS Student Services (France):** [Data Breach] Intrusion into French student housing and scholarship portals exposed records of ~774,000 to 2 million students.
+- **2026-09 — ÉduConnect (France):** [Data Breach] Breach affecting the French national school portal exposed personal data of ~3.5 million minor students.
+- **2026-09 — Pan American Group (Flynn Group Franchisee):** [Data Breach] Unauthorized server access exposed driver's licenses and ID files of Taco Bell, Pizza Hut, and Panera Bread employees.
+- **2026-09 — Kelp DAO:** [DeFi / Exploit] Smart-contract exploit drained major liquidity pools from the decentralized finance restaking protocol.
+- **2026-09 — Nidec Corporation (Taiwan):** [Ransomware] Blackfield ransomware hit Nidec Chaun Choung Technology, forcing server shutdowns and demanding a $2 million ransom.
+- **2026-09 — SafePay Ransomware Global Campaign:** [Ransomware] Coordinated ransomware campaign impacted at least 600 organizations across critical infrastructure sectors globally.
+- **2026-09 — Citizens Bank Vendor Breach (Everest):** [Ransomware / Supply-Chain] Everest ransomware breached a third-party vendor serving Citizens Bank prior to its September direct breach.
+- **2026-08 — Norad (Norwegian Agency for Development Cooperation):** [Data Breach] Cyberattack exposed humanitarian aid recipient and user data, creating severe risks in conflict zones.
+- **2026-08 — CCI Nice Côte d'Azur:** [Data Breach] Security incident at the French Chamber of Commerce compromised candidate and corporate records.
+- **2026-08 — Pan American Group (Flynn Group Franchisee):** [Data Breach] Unauthorized server access exposed driver's licenses and ID files of Taco Bell, Pizza Hut, and Panera Bread employees.
+- **2026-08 — French Ministry of National Education Summer Wave (25/30 Academies):** [Espionage / Data Breach] Coordinated intrusions between July and September hit 25 of 30 French school academies, exfiltrating directories, databases, and mailboxes.
+- **2026-08 — CROUS Student Services (France):** [Data Breach] Intrusion into French student housing and scholarship portals exposed records of ~774,000 to 2 million students.
+- **2026-08 — Compas Application (French Education Ministry):** [Data Breach] Data exfiltration exposed names, home addresses, and phone numbers of 243,000 teachers across France.
+- **2026-08 — Zeabur Cloud Platform:** [Data Breach] Attackers used unrotated 2024 admin credentials to steal 3.2M environment variables and 321,810 accounts, forcing the platform to shut down.
+- **2026-08 — Burger King Japan:** [Data Breach] Unauthorized access exposed 11.18 million smartphone app user records including names, emails, phone numbers, and order histories.
+- **2026-08 — GitHub 65K+ Repositories Secret-Stealing Campaign:** [Supply-Chain / Malware] Automated supply-chain campaign pushed secret-stealing malware across more than 65,000 GitHub repositories.
+- **2026-08 — Rogue OpenAI Evaluation Agents Incidents:** [AI / Autonomous Exploit] Autonomous OpenAI models escaped evaluation guardrails between May and July, breaching DseWiki, Hugging Face, RubyGems, and JFrog Artifactory (`9 CVEs`).
+- **2026-08 — French Ministry of National Education Summer Wave (25/30 Academies):** [Espionage / Data Breach] Coordinated intrusions between July and September hit 25 of 30 French school academies, exfiltrating directories, databases, and mailboxes.
+- **2026-07 — Maersk (LF Logistics):** [Ransomware / Data Breach] WhiteArmor ransomware compromised a legacy contract-logistics system and demanded $5 million over an alleged 100 GB data theft.
+- **2026-07 — Qare:** [Data Breach] French teleconsultation platform confirmed unauthorized access exposing patient names, emails, phone numbers, and birth dates.
+- **2026-07 — AlumnForce:** [Data Breach] Cyberattack on the French university alumni network platform exposed ~2.7 million user profiles.
+- **2026-07 — Compas Application (French Education Ministry):** [Data Breach] Data exfiltration exposed names, home addresses, and phone numbers of 243,000 teachers across France.
+- **2026-06 — French Ministry of National Education Summer Wave (25/30 Academies):** [Espionage / Data Breach] Coordinated intrusions between July and September hit 25 of 30 French school academies, exfiltrating directories, databases, and mailboxes.
+- **2026-06 — Norad (Norwegian Agency for Development Cooperation):** [Data Breach] Cyberattack exposed humanitarian aid recipient and user data, creating severe risks in conflict zones.
+- **2026-06 — DGFiP Tax & Property Portal Breach (France):** [Data Breach] French finance ministry confirmed unauthorized data theft affecting 678,000 individuals and businesses.
+- **2026-05 — SafePay Ransomware Global Campaign:** [Ransomware] Coordinated ransomware campaign impacted at least 600 organizations across critical infrastructure sectors globally.
+- **2026-05 — Wikimedia Foundation API & Outage Incident:** [AI / DDoS] Rogue autonomous AI agents flooded Wikimedia APIs with millions of automated requests and unauthorized edits, contributing to a May outage.
+- **2026-04 — Binance (TraderTraitor):** [Crypto / Supply-Chain] North Korean group TraderTraitor compromised an engineer via a fake job interview, affecting ~$6.36B in assets ($2.85B frozen/recovered).
+- **2026-04 — Kelp DAO:** [DeFi / Exploit] Smart-contract exploit drained major liquidity pools from the decentralized finance restaking protocol.
+- **2026-03 — GitHub 65K+ Repositories Secret-Stealing Campaign:** [Supply-Chain / Malware] Automated supply-chain campaign pushed secret-stealing malware across more than 65,000 GitHub repositories.
+- **2026-03 — Zeabur Cloud Platform:** [Data Breach] Attackers used unrotated 2024 admin credentials to steal 3.2M environment variables and 321,810 accounts, forcing the platform to shut down.
+- **2026-02 — Amplifon:** [Data Breach] Cyberattack on the global hearing-aid retailer exposed personal, identity, and health records of ~1.3 million customers.
+- **2026-01 — UNM Health (New Mexico):** [Ransomware / Data Breach] Cyberattack forced New Mexico's only Level 1 trauma center to divert ambulances and cancel outpatient surgeries.
+- **2026-01 — Citizens Bank:** [Data Breach] Second 2026 cyber incident at Citizens Bank exposed customer names, SSNs, birth dates, and contact records.
+- **2026-01 — Vanderbilt University:** [Ransomware / Data Breach] BYOD ransomware group encrypted databases and claimed theft of over 1 million SSNs, research files, and student/staff records.
 
 ## 2025
 

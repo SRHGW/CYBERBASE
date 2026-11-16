@@ -1121,7 +1121,7 @@
 - **2008-03 — Storm Worm — spam** : envoi massif de courriers.
 - **2008-04 — Conficker — Ver et botnet mondial** : propagation massive exploitant la vulnérabilité Windows MS08-067 et les partages réseau, créant un botnet de millions de machines (entreprises, universités, administrations) capable de bloquer les mises à jour de sécurité.
 - **2008-08 — Géorgie — Cyberattaques DDoS et défigurations** : campagne coordonnée de déni de service et d'altération visant les sites gouvernementaux, parlementaires, médiatiques et infrastructures Internet géorgiens en parallèle du conflit militaire avec la Russie.
-- **2008-11 — U.S. Central Command — Intrusion** : infection de milliers de systèmes militaires par malware.
+- **2008-11 — U.S. Central Command (CENTCOM) — Compromission Agent.btz** : infection de réseaux militaires américains classifiés et non classifiés par un ver propagé via des clés USB, entraînant l'interdiction temporaire des supports amovibles et l'opération de nettoyage *Buckshot Yankee*.
 - **2008-11 — CENTCOM — USB** : introduction de malware via des clés USB.
 - **2008-11 — CENTCOM — réseaux militaires** : propagation de malware sur systèmes militaires.
 - **2008-11 — CENTCOM — espionnage** : compromission d'infrastructures de commandement.

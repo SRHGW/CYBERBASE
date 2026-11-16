@@ -1122,20 +1122,6 @@
 - **2008-04 — Conficker — Ver et botnet mondial** : propagation massive exploitant la vulnérabilité Windows MS08-067 et les partages réseau, créant un botnet de millions de machines (entreprises, universités, administrations) capable de bloquer les mises à jour de sécurité.
 - **2008-08 — Géorgie — Cyberattaques DDoS et défigurations** : campagne coordonnée de déni de service et d'altération visant les sites gouvernementaux, parlementaires, médiatiques et infrastructures Internet géorgiens en parallèle du conflit militaire avec la Russie.
 - **2008-11 — U.S. Central Command (CENTCOM) — Compromission Agent.btz** : infection de réseaux militaires américains classifiés et non classifiés par un ver propagé via des clés USB, entraînant l'interdiction temporaire des supports amovibles et l'opération de nettoyage *Buckshot Yankee*.
-- **2008-11 — CENTCOM — USB** : introduction de malware via des clés USB.
-- **2008-11 — CENTCOM — réseaux militaires** : propagation de malware sur systèmes militaires.
-- **2008-11 — CENTCOM — espionnage** : compromission d'infrastructures de commandement.
-- **2008-11 — CENTCOM — réseau classifié** : mesures de confinement sur des systèmes sensibles.
-- **2008-11 — CENTCOM — réseau non classifié** : infection de systèmes opérationnels.
-- **2008-11 — CENTCOM — cyberdéfense** : opération de nettoyage militaire.
-- **2008-11 — CENTCOM — malware** : détection d'un logiciel espion.
-- **2008-11 — CENTCOM — clés USB** : restriction des supports amovibles.
-- **2008-11 — CENTCOM — incident militaire** : mobilisation de la sécurité informatique.
-- **2008-11 — CENTCOM — réseau global** : propagation dans des infrastructures militaires.
-- **2008-11 — CENTCOM — espionnage numérique** : investigation sur l'origine du malware.
-- **2008-11 — CENTCOM — sécurité opérationnelle** : renforcement des protections.
-- **2008-11 — CENTCOM — incident stratégique** : révélation d'une vulnérabilité des réseaux militaires.
-- **2008-11 — CENTCOM — réponse cyber** : lancement d'une opération de défense informatique.
 
 ## 2007
 
@@ -1263,20 +1249,7 @@
 - **2005-08-03 — Cisco.com — Intrusion** : compromission du site Web de Cisco.
 - **2005-08-03 — Cisco — Vulnérabilité** : controverse autour de la divulgation d'une vulnérabilité.
 - **2005-08-14 — RSA — XSS** : vulnérabilité de cross-site scripting signalée.
-- **2005-08-17 — Zotob — Worm** : propagation rapide sur systèmes Windows.
-- **2005-08 — Zotob — Windows 2000** : exploitation de systèmes vulnérables.
-- **2005-08 — Zotob — réseaux d'entreprise** : infections de postes professionnels.
-- **2005-08 — Zotob — médias** : perturbations de systèmes de grandes organisations.
-- **2005-08 — Zotob — CNN** : systèmes informatiques affectés par le ver.
-- **2005-08 — Zotob — ABC** : perturbations de systèmes informatiques.
-- **2005-08 — Zotob — New York Times** : infections et perturbations informatiques.
-- **2005-08 — Zotob — DaimlerChrysler** : perturbations de systèmes de production.
-- **2005-08 — Zotob — infrastructures Windows** : propagation automatisée.
-- **2005-08 — Zotob — variantes** : apparition de versions modifiées.
-- **2005-08 — Zotob — scanning** : balayage de machines vulnérables.
-- **2005-08 — Zotob — nettoyage** : désinfection de réseaux infectés.
-- **2005-08 — Zotob — botnet** : machines infectées utilisées dans des réseaux contrôlés.
-- **2005-08 — Zotob — arrestations** : enquête et arrestations liées à la création du ver.
+- **2005-08-17 — Zotob — Ver informatique Windows** : exploitation rapide de la faille Plug and Play (MS05-039) sur Windows 2000 provoquant des redémarrages en boucle et perturbant de grandes entreprises et médias (CNN, ABC, New York Times, DaimlerChrysler) avant l'arrestation de ses auteurs.
 - **2005-08 — Cisco — vulnérabilités Web** : problèmes de sécurité affectant des sites et services.
 - **2005-08 — Microsoft — anti-phishing** : polémique concernant la collecte de données de navigation.
 - **2005-08 — TippingPoint — DoS** : attaque provoquant des perturbations lors d'un événement professionnel.
@@ -1314,18 +1287,7 @@
 - **2004-01-08 — U.S. Treasury — Fuite de données** : exposition d'environ 10 000 adresses électroniques.
 - **2004-01-14 — Airlines Reporting Corporation — Fuite de données** : perte d'informations clients concernant plusieurs compagnies aériennes.
 - **2004-01-18 — Bagle — Worm** : apparition du ver destiné notamment à installer des relais de spam.
-- **2004-01-26 — MyDoom — Worm** : propagation massive par courrier électronique.
-- **2004-01 — MyDoom — Backdoor** : installation d'un accès distant sur les machines infectées.
-- **2004-01 — MyDoom — Botnet** : machines compromises utilisées pour diffuser du spam.
-- **2004-01 — MyDoom — SCO** : attaque DDoS contre le site de SCO.
-- **2004-01 — MyDoom — serveurs SMTP** : surcharge des systèmes de messagerie.
-- **2004-01 — MyDoom — réseaux d'entreprise** : propagation dans des environnements professionnels.
-- **2004-01 — MyDoom — postes Windows** : infection massive de machines.
-- **2004-01 — MyDoom — partage réseau** : propagation par répertoires accessibles.
-- **2004-01 — MyDoom — variantes** : apparition de versions modifiées.
-- **2004-01 — MyDoom — spam** : utilisation des machines infectées pour l'envoi massif de messages.
-- **2004-01 — MyDoom — proxy** : installation de relais de communication.
-- **2004-01 — MyDoom — données** : collecte de certaines informations système.
+- **2004-01-26 — MyDoom — Ver de messagerie et botnet** : propagation fulgurante par courrier électronique et partages réseau sur Windows, installant une porte dérobée, saturant les serveurs SMTP mondiaux et lançant une attaque DDoS massive contre le site de SCO.
 - **2004-01-29 — University of Georgia — Fuite de données** : exposition potentielle de données concernant 20 000 personnes.
 - **2004-02-09 — Doomjuice — Worm** : propagation aux systèmes déjà infectés par MyDoom.
 - **2004-02 — Doomjuice — Backdoor MyDoom** : exploitation d'un accès ouvert par MyDoom.
@@ -1419,21 +1381,7 @@
 - **2003-07-15 — JuJu Jiang — Keylogger** : arrestation après installation d'un enregistreur de frappes sur un ordinateur public.
 - **2003-07-30 — DCOM/RPC — Exploit** : découverte et exploitation de vulnérabilités Windows.
 - **2003-08-07 — Acxiom — Intrusion** : accès non autorisé à des informations clients.
-- **2003-08-11 — Blaster — Worm** : exploitation de la vulnérabilité DCOM RPC Windows.
-- **2003-08 — Blaster — Windows Update** : attaque DDoS programmée contre Windows Update.
-- **2003-08 — Blaster — Maryland MVA** : fermeture de systèmes informatiques de l'administration automobile.
-- **2003-08 — Blaster — réseaux d'entreprise** : infections massives de postes Windows.
-- **2003-08 — Blaster — serveurs Windows** : propagation par RPC.
-- **2003-08 — Blaster — postes Windows XP** : exploitation automatisée de systèmes vulnérables.
-- **2003-08 — Blaster — postes Windows 2000** : infections de systèmes non corrigés.
-- **2003-08 — Blaster — infrastructures Internet** : congestion et perturbations de connectivité.
-- **2003-08 — Blaster — entreprises américaines** : interruptions de services.
-- **2003-08 — Blaster — universités** : propagation sur réseaux académiques.
-- **2003-08 — Blaster — administrations** : infections de réseaux publics.
-- **2003-08 — Blaster — variantes** : apparition de versions modifiées.
-- **2003-08 — Blaster-F — Worm** : variante du ver Blaster.
-- **2003-08 — Blaster infections persistantes** : machines non corrigées compromises.
-- **2003-08 — Welchia/Nachi — Worm** : ver conçu pour corriger certaines vulnérabilités et supprimer Blaster.
+- **2003-08-11 — Blaster — Ver informatique Windows** : exploitation de la vulnérabilité DCOM RPC (MS03-026) infectant des centaines de milliers de postes Windows XP et 2000, provoquant des redémarrages intempestifs, saturant les réseaux universitaires et administratifs (dont le Maryland MVA) et programmant une attaque DDoS contre Windows Update.
 - **2003-08 — Welchia — propagation RPC** : infection automatisée de systèmes Windows.
 - **2003-08 — Welchia — surcharge réseau** : trafic de scans et mises à jour.
 - **2003-08 — Welchia — nettoyage Blaster** : suppression de certaines infections Blaster.
@@ -1455,19 +1403,7 @@
 - **2003-09-05 — Blaster-F — Arrestation** : Dan Diobanu arrêté pour une variante du ver.
 - **2003-09-09 — New York Times — Intrusion** : Adrian Lamo se rend aux autorités après des intrusions.
 - **2003-09 — Dealerskins — Fuite de données** : exposition de données de crédit de clients automobiles.
-- **2003-09-18 — Swen/Gibe — Worm** : diffusion sous l'apparence d'un avis Microsoft.
-- **2003-09 — Swen — Social engineering** : exploitation de faux messages de sécurité.
-- **2003-09 — Swen — messagerie** : propagation massive par e-mail.
-- **2003-09 — Swen — réseaux Windows** : infections de systèmes.
-- **2003-09 — Swen — variantes** : nouvelles campagnes de diffusion.
-- **2003-09 — Swen — antivirus** : tentatives de contournement de protections.
-- **2003-09 — Swen — pièces jointes** : fichiers malveillants déguisés.
-- **2003-09 — Swen — entreprises** : infections de réseaux professionnels.
-- **2003-09 — Swen — administrations** : propagation dans des organisations publiques.
-- **2003-09 — Swen — universités** : infections de réseaux académiques.
-- **2003-09 — Swen — serveurs SMTP** : surcharge de messagerie.
-- **2003-09 — Swen — Outlook** : exploitation des carnets d'adresses.
-- **2003-09 — Swen — nettoyage** : opérations de désinfection.
+- **2003-09-18 — Swen / Gibe — Ver de messagerie** : propagation massive par courrier électronique sous l'apparence d'un faux bulletin de sécurité Microsoft, exploitant les carnets d'adresses Outlook, surchargeant les serveurs SMTP et désactivant les logiciels antivirus.
 - **2003-09-20 — Sites anti-spam — Intrusion** : défigurations de sites par des spammeurs.
 - **2003-09 — QHosts — Trojan** : modification des paramètres DNS.
 - **2003-10 — QHosts — détournement DNS** : redirection de victimes vers des sites malveillants.

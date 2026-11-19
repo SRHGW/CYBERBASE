@@ -1,11 +1,10 @@
-# HISTORICAL HACKS — Cyber incidents documented in history
+# HACKS HISTORIQUES — Incidents cyber documentés dans l'histoire
 
-> Chronological index of documented cyber incidents, intrusions, malware, data breaches and cyber operations.
+> Index chronologique des incidents cyber documentés, intrusions, logiciels malveillants, fuites de données et opérations cyber.
 >
-> **Scope:** this is a curated starter catalogue, not a claim to contain every hack ever recorded. Incidents may have several dates (intrusion, discovery, disclosure); dates below are generally the year of occurrence or public discovery as commonly reported.
-> **Ordering:** reverse chronological (newest first).  
-> **Research dataset:** EuRepoC Global Dataset 1.3 covers 3,416 incidents from 2000–2024; it is a strategic/political incident catalogue, not all cybercrime. See sources at the end.
-
+> **Périmètre :** il s'agit d'un catalogue de référence initial, sélectionné et organisé, et non d'une prétention à recenser tous les piratages jamais enregistrés. Les incidents peuvent avoir plusieurs dates (intrusion, découverte, divulgation) ; les dates indiquées correspondent généralement à l'année de l'incident ou de sa découverte publique, selon les informations communément rapportées.
+> **Ordre :** antéchronologique (du plus récent au plus ancien).
+> **Base de recherche :** le jeu de données mondial EuRepoC 1.3 couvre 3 416 incidents de 2000 à 2024 ; il s'agit d'un catalogue d'incidents stratégiques et politiques, et non de l'ensemble de la cybercriminalité. Voir les sources à la fin.
 
 ## 2026
 
@@ -1972,14 +1971,3 @@
 - MITRE ATT&CK: https://attack.mitre.org/
 - NIST NVD: https://nvd.nist.gov/
 - Have I Been Pwned: https://haveibeenpwned.com/
-
-## How to expand this catalogue to 5,000–10,000+ records
-
-1. Download the EuRepoC Global Dataset CSV from Zenodo.
-2. Import VCDB's public incident records.
-3. Add dated entries from Hackmageddon and other incident trackers.
-4. Deduplicate using incident date, victim, event name and source.
-5. Keep one source URL per incident.
-6. Generate this Markdown automatically from the merged data.
-
-> This file is a curated historical index, not a complete incident database. Dataset imports should preserve source identifiers and citations rather than create unsourced entries.

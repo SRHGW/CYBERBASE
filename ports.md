@@ -307,6 +307,94 @@
 | 298 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 299 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 300 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 301 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 302 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 303 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 304 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 305 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 306 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 307 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 308 | TCP/UDP | novastorbakcup | Novastor Backup. |
+| 309 | TCP/UDP | entrusttime | EntrustTime. |
+| 310 | TCP/UDP | bhmds | bhmds. |
+| 311 | TCP/UDP | asip-webadmin | AppleShare IP WebAdmin. |
+| 312 | TCP/UDP | vslmp | VSLMP. |
+| 313 | TCP/UDP | magenta-logic | Magenta Logic. |
+| 314 | TCP/UDP | opalis-robot | Opalis Robot. |
+| 315 | TCP/UDP | dpsi | DPSI. |
+| 316 | TCP/UDP | decauth | decAuth. |
+| 317 | TCP/UDP | zannet | Zannet. |
+| 318 | TCP/UDP | pkix-timestamp | PKIX TimeStamp. |
+| 319 | TCP/UDP | ptp-event | PTP Event (Precision Time Protocol). |
+| 320 | TCP/UDP | ptp-general | PTP General (Precision Time Protocol). |
+| 321 | TCP/UDP | pip | PIP. |
+| 322 | TCP/UDP | rtsps | RTSPS (RTSP sur TLS/SSL). |
+| 323 | TCP | rpki-rtr | Resource PKI to Router Protocol (UDP réservé). |
+| 324 | TCP | rpki-rtr-tls | Resource PKI to Router Protocol over TLS (UDP réservé). |
+| 325 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 326 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 327 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 328 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 329 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 330 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 331 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 332 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 333 | TCP/UDP | texar | Texar Security Port. |
+| 334 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 335 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 336 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 337 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 338 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 339 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 340 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 341 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 342 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 343 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 344 | TCP/UDP | pdap | Prospero Data Access Protocol. |
+| 345 | TCP/UDP | pawserv | Perf Analysis Workbench. |
+| 346 | TCP/UDP | zserv | Zebra server. |
+| 347 | TCP/UDP | fatserv | Fatmen Server. |
+| 348 | TCP/UDP | csi-sgwp | Cabletron Management Protocol. |
+| 349 | TCP/UDP | mftp | mftp. |
+| 350 | TCP/UDP | matip-type-a | MATIP Type A. |
+| 351 | TCP/UDP | matip-type-b | MATIP Type B / bhoetty. |
+| 352 | TCP/UDP | dtag-ste-sb | DTAG / bhoedap4. |
+| 353 | TCP/UDP | ndsauth | NDSAUTH. |
+| 354 | TCP/UDP | bh611 | bh611. |
+| 355 | TCP/UDP | datex-asn | DATEX-ASN. |
+| 356 | TCP/UDP | cloanto-net-1 | Cloanto Net 1 (Amiga Explorer). |
+| 357 | TCP/UDP | bhevent | bhevent. |
+| 358 | TCP/UDP | shrinkwrap | Shrinkwrap. |
+| 359 | TCP/UDP | nsrmp | Network Security Risk Management Protocol. |
+| 360 | TCP/UDP | scoi2odialog | scoi2odialog. |
+| 361 | TCP/UDP | semantix | Semantix. |
+| 362 | TCP/UDP | srssend | SRS Send. |
+| 363 | TCP/UDP | rsvp-tunnel | RSVP Tunnel. |
+| 364 | TCP/UDP | aurora-cmgr | Aurora CMGR. |
+| 365 | TCP/UDP | dtk | DTK (Deception Tool Kit). |
+| 366 | TCP/UDP | odmr | ODMR (On-Demand Mail Relay). |
+| 367 | TCP/UDP | mortgageware | MortgageWare. |
+| 368 | TCP/UDP | qbikgdp | QbikGDP. |
+| 369 | TCP/UDP | rpc2portmap | rpc2portmap. |
+| 370 | TCP/UDP | codaauth2 | codaauth2 (Coda authentication server). |
+| 371 | TCP/UDP | clearcase | Clearcase. |
+| 372 | TCP/UDP | ulistserv | ListProcessor (Unix Listserv). |
+| 373 | TCP/UDP | legent-1 | Legent Corporation. |
+| 374 | TCP/UDP | legent-2 | Legent Corporation. |
+| 375 | TCP/UDP | hassle | Hassle. |
+| 376 | TCP/UDP | nip | Amiga Envoy Network Inquiry Protocol. |
+| 377 | TCP/UDP | tnETOS | NEC Corporation. |
+| 378 | TCP/UDP | dsETOS | NEC Corporation. |
+| 379 | TCP/UDP | is99c | TIA/EIA/IS-99 modem client. |
+| 380 | TCP/UDP | is99s | TIA/EIA/IS-99 modem server. |
+| 381 | TCP/UDP | hp-collector | HP performance data collector. |
+| 382 | TCP/UDP | hp-managed-node | HP performance data managed node. |
+| 383 | TCP/UDP | hp-alarm-mgr | HP performance data alarm manager. |
+| 384 | TCP/UDP | arns | A Remote Network Server System. |
+| 385 | TCP/UDP | ibm-app | IBM Application. |
+| 386 | TCP/UDP | asa | ASA Message Router Object Def. |
+| 387 | TCP/UDP | aurp | AppleTalk Update-Based Routing Protocol. |
+| 388 | TCP/UDP | unidata-ldm | Unidata LDM. |
 |  389 | TCP/UDP | LDAP | Annuaire LDAP. |
 |  427 | TCP/UDP | SLP | Service Location Protocol. |
 |  443 | TCP | HTTPS | HTTP chiffré TLS. |
@@ -865,7 +953,7 @@
 
 Numéros signalés manquants :
 
-`4, 6, 8, 10, 12, 14, 15, 16, 24, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 40, 60, 81, 87, 301–388, 390–426, 428–442, 444, 446–463, 466–499, 501, 504–513, 516–519, 522–523, 525–529, 531–542, 545–547, 549–553, 555–559, 561–562, 564–586, 588–592, 594–599, 601–622, 624–630, 632–635, 637–638, 640–645, 649–650, 652, 655–656, 658–659, 661–665, 667–673, 675–690, 693–699, 703–705, 707–710, 712–719, 721–748, 752, 755–759, 761–764, 766, 768–771, 773, 775–776, 778–782, 784–799, 802–807, 809–842, 844–872, 874–879, 881–887, 889–901, 904–907, 909–910, 913–988, 991, 996–999, 1001–1022`
+`4, 6, 8, 10, 12, 14, 15, 16, 24, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 40, 60, 81, 87, 390–426, 428–442, 444, 446–463, 466–499, 501, 504–513, 516–519, 522–523, 525–529, 531–542, 545–547, 549–553, 555–559, 561–562, 564–586, 588–592, 594–599, 601–622, 624–630, 632–635, 637–638, 640–645, 649–650, 652, 655–656, 658–659, 661–665, 667–673, 675–690, 693–699, 703–705, 707–710, 712–719, 721–748, 752, 755–759, 761–764, 766, 768–771, 773, 775–776, 778–782, 784–799, 802–807, 809–842, 844–872, 874–879, 881–887, 889–901, 904–907, 909–910, 913–988, 991, 996–999, 1001–1022`
 
 ### Ports enregistrés (1024–49151)
 

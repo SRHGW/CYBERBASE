@@ -6,8 +6,6 @@
 
 | Port | Protocole | Nom / service | Utilité |
 |---:|---|---|---|
-| Port | Protocole | Nom / service | Utilité / description |
-|---:|---|---|---|
 | 0 | TCP/UDP | Reserved | Port réservé ; utilisé notamment pour la désignation d'un port source dans certains contextes. |
 | 1 | TCP/UDP | tcpmux | TCP Port Service Multiplexer. |
 | 2 | TCP/UDP | Reserved | Ancien port CompressNET, désattribué et réservé. |
@@ -120,7 +118,7 @@
 | 109 | TCP/UDP | pop2 | Post Office Protocol v2. |
 | 110 | TCP/UDP | pop3 | Post Office Protocol v3. |
 | 111 | TCP/UDP | sunrpc / rpcbind | Remote Procedure Call / Portmapper. |
-| 112 | TCP | Unassigned | Statut IANA à vérifier. |
+| 112 | TCP/UDP | mcidas | McIDAS Data Transmission Protocol. |
 | 113 | TCP/UDP | ident | Identification Protocol. |
 | 114 | TCP | Unassigned | Statut IANA à vérifier. |
 | 115 | TCP/UDP | sftp | Simple File Transfer Protocol (historique). |
@@ -132,37 +130,37 @@
 | 121 | TCP/UDP | erpc | Encore Remote Process Call. |
 | 122 | TCP/UDP | smak | SMAK. |
 | 123 | TCP/UDP | ntp | Network Time Protocol. |
-| 124 | TCP | Unassigned | Statut IANA à vérifier. |
-| 125 | TCP | Unassigned | Statut IANA à vérifier. |
-| 126 | TCP | Unassigned | Statut IANA à vérifier. |
-| 127 | TCP | Unassigned | Statut IANA à vérifier. |
-| 128 | TCP | Unassigned | Statut IANA à vérifier. |
-| 129 | TCP | Unassigned | Statut IANA à vérifier. |
-| 130 | TCP | Unassigned | Statut IANA à vérifier. |
-| 131 | TCP | Unassigned | Statut IANA à vérifier. |
-| 132 | TCP | Unassigned | Statut IANA à vérifier. |
-| 133 | TCP | Unassigned | Statut IANA à vérifier. |
-| 134 | TCP | Unassigned | Statut IANA à vérifier. |
+| 124 | TCP/UDP | ansatrader | ANSA REX Trader. |
+| 125 | TCP/UDP | locus-map | Locus PC-Interface Net Map Server. |
+| 126 | TCP/UDP | nxedit | NXEdit (anciennement Unisys Unitary Login). |
+| 127 | TCP/UDP | locus-con | Locus PC-Interface Conn Server. |
+| 128 | TCP/UDP | gss-xlicen | GSS X License Verification. |
+| 129 | TCP/UDP | pwdgen | Password Generator Protocol. |
+| 130 | TCP/UDP | cisco-fna | Cisco FNATIVE. |
+| 131 | TCP/UDP | cisco-tna | Cisco TNATIVE. |
+| 132 | TCP/UDP | cisco-sys | Cisco SYSMAINT. |
+| 133 | TCP/UDP | statsrv | Statistics Service. |
+| 134 | TCP/UDP | ingres-net | INGRES-NET Service. |
 | 135 | TCP/UDP | epmap | Microsoft Endpoint Mapper / DCE-RPC. |
 | 136 | TCP/UDP | profile | PROFILE Naming System. |
 | 137 | TCP/UDP | netbios-ns | NetBIOS Name Service. |
 | 138 | TCP/UDP | netbios-dgm | NetBIOS Datagram Service. |
 | 139 | TCP/UDP | netbios-ssn | NetBIOS Session Service. |
-| 140 | TCP | Unassigned | Statut IANA à vérifier. |
-| 141 | TCP | Unassigned | Statut IANA à vérifier. |
-| 142 | TCP | Unassigned | Statut IANA à vérifier. |
+| 140 | TCP/UDP | emfis-data | EMFIS Data Service. |
+| 141 | TCP/UDP | emfis-cntl | EMFIS Control Service. |
+| 142 | TCP/UDP | bl-idm | Britton-Lee IDM. |
 | 143 | TCP/UDP | imap | Internet Message Access Protocol. |
-| 144 | TCP | Unassigned | Statut IANA à vérifier. |
-| 145 | TCP | Unassigned | Statut IANA à vérifier. |
-| 146 | TCP | Unassigned | Statut IANA à vérifier. |
-| 147 | TCP | Unassigned | Statut IANA à vérifier. |
-| 148 | TCP | Unassigned | Statut IANA à vérifier. |
-| 149 | TCP | Unassigned | Statut IANA à vérifier. |
-| 150 | TCP | Unassigned | Statut IANA à vérifier. |
-| 151 | TCP | Unassigned | Statut IANA à vérifier. |
+| 144 | TCP/UDP | uma | Universal Management Architecture. |
+| 145 | TCP/UDP | uaac | UAAC Protocol. |
+| 146 | TCP/UDP | iso-tp0 | ISO-IP0. |
+| 147 | TCP/UDP | iso-ip | ISO-IP. |
+| 148 | TCP/UDP | jargon | Jargon. |
+| 149 | TCP/UDP | aed-512 | AED 512 Emulation Service. |
+| 150 | TCP/UDP | sql-net | SQL-NET. |
+| 151 | TCP/UDP | hems | HEMS. |
 | 152 | TCP/UDP | bftp | Background File Transfer Protocol. |
 | 153 | TCP/UDP | sgmp | Simple Gateway Monitoring Protocol. |
-| 154 | TCP | Unassigned | Statut IANA à vérifier. |
+| 154 | TCP/UDP | netsc-dev | NETSC. |
 | 155 | TCP/UDP | netsc | NETSC. |
 | 156 | TCP/UDP | sql-net | SQL*NET. |
 | 157 | TCP/UDP | knet-cmp | KNET/COMP. |
@@ -173,11 +171,11 @@
 | 162 | TCP/UDP | snmptrap | SNMP Trap. |
 | 163 | TCP/UDP | cmip-man | CMIP Management. |
 | 164 | TCP/UDP | cmip-agent | CMIP Agent. |
-| 165 | TCP | Unassigned | Statut IANA à vérifier. |
-| 166 | TCP | Unassigned | Statut IANA à vérifier. |
+| 165 | TCP/UDP | xns-courier | Xerox (XNS Courier). |
+| 166 | TCP/UDP | s-net | Sirius Systems. |
 | 167 | TCP/UDP | nntp | Network News Transfer Protocol (ancienne attribution). |
 | 168 | TCP/UDP | rsvd | Reserved. |
-| 169 | TCP | Unassigned | Statut IANA à vérifier. |
+| 169 | TCP/UDP | send | SEND. |
 | 170 | TCP/UDP | print-srv | Network Printing Service. |
 | 171 | TCP/UDP | multiplex | Multiplexing Protocol. |
 | 172 | TCP/UDP | cl/1 | Network Services. |
@@ -188,27 +186,27 @@
 | 177 | TCP/UDP | xdmcp | X Display Manager Control Protocol. |
 | 178 | TCP/UDP | nextstep | NextStep Window Server. |
 | 179 | TCP/UDP | bgp | Border Gateway Protocol. |
-| 180 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 181 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 182 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 183 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 184 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 185 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 186 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 187 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 188 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 189 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 190 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 191 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 192 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 193 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 180 | TCP/UDP | ris | Intergraph (RIS). |
+| 181 | TCP/UDP | unify | Unify. |
+| 182 | TCP/UDP | audit | Unisys Audit SITP. |
+| 183 | TCP/UDP | ocbinder | OCBinder. |
+| 184 | TCP/UDP | ocserver | OCServer. |
+| 185 | TCP/UDP | remote-kis | Remote-KIS. |
+| 186 | TCP/UDP | kis | KIS Protocol. |
+| 187 | TCP/UDP | aci | Application Communication Interface. |
+| 188 | TCP/UDP | mumps | Plus Five's MUMPS. |
+| 189 | TCP/UDP | qft | Queued File Transport. |
+| 190 | TCP/UDP | gacp | Gateway Access Control Protocol. |
+| 191 | TCP/UDP | prospero | Prospero Directory Service. |
+| 192 | TCP/UDP | osu-nms | OSU Network Monitoring System. |
+| 193 | TCP/UDP | srmp | Spider Remote Monitoring Protocol. |
 | 194 | TCP/UDP | irc | Internet Relay Chat. |
 | 195 | TCP/UDP | dnsix | DNSIX Network Level Security. |
-| 196 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 197 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 198 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 196 | TCP/UDP | dn6-nlm-aud | DNSIX Session Mgt Module Audit Redir. |
+| 197 | TCP/UDP | dls | Directory Location Service. |
+| 198 | TCP/UDP | dls-mon | Directory Location Service Monitor. |
 | 199 | TCP/UDP | smux | SNMP Multiplexing Protocol. |
-| 200 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 200 | TCP/UDP | src | IBM System Resource Controller. |
 | 201 | TCP/UDP | at-rtmp | AppleTalk Routing Maintenance Protocol. |
 | 202 | TCP/UDP | at-nbp | AppleTalk Name Binding Protocol. |
 | 203 | TCP/UDP | at-3 | AppleTalk service historique. |
@@ -223,16 +221,16 @@
 | 212 | TCP/UDP | anet | ANET. |
 | 213 | TCP/UDP | ipx | IPX. |
 | 214 | TCP/UDP | vmpwscs | VM PWSCS. |
-| 215 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 216 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 217 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 218 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 219 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 215 | TCP/UDP | softpc | Insignia Solutions (SoftPC). |
+| 216 | TCP/UDP | CAIlic | Computer Associates Int'l License Server. |
+| 217 | TCP/UDP | dbase | dBASE Unix. |
+| 218 | TCP/UDP | mpp | Netix Message Posting Protocol. |
+| 219 | TCP/UDP | uarps | Unisys ARPs. |
 | 220 | TCP/UDP | imap3 | IMAP Version 3 (ancienne attribution). |
-| 221 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 222 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 223 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 224 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 221 | TCP/UDP | fln-spx | Berkeley rlogind with SPX auth. |
+| 222 | TCP/UDP | rsh-spx | Berkeley rshd with SPX auth. |
+| 223 | TCP/UDP | cdc | Certificate Distribution Center. |
+| 224 | TCP/UDP | masqdialer | Masqdialer. |
 | 225 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 226 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 227 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
@@ -250,13 +248,13 @@
 | 239 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 240 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 241 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 242 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 243 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 244 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 245 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 246 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 247 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 248 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 242 | TCP/UDP | direct | Direct. |
+| 243 | TCP/UDP | sur-meas | Survey Measurement. |
+| 244 | TCP/UDP | inbusiness | Inbusiness. |
+| 245 | TCP/UDP | link | LINK. |
+| 246 | TCP/UDP | dsp3270 | Display Systems Protocol. |
+| 247 | TCP/UDP | subntbcst_tftp | SUBNTBCST_TFTP. |
+| 248 | TCP/UDP | bhfhs | BHFHS. |
 | 249 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 250 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 251 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
@@ -264,22 +262,22 @@
 | 253 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 254 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 255 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 256 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 257 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 256 | TCP/UDP | rap | RAP. |
+| 257 | TCP/UDP | set | Secure Electronic Transaction. |
 | 258 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 259 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 260 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 261 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 262 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 263 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 264 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 265 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 266 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 267 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 268 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 269 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 270 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 271 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 259 | TCP/UDP | esro-gen | Efficient Short Remote Operations. |
+| 260 | TCP/UDP | openport | Openport. |
+| 261 | TCP/UDP | nsiiops | IIOP Name Service over TLS/SSL. |
+| 262 | TCP/UDP | arcisdms | Arcisdms. |
+| 263 | TCP/UDP | hdap | HDAP. |
+| 264 | TCP/UDP | bgmp | Border Gateway Multicast Protocol. |
+| 265 | TCP/UDP | x-bone-ctl | X-Bone CTL. |
+| 266 | TCP/UDP | sst | SCSI on ST. |
+| 267 | TCP/UDP | td-service | Tobit David Service Layer. |
+| 268 | TCP/UDP | td-replica | Tobit David Replica. |
+| 269 | TCP/UDP | manet | MANET Protocols (RFC 5498). |
+| 270 | TCP/UDP | gist | Q-mode encapsulation for GIST messages (UDP) / réservé (TCP). |
+| 271 | TCP | pt-tls | IETF NEA Posture Transport Protocol over TLS. |
 | 272 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 273 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 274 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
@@ -288,14 +286,14 @@
 | 277 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 278 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 279 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 280 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 281 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 282 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 283 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 284 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 280 | TCP/UDP | http-mgmt | http-mgmt. |
+| 281 | TCP/UDP | personal-link | Personal Link. |
+| 282 | TCP/UDP | cableport-ax | Cable Port A/X. |
+| 283 | TCP/UDP | rescap | rescap. |
+| 284 | TCP/UDP | corerjd | corerjd. |
 | 285 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 286 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
-| 287 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 286 | TCP/UDP | fxp | FXP Communication. |
+| 287 | TCP/UDP | k-block | K-BLOCK. |
 | 288 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 289 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 | 290 | TCP/UDP | Unassigned | Statut IANA à vérifier. |

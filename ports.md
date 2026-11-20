@@ -6,69 +6,309 @@
 
 | Port | Protocole | Nom / service | Utilité |
 |---:|---|---|---|
-| 0 | TCP/UDP | Réservé | Port réservé; parfois utilisé comme port source spécial. |
-| 1 | TCP | TCPMUX | Multiplexeur TCP historique, rarement utilisé. |
-| 2 | TCP | Réservé | Réservé/obsolète. |
-| 3 | TCP | Compression | Service de compression historique. |
-| 5 | TCP | RJE | Remote Job Entry historique. |
-| 7 | TCP/UDP | Echo | Renvoie les données reçues; service de diagnostic legacy. |
-| 9 | TCP/UDP | Discard | Ignore les données; service de test legacy. |
-| 11 | TCP | Systat | Service d'information système historique. |
-| 13 | TCP/UDP | Daytime | Date et heure en texte. |
-| 17 | TCP/UDP | Quote of the Day | Citation quotidienne, service historique. |
-| 18 | TCP/UDP | Message Send Protocol | Protocole historique. |
-| 19 | TCP/UDP | Chargen | Générateur de caractères, service legacy. |
-| 20 | TCP | FTP-data | Canal de données FTP en mode actif. |
-| 21 | TCP | FTP-control | Contrôle FTP (authentification/commandes). |
-| 22 | TCP | SSH | Administration distante sécurisée, SFTP/SCP via SSH. |
-| 23 | TCP | Telnet | Terminal distant non chiffré (à éviter sur réseau non sûr). |
-| 25 | TCP | SMTP | Relais/envoi de courrier électronique. |
-| 26 | TCP | SMTP alternate | Port alternatif rencontré dans certaines configurations. |
-| 37 | TCP/UDP | Time | Service horaire historique. |
-| 39 | UDP | RLP | Resource Location Protocol legacy. |
-| 42 | TCP/UDP | WINS/Host Name Server | Service historique de résolution de noms. |
-| 43 | TCP | WHOIS | Consultation d'informations d'enregistrement. |
-| 49 | TCP | TACACS | Authentification/contrôle d'accès legacy. |
-| 53 | TCP/UDP | DNS | Résolution de noms; TCP également pour transferts et réponses volumineuses. |
-| 67 | UDP | DHCP-server | Serveur DHCP IPv4. |
-| 68 | UDP | DHCP-client | Client DHCP IPv4. |
-| 69 | UDP | TFTP | Transfert de fichiers simple, sans authentification. |
-| 70 | TCP | Gopher | Protocole de documents historique. |
-| 79 | TCP | Finger | Informations utilisateurs, service legacy. |
-| 80 | TCP | HTTP | Web non chiffré. |
-| 81 | TCP | HTTP-alt | Port alternatif web fréquemment configuré. |
-| 82 | TCP | HTTP-alt | Port alternatif utilisé par certaines interfaces. |
-| 88 | TCP/UDP | Kerberos | Authentification Kerberos (AD notamment). |
-|  sun 89 | TCP | SU/MIT? | Port historique/réservé selon registre; vérifier l'assignation officielle. |
-| 90 | TCP | DNSIX | Service militaire/historique. |
-| 99 | TCP | Metagram Relay | Service historique. |
-| 101 | TCP | NIC Host Name | Résolution de noms historique. |
-| 102 | TCP | ISO-TSAP | Transport ISO/TSAP; automatisation/industrie dans certains environnements. |
-| 104 | TCP | DICOM | Imagerie médicale (DICOM). |
-| 105 | TCP | CCSO Nameserver | Annuaire historique. |
-| 107 | TCP | Remote Telnet Service | Service legacy. |
-| 109 | TCP | POP2 | Ancienne réception de mail. |
-| 110 | TCP | POP3 | Réception de mail (non chiffrée). |
-| 111 | TCP/UDP | rpcbind/portmapper | Découverte des services RPC. |
-| 113 | TCP | Ident / Authentication | Identification de l'utilisateur d'une connexion (legacy). |
-| 119 | TCP | NNTP | Usenet/news. |
-| 123 | UDP | NTP | Synchronisation horaire. |
-| 135 | TCP | MS RPC Endpoint Mapper | Découverte des endpoints RPC Windows. |
-| 137 | UDP | NetBIOS Name Service | Résolution de noms NetBIOS. |
-| 138 | UDP | NetBIOS Datagram | Datagrammes NetBIOS. |
-| 139 | TCP | NetBIOS Session | Sessions SMB via NetBIOS. |
-| 143 | TCP | IMAP | Accès aux courriels. |
-| 144 | TCP | NewS | Service news historique. |
-| 161 | UDP | SNMP | Gestion et supervision réseau. |
-| 162 | UDP | SNMP Trap | Réception de notifications SNMP. |
-| 163 | TCP/UDP | CMIP | Gestion réseau OSI historique. |
-| 179 | TCP | BGP | Routage inter-domaines (Border Gateway Protocol). |
-| 194 | TCP | IRC | Chat Internet Relay Chat. |
-| 199 | TCP | SNMP multiplex | Service legacy. |
-| 201 | TCP | AppleTalk | Service historique. |
-| 209 | TCP | QMTP | Quick Mail Transfer Protocol. |
-| 213 | TCP/UDP | IPX | Service historique. |
-| 220 | TCP | IMAP3 | Ancienne variante IMAP. |
+| Port | Protocole | Nom / service | Utilité / description |
+|---:|---|---|---|
+| 0 | TCP/UDP | Reserved | Port réservé ; utilisé notamment pour la désignation d'un port source dans certains contextes. |
+| 1 | TCP/UDP | tcpmux | TCP Port Service Multiplexer. |
+| 2 | TCP/UDP | Reserved | Ancien port CompressNET, désattribué et réservé. |
+| 3 | TCP/UDP | Reserved | Ancien port CompressNET, désattribué et réservé. |
+| 4 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 5 | TCP/UDP | rje | Remote Job Entry. |
+| 6 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 7 | TCP/UDP | echo | Echo : renvoie les données reçues. |
+| 8 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 9 | TCP/UDP | discard | Discard : ignore les données reçues. |
+| 10 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 11 | TCP/UDP | systat | Active Users : informations sur les utilisateurs actifs. |
+| 12 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 13 | TCP/UDP | daytime | Service donnant la date et l'heure. |
+| 14 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 15 | TCP | Unassigned | Ancien netstat, désormais non attribué. |
+| 16 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 17 | TCP/UDP | qotd | Quote of the Day : citation du jour. |
+| 18 | TCP/UDP | msp | Message Send Protocol (historique). |
+| 19 | TCP/UDP | chargen | Character Generator : générateur de caractères. |
+| 20 | TCP/UDP | ftp-data | FTP — canal de transfert de données. |
+| 21 | TCP/UDP | ftp | FTP — canal de contrôle. |
+| 22 | TCP/UDP | ssh | Secure Shell : connexion distante sécurisée. |
+| 23 | TCP/UDP | telnet | Telnet : accès distant non chiffré. |
+| 24 | TCP | Unassigned | Ancien service Any Private Mail System ; attribution historique. |
+| 25 | TCP/UDP | smtp | Simple Mail Transfer Protocol : transfert de courrier électronique. |
+| 26 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 27 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 28 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 29 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 30 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 31 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 32 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 33 | TCP | dsp | Display Support Protocol. |
+| 34 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 35 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 36 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 37 | TCP/UDP | time | Time Protocol : service de synchronisation horaire historique. |
+| 38 | TCP | rap | Route Access Protocol. |
+| 39 | TCP/UDP | rlp | Resource Location Protocol. |
+| 40 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 41 | TCP/UDP | graphics | Graphics : service graphique historique. |
+| 42 | TCP/UDP | nameserver | Host Name Server, service historique de résolution de noms. |
+| 43 | TCP | nicname | WHOIS : interrogation d'informations sur les domaines et enregistrements. |
+| 44 | TCP | mpm-flags | MPM FLAGS Protocol. |
+| 45 | TCP | mpm | Message Processing Module — réception. |
+| 46 | TCP/UDP | mpm-snd | Message Processing Module — émission. |
+| 47 | TCP/UDP | Reserved | Ancien port réservé, entrée retirée du registre. |
+| 48 | TCP/UDP | auditd | Digital Audit Daemon. |
+| 49 | TCP/UDP | tacacs | TACACS : protocole d'authentification, d'autorisation et de comptabilité. |
+| 50 | TCP/UDP | re-mail-ck | Remote Mail Checking Protocol. |
+| 51 | — | Reserved | Ancienne attribution LA-MAINT ; statut historique/réservé. |
+| 52 | TCP/UDP | xns-time | XNS Time Protocol. |
+| 53 | TCP/UDP | domain | DNS : Domain Name System. |
+| 54 | TCP/UDP | xns-ch | XNS Clearinghouse. |
+| 55 | TCP/UDP | isi-gl | ISI Graphics Language. |
+| 56 | TCP/UDP | xns-auth | XNS Authentication. |
+| 57 | TCP/UDP | — | Any Private Terminal Access. |
+| 58 | TCP/UDP | xns-mail | XNS Mail. |
+| 59 | TCP/UDP | — | Any Private File Service. |
+| 60 | TCP/UDP | Unassigned | Non attribué dans le registre IANA. |
+| 61 | TCP/UDP | Reserved | Entrée historique retirée du registre. |
+| 62 | TCP/UDP | acas | ACA Services. |
+| 63 | TCP/UDP | whoispp | WHOIS++ (historique). |
+| 64 | TCP/UDP | covia | Communications Integrator (CI). |
+| 65 | TCP/UDP | tacacs-ds | TACACS-Database Service. |
+| 66 | TCP/UDP | sql-net | Oracle SQL*NET. |
+| 67 | TCP/UDP | bootps | Bootstrap Protocol Server — BOOTP/DHCP serveur. |
+| 68 | TCP/UDP | bootpc | Bootstrap Protocol Client — BOOTP/DHCP client. |
+| 69 | TCP/UDP | tftp | Trivial File Transfer Protocol. |
+| 70 | TCP/UDP | gopher | Gopher : protocole de distribution de documents. |
+| 71 | TCP/UDP | netrjs-1 | Remote Job Service. |
+| 72 | TCP/UDP | netrjs-2 | Remote Job Service. |
+| 73 | TCP/UDP | netrjs-3 | Remote Job Service. |
+| 74 | TCP/UDP | netrjs-4 | Remote Job Service. |
+| 75 | TCP/UDP | — | Any Private Dial Out Service. |
+| 76 | TCP/UDP | deos | Distributed External Object Store. |
+| 77 | TCP/UDP | — | Any Private RJE Service. |
+| 78 | TCP/UDP | vettcp | VETTCP. |
+| 79 | TCP/UDP | finger | Finger : informations sur les utilisateurs d'un système. |
+| 80 | TCP/UDP/SCTP | http | HTTP : Hypertext Transfer Protocol. |
+| 81 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 82 | TCP/UDP | xfer | XFER Utility. |
+| 83 | TCP/UDP | mit-ml-dev | MIT ML Device. |
+| 84 | TCP/UDP | ctf | Common Trace Facility. |
+| 85 | TCP/UDP | mit-ml-dev | MIT ML Device. |
+| 86 | TCP/UDP | mfcobol | Micro Focus COBOL. |
+| 87 | TCP | Unassigned | Non attribué dans le registre IANA. |
+| 88 | TCP/UDP | kerberos | Kerberos : authentification réseau. |
+| 89 | TCP/UDP | su-mit-tg | SU/MIT Telnet Gateway. |
+| 90 | TCP/UDP | dnsix | DNSIX Security Attribute Token Map. |
+| 91 | TCP/UDP | mit-dov | MIT Dover Spooler. |
+| 92 | TCP/UDP | npp | Network Printing Protocol. |
+| 93 | TCP/UDP | dcp | Device Control Protocol. |
+| 94 | TCP/UDP | objcall | Tivoli Object Dispatcher. |
+| 95 | TCP/UDP | supdup | SUPDUP Protocol. |
+| 96 | TCP/UDP | dixie | DIXIE Protocol Specification. |
+| 97 | TCP/UDP | swift-rvf | Swift Remote Virtual File Protocol. |
+| 98 | TCP/UDP | tacnews | TAC News. |
+| 99 | TCP/UDP | metagram | Metagram Relay. |
+| 100 | TCP/UDP | newacct | New Account : service historique de création de compte. |
+| 101 | TCP/UDP | hostname | NIC Host Name Server. |
+| 102 | TCP/UDP | iso-tsap | ISO-TSAP Class 0. |
+| 103 | TCP/UDP | gppitnp | Genesis Point-to-Point Trans Net. |
+| 104 | TCP/UDP | acr-nema | ACR-NEMA Digital Imaging and Communications. |
+| 105 | TCP/UDP | cso / csnet-ns | CCSO Nameserver / CSNET Mailbox Nameserver. |
+| 106 | TCP/UDP | pop3pw | POP3 Password Change Service. |
+| 107 | TCP/UDP | rtelnet | Remote Telnet Service. |
+| 108 | TCP/UDP | snet | SNA Gateway Access Service. |
+| 109 | TCP/UDP | pop2 | Post Office Protocol v2. |
+| 110 | TCP/UDP | pop3 | Post Office Protocol v3. |
+| 111 | TCP/UDP | sunrpc / rpcbind | Remote Procedure Call / Portmapper. |
+| 112 | TCP | Unassigned | Statut IANA à vérifier. |
+| 113 | TCP/UDP | ident | Identification Protocol. |
+| 114 | TCP | Unassigned | Statut IANA à vérifier. |
+| 115 | TCP/UDP | sftp | Simple File Transfer Protocol (historique). |
+| 116 | TCP/UDP | ansanotify | ANSA REX Notify. |
+| 117 | TCP/UDP | uucp-path | UUCP Path Service. |
+| 118 | TCP/UDP | sqlserv | SQL Services. |
+| 119 | TCP/UDP | nntp | Network News Transfer Protocol. |
+| 120 | TCP/UDP | cfdptkt | CFDPTKT. |
+| 121 | TCP/UDP | erpc | Encore Remote Process Call. |
+| 122 | TCP/UDP | smak | SMAK. |
+| 123 | TCP/UDP | ntp | Network Time Protocol. |
+| 124 | TCP | Unassigned | Statut IANA à vérifier. |
+| 125 | TCP | Unassigned | Statut IANA à vérifier. |
+| 126 | TCP | Unassigned | Statut IANA à vérifier. |
+| 127 | TCP | Unassigned | Statut IANA à vérifier. |
+| 128 | TCP | Unassigned | Statut IANA à vérifier. |
+| 129 | TCP | Unassigned | Statut IANA à vérifier. |
+| 130 | TCP | Unassigned | Statut IANA à vérifier. |
+| 131 | TCP | Unassigned | Statut IANA à vérifier. |
+| 132 | TCP | Unassigned | Statut IANA à vérifier. |
+| 133 | TCP | Unassigned | Statut IANA à vérifier. |
+| 134 | TCP | Unassigned | Statut IANA à vérifier. |
+| 135 | TCP/UDP | epmap | Microsoft Endpoint Mapper / DCE-RPC. |
+| 136 | TCP/UDP | profile | PROFILE Naming System. |
+| 137 | TCP/UDP | netbios-ns | NetBIOS Name Service. |
+| 138 | TCP/UDP | netbios-dgm | NetBIOS Datagram Service. |
+| 139 | TCP/UDP | netbios-ssn | NetBIOS Session Service. |
+| 140 | TCP | Unassigned | Statut IANA à vérifier. |
+| 141 | TCP | Unassigned | Statut IANA à vérifier. |
+| 142 | TCP | Unassigned | Statut IANA à vérifier. |
+| 143 | TCP/UDP | imap | Internet Message Access Protocol. |
+| 144 | TCP | Unassigned | Statut IANA à vérifier. |
+| 145 | TCP | Unassigned | Statut IANA à vérifier. |
+| 146 | TCP | Unassigned | Statut IANA à vérifier. |
+| 147 | TCP | Unassigned | Statut IANA à vérifier. |
+| 148 | TCP | Unassigned | Statut IANA à vérifier. |
+| 149 | TCP | Unassigned | Statut IANA à vérifier. |
+| 150 | TCP | Unassigned | Statut IANA à vérifier. |
+| 151 | TCP | Unassigned | Statut IANA à vérifier. |
+| 152 | TCP/UDP | bftp | Background File Transfer Protocol. |
+| 153 | TCP/UDP | sgmp | Simple Gateway Monitoring Protocol. |
+| 154 | TCP | Unassigned | Statut IANA à vérifier. |
+| 155 | TCP/UDP | netsc | NETSC. |
+| 156 | TCP/UDP | sql-net | SQL*NET. |
+| 157 | TCP/UDP | knet-cmp | KNET/COMP. |
+| 158 | TCP/UDP | pcmail-srv | PCMail Server. |
+| 159 | TCP/UDP | nss-routing | NSS Routing. |
+| 160 | TCP/UDP | sgmp-traps | SGMP Traps. |
+| 161 | TCP/UDP | snmp | Simple Network Management Protocol. |
+| 162 | TCP/UDP | snmptrap | SNMP Trap. |
+| 163 | TCP/UDP | cmip-man | CMIP Management. |
+| 164 | TCP/UDP | cmip-agent | CMIP Agent. |
+| 165 | TCP | Unassigned | Statut IANA à vérifier. |
+| 166 | TCP | Unassigned | Statut IANA à vérifier. |
+| 167 | TCP/UDP | nntp | Network News Transfer Protocol (ancienne attribution). |
+| 168 | TCP/UDP | rsvd | Reserved. |
+| 169 | TCP | Unassigned | Statut IANA à vérifier. |
+| 170 | TCP/UDP | print-srv | Network Printing Service. |
+| 171 | TCP/UDP | multiplex | Multiplexing Protocol. |
+| 172 | TCP/UDP | cl/1 | Network Services. |
+| 173 | TCP/UDP | xyplex-mux | Xyplex Multiplexer. |
+| 174 | TCP/UDP | mailq | Mail Queue Service. |
+| 175 | TCP/UDP | vmnet | VMNET. |
+| 176 | TCP/UDP | genrad | GENRAD. |
+| 177 | TCP/UDP | xdmcp | X Display Manager Control Protocol. |
+| 178 | TCP/UDP | nextstep | NextStep Window Server. |
+| 179 | TCP/UDP | bgp | Border Gateway Protocol. |
+| 180 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 181 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 182 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 183 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 184 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 185 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 186 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 187 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 188 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 189 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 190 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 191 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 192 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 193 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 194 | TCP/UDP | irc | Internet Relay Chat. |
+| 195 | TCP/UDP | dnsix | DNSIX Network Level Security. |
+| 196 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 197 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 198 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 199 | TCP/UDP | smux | SNMP Multiplexing Protocol. |
+| 200 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 201 | TCP/UDP | at-rtmp | AppleTalk Routing Maintenance Protocol. |
+| 202 | TCP/UDP | at-nbp | AppleTalk Name Binding Protocol. |
+| 203 | TCP/UDP | at-3 | AppleTalk service historique. |
+| 204 | TCP/UDP | at-echo | AppleTalk Echo. |
+| 205 | TCP/UDP | at-5 | AppleTalk service historique. |
+| 206 | TCP/UDP | at-zis | AppleTalk Zone Information Service. |
+| 207 | TCP/UDP | at-7 | AppleTalk service historique. |
+| 208 | TCP/UDP | at-8 | AppleTalk service historique. |
+| 209 | TCP/UDP | qmtp | Quick Mail Transfer Protocol. |
+| 210 | TCP/UDP | z39.50 | ANSI Z39.50 Information Retrieval. |
+| 211 | TCP/UDP | 914c/g | Texas Instruments 914C/G. |
+| 212 | TCP/UDP | anet | ANET. |
+| 213 | TCP/UDP | ipx | IPX. |
+| 214 | TCP/UDP | vmpwscs | VM PWSCS. |
+| 215 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 216 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 217 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 218 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 219 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 220 | TCP/UDP | imap3 | IMAP Version 3 (ancienne attribution). |
+| 221 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 222 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 223 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 224 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 225 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 226 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 227 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 228 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 229 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 230 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 231 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 232 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 233 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 234 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 235 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 236 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 237 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 238 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 239 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 240 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 241 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 242 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 243 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 244 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 245 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 246 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 247 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 248 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 249 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 250 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 251 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 252 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 253 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 254 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 255 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 256 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 257 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 258 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 259 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 260 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 261 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 262 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 263 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 264 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 265 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 266 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 267 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 268 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 269 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 270 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 271 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 272 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 273 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 274 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 275 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 276 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 277 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 278 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 279 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 280 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 281 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 282 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 283 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 284 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 285 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 286 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 287 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 288 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 289 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 290 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 291 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 292 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 293 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 294 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 295 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 296 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 297 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 298 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 299 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
+| 300 | TCP/UDP | Unassigned | Statut IANA à vérifier. |
 |  389 | TCP/UDP | LDAP | Annuaire LDAP. |
 |  427 | TCP/UDP | SLP | Service Location Protocol. |
 |  443 | TCP | HTTPS | HTTP chiffré TLS. |

@@ -395,21 +395,58 @@
 | 386 | TCP/UDP | asa | ASA Message Router Object Def. |
 | 387 | TCP/UDP | aurp | AppleTalk Update-Based Routing Protocol. |
 | 388 | TCP/UDP | unidata-ldm | Unidata LDM. |
-|  389 | TCP/UDP | LDAP | Annuaire LDAP. |
-|  427 | TCP/UDP | SLP | Service Location Protocol. |
-|  443 | TCP | HTTPS | HTTP chiffré TLS. |
-|  443 | UDP | QUIC/HTTP3 | HTTP/3 sur QUIC (UDP). |
-|  445 | TCP | SMB | Partage fichiers/imprimantes Windows, SMB direct. |
-|  464 | TCP/UDP | Kerberos password change | Changement de mot de passe Kerberos. |
-|  465 | TCP | SMTPS | SMTP sur TLS implicite (usage courant). |
-|  500 | UDP | IKE | Négociation IPsec. |
-|  502 | TCP | Modbus | Protocole industriel Modbus TCP. |
-|  503 | TCP | Intradomaine | Service historique/réservé; usage variable. |
-|  514 | UDP | Syslog | Envoi de journaux (non chiffré traditionnel). |
-|  515 | TCP | LPD/LPR | Impression réseau legacy. |
-|  520 | UDP | RIP | Protocole de routage RIP. |
-|  521 | UDP | RIPng | RIP pour IPv6. |
-|  524 | TCP | NCP | NetWare Core Protocol. |
+| 389 | TCP/UDP | LDAP | Annuaire LDAP. |
+| 390 | TCP/UDP | uis | UIS. |
+| 391 | TCP/UDP | synotics-relay | SynOptics SNMP Relay Port. |
+| 392 | TCP/UDP | synotics-broker | SynOptics Port Broker Port. |
+| 393 | TCP/UDP | meta5 | Meta5. |
+| 394 | TCP/UDP | embl-ndt | EMBL Nucleic Data Transfer. |
+| 395 | TCP/UDP | netcp | NetScout Control Protocol. |
+| 396 | TCP/UDP | netware-ip | Novell Netware over IP. |
+| 397 | TCP/UDP | mptn | Multi Protocol Trans. Net. |
+| 398 | TCP/UDP | kryptolan | Kryptolan. |
+| 399 | TCP/UDP | iso-tsap-c2 | ISO Transport Class 2 Non-Control over TCP. |
+| 400 | TCP/UDP | ocbinder | Oracle Secure Backup (anciennement Work Solution). |
+| 401 | TCP/UDP | ups | Uninterruptible Power Supply. |
+| 402 | TCP/UDP | genie | Genie Protocol. |
+| 403 | TCP/UDP | decap | decap. |
+| 404 | TCP/UDP | nced | nced. |
+| 405 | TCP/UDP | ncld | ncld. |
+| 406 | TCP/UDP | imsp | Interactive Mail Support Protocol. |
+| 407 | TCP/UDP | timbuktu | Timbuktu. |
+| 408 | TCP/UDP | prm-sm | Prospero Resource Manager Sys. Man. |
+| 409 | TCP/UDP | prm-nm | Prospero Resource Manager Node Man. |
+| 410 | TCP/UDP | decladebug | DECLadebug Remote Debug Protocol. |
+| 411 | TCP/UDP | rmt | Remote MT Protocol. |
+| 412 | TCP/UDP | synoptics-trap | Trap Convention Port. |
+| 413 | TCP/UDP | smsp | Storage Management Services Protocol. |
+| 414 | TCP/UDP | infoseek | InfoSeek. |
+| 415 | TCP/UDP | bnet | BNet. |
+| 416 | TCP/UDP | silverplatter | Silverplatter. |
+| 417 | TCP/UDP | onmux | Onmux. |
+| 418 | TCP/UDP | hyper-g | Hyper-G. |
+| 419 | TCP/UDP | ariel1 | Ariel 1. |
+| 420 | TCP/UDP | smpte | SMPTE. |
+| 421 | TCP/UDP | ariel2 | Ariel 2. |
+| 422 | TCP/UDP | ariel3 | Ariel 3. |
+| 423 | TCP/UDP | opc-job-start | IBM Operations Planning and Control Start. |
+| 424 | TCP/UDP | opc-job-track | IBM Operations Planning and Control Track. |
+| 425 | TCP/UDP | icad-el | ICAD. |
+| 426 | TCP/UDP | smartsdp | smartsdp. |
+| 427 | TCP/UDP | SLP | Service Location Protocol. |
+| 443 | TCP | HTTPS | HTTP chiffré TLS. |
+| 443 | UDP | QUIC/HTTP3 | HTTP/3 sur QUIC (UDP). |
+| 445 | TCP | SMB | Partage fichiers/imprimantes Windows, SMB direct. |
+| 464 | TCP/UDP | Kerberos password change | Changement de mot de passe Kerberos. |
+| 465 | TCP | SMTPS | SMTP sur TLS implicite (usage courant). |
+| 500 | UDP | IKE | Négociation IPsec. |
+| 502 | TCP | Modbus | Protocole industriel Modbus TCP. |
+| 503 | TCP | Intradomaine | Service historique/réservé; usage variable. |
+| 514 | UDP | Syslog | Envoi de journaux (non chiffré traditionnel). |
+| 515 | TCP | LPD/LPR | Impression réseau legacy. |
+| 520 | UDP | RIP | Protocole de routage RIP. |
+| 521 | UDP | RIPng | RIP pour IPv6. |
+| 524 | TCP | NCP | NetWare Core Protocol. |
 |  530 | TCP | RPC | Service RPC historique. |
 |  543 | TCP | Klogin | Connexion distante Kerberos legacy. |
 |  544 | TCP | Kshell | Shell distant Kerberos legacy. |
@@ -953,7 +990,7 @@
 
 Numéros signalés manquants :
 
-`4, 6, 8, 10, 12, 14, 15, 16, 24, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 40, 60, 81, 87, 390–426, 428–442, 444, 446–463, 466–499, 501, 504–513, 516–519, 522–523, 525–529, 531–542, 545–547, 549–553, 555–559, 561–562, 564–586, 588–592, 594–599, 601–622, 624–630, 632–635, 637–638, 640–645, 649–650, 652, 655–656, 658–659, 661–665, 667–673, 675–690, 693–699, 703–705, 707–710, 712–719, 721–748, 752, 755–759, 761–764, 766, 768–771, 773, 775–776, 778–782, 784–799, 802–807, 809–842, 844–872, 874–879, 881–887, 889–901, 904–907, 909–910, 913–988, 991, 996–999, 1001–1022`
+`4, 6, 8, 10, 12, 14, 15, 16, 24, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 40, 60, 81, 87, 428–442, 444, 446–463, 466–499, 501, 504–513, 516–519, 522–523, 525–529, 531–542, 545–547, 549–553, 555–559, 561–562, 564–586, 588–592, 594–599, 601–622, 624–630, 632–635, 637–638, 640–645, 649–650, 652, 655–656, 658–659, 661–665, 667–673, 675–690, 693–699, 703–705, 707–710, 712–719, 721–748, 752, 755–759, 761–764, 766, 768–771, 773, 775–776, 778–782, 784–799, 802–807, 809–842, 844–872, 874–879, 881–887, 889–901, 904–907, 909–910, 913–988, 991, 996–999, 1001–1022`
 
 ### Ports enregistrés (1024–49151)
 

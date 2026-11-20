@@ -23,6 +23,8 @@
 
 > Liste des numéros absents de la version précédente, fournie pour compléter l'inventaire. Les plages ci-dessous ne signifient pas que chaque port est officiellement « non attribué » : chaque numéro doit être vérifié au registre IANA avant de lui donner un nom ou un statut. Cette section sert de suivi de couverture, pas de registre officiel d'attributions.
 
+| Port | Protocole | Nom / service | Utilité |
+|---:|---|---|---|
 | 0 | TCP/UDP | Reserved | Port réservé ; utilisé notamment pour la désignation d'un port source dans certains contextes. |
 | 1 | TCP/UDP | tcpmux | TCP Port Service Multiplexer. |
 | 2 | TCP/UDP | Reserved | Ancien port CompressNET, désattribué et réservé. |

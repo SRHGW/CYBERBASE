@@ -234,3 +234,9 @@ Sources principales : [Kali Tools – liste officielle](https://www.kali.org/too
 Le catalogue officiel comprend notamment les familles : information-gathering, vulnerability, web, exploitation, post-exploitation, passwords, forensics, reverse-engineering, sniffing/spoofing, wireless, Bluetooth, SDR, RFID, hardware, VoIP, crypto/stego, fuzzing, reporting, protection, recovery et responding. Le nombre et les noms des paquets changent au fil des versions.
 
 Pour compléter ce catalogue tool-by-tool, utiliser les fiches officielles de chaque paquet sur [Kali Tools](https://www.kali.org/tools/all-tools/). Pour une option précise, vérifier la version installée avec `outil --help` et `man outil`.
+
+---
+
+## Ressource complémentaire
+
+🎓 [HackerDNA — plateforme d'apprentissage en cybersécurité](https://hackerdna.com/?ref=guanlin)

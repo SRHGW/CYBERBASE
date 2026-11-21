@@ -222,3 +222,9 @@
 - **DNS NXDOMAIN** : le nom demandé n'existe pas; **SERVFAIL** : le serveur DNS n'a pas pu répondre correctement.
 - **ECONNREFUSED** : le serveur/port refuse; **ETIMEDOUT** : aucune réponse avant délai; **ENETUNREACH/EHOSTUNREACH** : route ou destination inaccessible.
 - Les messages exacts peuvent varier selon navigateur, OS, bibliothèque, serveur et version.
+
+---
+
+## Ressource complémentaire
+
+🎓 [HackerDNA — plateforme d'apprentissage en cybersécurité](https://hackerdna.com/?ref=guanlin)

@@ -445,3 +445,9 @@ La véritable compétence consiste à comprendre :
 
 HackerDNA Course — Initiation au hacking  
 Chapitre 9 : La boîte à outils du hacker
+
+---
+
+## Ressource complémentaire
+
+🎓 [HackerDNA — plateforme d'apprentissage en cybersécurité](https://hackerdna.com/?ref=guanlin)

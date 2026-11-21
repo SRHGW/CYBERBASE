@@ -57,13 +57,13 @@ An interactive **WWOSDB web application** is currently **in development** by the
 
 ### 3. Courses, CTF & Labs
 * 🧰 **[The Hacker's Toolkit (`CTF & Labs/HackerDNA/The hacker's toolkit.md`)](./CTF%20%26%20Labs/HackerDNA/The%20hacker's%20toolkit.md)** — Beginner-friendly cybersecurity course covering tool recognition, offensive vs. defensive dual-use, learning methodology, and a 120+ tool cheat sheet.
+* 🎓 **[HackerDNA](https://hackerdna.com/?ref=guanlin)** — Cybersecurity learning platform and training resource.
 
 ---
 
 ## ⚖️ Disclaimer & Ethical Use
 
 All resources, tools, and methodologies documented in this repository are provided strictly for **educational purposes, authorized security auditing, personal labs, and Capture The Flag (CTF) training**.  
-
 Unauthorized scanning, exploitation, or disruption of systems without explicit permission is illegal. Always ensure you have proper authorization before testing any target.
 
 ---
